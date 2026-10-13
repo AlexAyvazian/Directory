@@ -117,6 +117,7 @@ def record_key(kind,row):
 
 def merge_batch(store, incoming):
     updated={k:list(store.get(k,[])) for k in FILES}
+    updated["conflicts"]=list(store.get("conflicts",[]))
     stats={}
     for kind,rows in incoming.items():
         if rows is None: continue
@@ -134,6 +135,12 @@ def merge_batch(store, incoming):
                 update={k:v for k,v in row.items() if v not in ("",None)}
                 if kind=="contacts" and previous.get("email") and not row.get("email"):
                     update.pop("email",None)
+                if kind=="contacts" and previous.get("email") and row.get("email") and previous["email"].casefold()!=row["email"].casefold():
+                    conflict={"state":row["state"],"county":row["county"],"name":row["name"],"title":row["title"],
+                              "oldEmail":previous["email"],"newEmail":row["email"],"sourceUrl":row["sourceUrl"]}
+                    if conflict not in updated["conflicts"]: updated["conflicts"].append(conflict)
+                    update.pop("email",None)
+                    update["verificationStatus"]="conflicting-email-requires-review"
                 new={**previous,**update}
                 if new!=previous: updated[kind][lookup[key]]=new;refreshed+=1
             else:
@@ -156,5 +163,5 @@ def main():
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text("window.COUNTY_REGISTRY_RESEARCH="+json.dumps(merged,ensure_ascii=False,separators=(",",":"))+";\n",encoding="utf-8")
     print(json.dumps(stats,indent=2))
-    print("Total:",json.dumps({k:len(merged[k]) for k in FILES}))
+    print("Total:",json.dumps({k:len(merged[k]) for k in list(FILES)+["conflicts"]}))
 if __name__=="__main__":main()
