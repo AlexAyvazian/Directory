@@ -58,6 +58,7 @@ function extraHtml(j) {
     const bits = [esc(sd.name) + (sd.title ? ' — ' + esc(sd.title) : '')];
     if (sd.email) bits.push(`<a href="mailto:${esc(sd.email)}">${esc(sd.email)}</a>` + (sd.emailType ? ` <small>(${esc(sd.emailType)})</small>` : ''));
     if (sd.phone) bits.push(`<a href="tel:${esc(sd.phone)}">${esc(sd.phone)}</a>`);
+    if (sd.sourceStatus && !/^official-registry-snapshot$/.test(sd.sourceStatus)) bits.push('<small>Research status: ' + esc(sd.sourceStatus.replace(/[_-]+/g,' ')) + '</small>');
     if (sd.sourceUrl && /^https?:/i.test(sd.sourceUrl)) bits.push(`<a target="_blank" rel="noopener" href="${esc(sd.sourceUrl)}">${esc(sd.sourceName || 'Source')}</a>` + (sd.sourceChecked ? ` <small>checked ${esc(sd.sourceChecked)}</small>` : ''));
     h += `<div class="contact"><label>Source-listed contact</label><div>${bits.join('<br>')}</div></div>`;
   });
