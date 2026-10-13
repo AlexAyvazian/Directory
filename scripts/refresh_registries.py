@@ -8,6 +8,7 @@ import re
 import time
 import urllib.parse
 import urllib.request
+import urllib.robotparser
 from pathlib import Path
 from bs4 import BeautifulSoup, NavigableString
 
@@ -100,6 +101,11 @@ def extract_contacts(html, source):
     return out
 def fetch(source, timeout=25):
     if not official_url(source): raise ValueError("Unapproved county directory URL")
+    parts = urllib.parse.urlsplit(source['url'])
+    robots = urllib.robotparser.RobotFileParser(parts.scheme + '://' + parts.netloc + '/robots.txt')
+    robots.read()
+    if not robots.can_fetch('CountyDirectorySync', source['url']):
+        raise PermissionError('robots.txt disallows automated directory fetch')
     request = urllib.request.Request(source["url"], headers={"User-Agent": "CountyDirectorySync/1.0 (public staff directory freshness)", "Accept": "text/html"})
     with urllib.request.urlopen(request, timeout=timeout) as r:
         orig, dest = urllib.parse.urlsplit(source["url"]), urllib.parse.urlsplit(r.geturl())
