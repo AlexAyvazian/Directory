@@ -6,16 +6,18 @@
   const sources = window.COUNTY_REGISTRY_SOURCES || [];
   const seeds = window.COUNTY_REGISTRY_SEEDS || [];
   const snapshots = (window.COUNTY_REGISTRY_SNAPSHOT || {}).sources || {};
+  const research = window.COUNTY_REGISTRY_RESEARCH || {contacts:[],sources:[],coverage:[],changes:[]};
   const norm = s => String(s || "").toLowerCase().replace(/\b(county|city and borough|census area|borough|parish|city)\b/g,"").replace(/[^a-z0-9]/g,"");
   const geo = (state,county) => state + ":" + norm(county);
   const byGeo = new Map(atlas.jurisdictions.map(j => [geo(j.abbr,j.county),j]));
   const stateName = new Map(atlas.states.map(s => [s.abbr,s.name]));
-  const ensure = (state,county) => {
-    const j = byGeo.get(geo(state,county));
+  const byFips = new Map(atlas.jurisdictions.filter(j=>j.fips).map(j=>[j.fips,j]));
+  const ensure = (state,county,fips) => {
+    const j = (fips && byFips.get(fips)) || byGeo.get(geo(state,county));
     // Only attach to known roster jurisdictions. Never invent counties.
     return j || null;
   };
-  const attachContact = (j,c,isLive) => {
+  const attachContact = (j,c,isLive,origin) => {
     if (!c.name || !c.title) return false;
     const unique = x => norm(x.name || x.value) + ":" + norm(x.title || x.label);
     const key = unique(c);
@@ -23,10 +25,10 @@
       name:c.name, title:c.title, agency:c.department || "County government",
       email:isLive ? (c.email || "") : "",
       phone:c.phone || "", sourceUrl:c.sourceUrl || "",
-      sourceName:isLive?"Official county directory (refreshed)":"Official county directory lead (recheck pending)",
+      sourceName:origin==="research"?"Source-linked county staff research":isLive?"Official county directory (refreshed)":"Official county directory lead (recheck pending)",
       sourceChecked:isLive?(c.checkedAt || ""):"",
-      sourceStatus:isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
-      emailType:isLive&&c.email?"published on staff entry":""
+      sourceStatus:origin==="research"?"research-source-linked":isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
+      emailType:isLive&&c.email?(origin==="research"?"research source-linked":"published on staff entry"):""
     };
     j.seeds = j.seeds || [];
     const ix = j.seeds.findIndex(x=> unique(x) === key);
@@ -51,6 +53,30 @@
     const j = ensure(c.state,c.county);
     if(j && attachContact(j,c,false))leadCount++;
   }
+  let importedContacts = 0, importedEmails = 0, importedMailboxes = 0;
+  for (const s of research.sources || []) {
+    const j = ensure(s.state,s.county,s.fips);
+    if (!j || !/^https:\/\//i.test(s.url)) continue;
+    j.registrySources = j.registrySources || [];
+    if (!j.registrySources.some(x=>x.url===s.url))
+      j.registrySources.push({url:s.url,department:s.department,status:s.status || "",lastChecked:s.lastChecked || ""});
+  }
+  for (const c of research.contacts || []) {
+    const j = ensure(c.state,c.county,c.fips);
+    if (!j) continue;
+    if (c.contactType === "department") {
+      j.registryMailboxes = j.registryMailboxes || [];
+      const signature = [c.department,c.email,c.sourceUrl].join("|");
+      if (!j.registryMailboxes.some(x => [x.department,x.email,x.sourceUrl].join("|")===signature)) {
+        j.registryMailboxes.push(c); importedMailboxes++;
+      }
+      continue;
+    }
+    if (attachContact(j,{...c,checkedAt:c.lastVerified},true,"research")) {
+      importedContacts++;
+      if (c.email) importedEmails++;
+    }
+  }
   for (const item of Object.values(snapshots)) {
     const j=ensure(item.state,item.county);
     if(!j)continue;
@@ -66,5 +92,5 @@
   for(const state of atlas.states){
     state.count = atlas.jurisdictions.filter(j=>j.abbr===state.abbr && j.contacts && j.contacts.length).length;
   }
-  window.ATLAS_REGISTRY_METRICS={configuredSources:sources.length,legacyStaffLeads:leadCount,liveContacts:liveCount,publishedEmails:listedEmails};
+  window.ATLAS_REGISTRY_METRICS={configuredSources:sources.length,legacyStaffLeads:leadCount,liveContacts:liveCount,publishedEmails:listedEmails,importedContacts,importedEmails,importedMailboxes,importedSources:(research.sources || []).length};
 })();
