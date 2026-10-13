@@ -53,7 +53,8 @@ def is_relevant_county_site(org,domain,county):
     host=display_key(domain.split(".")[0])
     if not name: return False
     # Require exact county identifier in the organisation or domain; avoid similar city names.
-    name_in_org=name in org_clean and (
+    exact_name=bool(re.search(r"\b"+re.escape(str(county))+r"\b",org,re.I))
+    name_in_org=exact_name and bool(
         re.search(r"\b(county|parish|borough|municipality)\b",org,re.I)
         or display_key(org).startswith("countyof")
     )
