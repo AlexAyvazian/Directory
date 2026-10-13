@@ -1,5 +1,10 @@
 name: Update county staff registries
 on:
+  push:
+    branches: [main]
+    paths:
+      - 'data/registries/sources.json'
+      - 'scripts/refresh_registries.py'
   schedule:
     - cron: '37 8 * * *'
   workflow_dispatch:

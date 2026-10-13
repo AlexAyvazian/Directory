@@ -27,14 +27,20 @@
       phone:c.phone || "", sourceUrl:c.sourceUrl || "",
       sourceName:origin==="research"?"Source-linked county staff research":isLive?"Official county directory (refreshed)":"Official county directory lead (recheck pending)",
       sourceChecked:isLive?(c.checkedAt || ""):"",
-      sourceStatus:origin==="research"?"research-source-linked":isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
+      sourceStatus:origin==="research"?(c.verificationStatus || "research-source-linked"):isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
       emailType:isLive&&c.email?(origin==="research"?"research source-linked":"published on staff entry"):""
     };
     j.seeds = j.seeds || [];
     const ix = j.seeds.findIndex(x=> unique(x) === key);
     if (ix >= 0) {
-      if(isLive) j.seeds[ix] = {...j.seeds[ix],...seed};
-      else return false;
+      if (origin === "research") {
+        // Keep existing source-listed contact intact and retain research as a parallel citation.
+        const exact = j.seeds.some(x => unique(x) === key && x.sourceUrl === seed.sourceUrl);
+        if (exact) return false;
+        j.seeds.push(seed);
+      } else if (isLive) {
+        j.seeds[ix] = {...j.seeds[ix],...seed};
+      } else return false;
     } else j.seeds.push(seed);
     j.contacts = j.contacts || [];
     if (!j.contacts.some(x => norm(x.value) === norm(c.name) && norm(x.label).includes(norm(c.title)))) {
