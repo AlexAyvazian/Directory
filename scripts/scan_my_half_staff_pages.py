@@ -12,11 +12,13 @@ import datetime as dt
 import html.parser
 import json
 import re
+import sys
 import urllib.error
 import urllib.parse
 import urllib.request
 import urllib.robotparser
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from scripts.refresh_registries import extract_contacts
 
 ROOT=Path(__file__).resolve().parents[1]
