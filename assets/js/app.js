@@ -61,6 +61,15 @@ function extraHtml(j) {
     if (sd.sourceUrl && /^https?:/i.test(sd.sourceUrl)) bits.push(`<a target="_blank" rel="noopener" href="${esc(sd.sourceUrl)}">${esc(sd.sourceName || 'Source')}</a>` + (sd.sourceChecked ? ` <small>checked ${esc(sd.sourceChecked)}</small>` : ''));
     h += `<div class="contact"><label>Source-listed contact</label><div>${bits.join('<br>')}</div></div>`;
   });
+  if (j.registrySources && j.registrySources.length) {
+    h += '<div class="contact"><label>Official county employee registries</label><div>' +
+      j.registrySources.map(s => /^https:\/\//i.test(s.url) ?
+        '<a target="_blank" rel="noopener noreferrer" href="' + esc(s.url) + '">' + esc(s.department || 'County directory') + ' ↗</a>' : ''
+      ).filter(Boolean).join('<br>') +
+      (j.registryCheckedAt ? '<br><small>Last successful check: ' + esc(j.registryCheckedAt) + '</small>' : '') +
+      (j.registryLastError ? '<br><small>Refresh issue: previous records retained</small>' : '') +
+      '</div></div>';
+  }
   if (j.p2) h += j.p2.map(c => `<div class="contact"><label>Part 2 · ${esc(c.label)}</label><div>${esc(c.value)}</div></div>`).join('');
   return h;
 }
