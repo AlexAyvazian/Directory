@@ -26,6 +26,7 @@ FILES = {
     "changes": "county_changes",
 }
 EMAIL = re.compile(r"^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$", re.I)
+SHARED_EMAIL = re.compile(r"^(hr|hrpolicydivision|humanresources|jobs|benefits|payroll|personnel|procurement|purchasing|risk)@", re.I)
 STATES = set("AL AK AZ AR CA CO CT DE DC FL GA HI ID IL IN IA KS KY LA ME MD MA MI MN MS MO MT NE NV NH NJ NM MO MT NE NV NH NJ NM NY NC ND OH OK OR PA RI SC SD TN TX UT VT VA WA WV WI WY".split())
 
 def val(row, *aliases):
@@ -82,9 +83,10 @@ def contact(row):
     profile=val(row,"profile_url","staff_url")
     email=val(row,"email","work_email","official_email").strip()
     safe_source=source if url_ok(source) else ""
-    if email and (not EMAIL.fullmatch(email) or not safe_source): email=""
-    if not (name or email or val(row,"phone","telephone","work_phone")) or not (title or dept): return None
     status=val(row,"verification_status","status") or "research-source-linked"
+    if email and (not EMAIL.fullmatch(email) or not safe_source or status=="email_from_obfuscated_link_verify"): email=""
+    if name and email and SHARED_EMAIL.search(email): email=""  # preserve person's name; treat shared inbox separately
+    if not (name or email or val(row,"phone","telephone","work_phone")) or not (title or dept): return None
     return {**g,"name":name if not mailbox else "", "title":title,
             "department":dept,"email":email,"phone":val(row,"phone","telephone","work_phone"),
             "profileUrl":profile if url_ok(profile) else "",
@@ -124,7 +126,19 @@ def merge_batch(store, incoming):
         convert={"contacts":contact,"sources":source,"coverage":passthrough,"changes":passthrough}[kind]
         lookup={record_key(kind,r):i for i,r in enumerate(updated[kind])}
         added=refreshed=rejected=0
+        expanded=[]
         for raw in rows:
+            expanded.append(raw)
+            if kind=="contacts" and isinstance(raw,dict):
+                mail=val(raw,"email","work_email","official_email")
+                name=val(raw,"contact_name","name","full_name")
+                if name and SHARED_EMAIL.search(mail):
+                    shared=dict(raw)
+                    shared["contact_name"]=""
+                    shared["job_title"]="Shared HR / division mailbox"
+                    shared["record_type"]="department"
+                    expanded.append(shared)
+        for raw in expanded:
             if not isinstance(raw,dict): rejected+=1; continue
             row=convert(raw)
             if row is None: rejected+=1; continue
