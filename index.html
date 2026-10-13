@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Occu-Med County Employee Intelligence Atlas</title>
+<link rel="stylesheet" href="assets/css/atlas.css" />
+<link rel="stylesheet" href="assets/css/map.css" />
+<link rel="stylesheet" href="assets/css/directory.css" />
+</head>
+<body data-view="map">
+
+<nav class="atlasNav" aria-label="Atlas views">
+  <div class="navBrand"><i></i><span>Occu-Med · County Employee Intelligence Atlas</span></div>
+  <div class="seg" role="group" aria-label="View">
+    <span class="thumb"></span>
+    <button id="navMap" type="button" aria-pressed="true">Map</button>
+    <button id="navDir" type="button" aria-pressed="false">Directory</button>
+  </div>
+  <div class="navRight">
+    <div class="crumb" id="crumb" hidden><span id="crumbText"></span><button id="crumbClear" type="button" title="Clear selection" aria-label="Clear selection">×</button></div>
+    <div class="navStats" id="navStats"></div>
+  </div>
+</nav>
+
+<!-- ============================ MAP VIEW ============================ -->
+<section class="view" id="view-map" aria-label="Map view">
+  <div class="orb one"></div><div class="orb two"></div><div class="orb three"></div><div class="cursorGlow"></div><div class="tooltip" id="tooltip"></div>
+  <div class="app">
+    <main class="mapPanel glass">
+      <div class="mapToolbar">
+        <input id="mapSearch" placeholder="Jump to a state, county, or contact name…" autocomplete="off" />
+        <div class="results" id="mapResults" hidden></div>
+        <select id="mapRole"><option value="">All roles</option><option>HR</option><option>Risk</option><option>Procurement</option><option>Benefits</option><option>Clerk</option><option>Administrator</option></select>
+        <button id="backBtn" type="button" style="display:none">← U.S. Map</button>
+        <button id="stateDirBtn" type="button" style="display:none">State in Directory →</button>
+        <span class="modeBadge" id="modeBadge">U.S. map</span>
+      </div>
+      <div class="mapShell">
+        <svg id="mapSvg" role="img" aria-label="Interactive U.S. map"></svg>
+        <div class="mapLabel" id="mapLabel">Loading U.S. county boundaries…</div>
+        <div class="legend" id="legend"></div>
+        <div class="selectedCard" id="selectedCard" hidden></div>
+        <div class="loading" id="loading">Loading map geometry…</div>
+      </div>
+    </main>
+  </div>
+</section>
+
+<!-- ========================== DIRECTORY VIEW ========================== -->
+<section class="view" id="view-dir" aria-label="Directory view" hidden>
+  <div class="cursorLight" id="cursorLight"></div><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div><div class="orb o4"></div>
+  <header><div class="eyebrow">Occu-Med Outreach Intelligence Prototype</div><h1>County Employee Intelligence Directory</h1><p class="sub">Interactive state-by-state directory built from Part 1. Use it to locate county HR, risk, benefits, procurement, county administrator, clerk, and related decision-maker contacts for outreach planning.</p><div class="stats"><div class="stat"><b id="totalRecords">0</b><span>county / jurisdiction cards extracted</span></div><div class="stat"><b id="stateCount">0</b><span>states with extracted data</span></div><div class="stat"><b id="rosterCount">0</b><span>counties tracked in master roster</span></div><div class="stat"><b>50 + DC</b><span>tabs scaffolded</span></div></div></header>
+  <div class="app"><aside class="side"><input id="globalSearch" placeholder="Search all states, counties, names…" style="margin-bottom:12px"><div class="tabs" id="tabs"></div><div class="note">Data is imported from the uploaded Part 1 file and should be treated as a working outreach tracker until independently verified.</div></aside><main class="panel"><div class="stateHead"><div class="stateTitle"><h2 id="stateName"></h2><p id="stateMeta"></p></div></div><div class="toolbar"><input id="stateSearch" placeholder="Search within this state…"><select id="roleFilter"><option value="">All roles</option><option>HR</option><option>Risk</option><option>Procurement</option><option>Clerk</option><option>Administrator</option><option>Benefits</option></select><select id="sortBy"><option value="county">Sort by county</option><option value="contact">Sort by contact</option></select><select id="scopeSel"><option value="records">Counties with contacts</option><option value="all">All tracked counties</option></select></div><div class="focusBar" id="focusBar" hidden></div><div class="mapStage"><div class="mapGrid" id="mapGrid"></div></div><div class="cards" id="cards"></div></main></div>
+  <div class="drawer" id="drawer"><button class="close" id="drawerClose" type="button">×</button><div id="drawerBody"></div></div>
+</section>
+
+<script src="assets/vendor/d3.min.js"></script>
+<script src="assets/vendor/topojson-client.min.js"></script>
+<script src="assets/vendor/us-atlas-counties-albers-10m.js"></script>
+<script src="assets/js/atlas-data.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
