@@ -156,12 +156,20 @@ def main():
     ap.add_argument("--workers",type=int,default=20)
     ap.add_argument("--max-sites",type=int,default=0)
     args=ap.parse_args()
+    if not args.input.exists():
+        # First deployment can start from the precomputed GSA leads while CISA refresh runs.
+        args.input=DISCOVERY/"gsa_my_half_domain_candidates.json"
     data=json.loads(args.input.read_text(encoding="utf-8"))
     # One site per jurisdiction on first pass. Prefer current CISA .gov registrations.
     items=[]
-    for row in data["results"]:
-        choices=sorted(row["domains"],key=lambda d:0 if d["registry"].startswith("CISA") else 1)
-        if choices:items.append(choices[0])
+    if "results" in data:
+        for row in data["results"]:
+            choices=sorted(row["domains"],key=lambda d:0 if d["registry"].startswith("CISA") else 1)
+            if choices:items.append(choices[0])
+    else:
+        for row in data.get("sites",[]):
+            items.append({"state":row["state"],"county":row["county"],"fips":row.get("fips",""),
+                          "domain":row["domain"],"registry":"GSA county website listing (historical)"})
     if args.max_sites:items=items[:args.max_sites]
     previous=json.loads(args.out.read_text(encoding="utf-8")) if args.out.exists() else {"sites":[]}
     bykey={(x["state"],x.get("fips") or x["county"]):x for x in previous["sites"]}
