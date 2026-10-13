@@ -27,7 +27,7 @@
       phone:c.phone || "", sourceUrl:c.sourceUrl || "",
       sourceName:origin==="research"?"Source-linked county staff research":isLive?"Official county directory (refreshed)":"Official county directory lead (recheck pending)",
       sourceChecked:isLive?(c.checkedAt || ""):"",
-      sourceStatus:origin==="research"?"research-source-linked":isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
+      sourceStatus:origin==="research"?(c.verificationStatus || "research-source-linked"):isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
       emailType:isLive&&c.email?(origin==="research"?"research source-linked":"published on staff entry"):""
     };
     j.seeds = j.seeds || [];
