@@ -61,6 +61,14 @@ function extraHtml(j) {
     if (sd.sourceUrl && /^https?:/i.test(sd.sourceUrl)) bits.push(`<a target="_blank" rel="noopener" href="${esc(sd.sourceUrl)}">${esc(sd.sourceName || 'Source')}</a>` + (sd.sourceChecked ? ` <small>checked ${esc(sd.sourceChecked)}</small>` : ''));
     h += `<div class="contact"><label>Source-listed contact</label><div>${bits.join('<br>')}</div></div>`;
   });
+  (j.registryMailboxes || []).forEach(mb => {
+    const bits = [esc(mb.department || 'Department mailbox')];
+    if (mb.email) bits.push('<a href="mailto:' + esc(mb.email) + '">' + esc(mb.email) + '</a>');
+    if (mb.phone) bits.push('<a href="tel:' + esc(mb.phone) + '">' + esc(mb.phone) + '</a>');
+    if (mb.sourceUrl && /^https:\/\//i.test(mb.sourceUrl))
+      bits.push('<a target="_blank" rel="noopener noreferrer" href="' + esc(mb.sourceUrl) + '">Official source ↗</a>');
+    h += '<div class="contact"><label>Department contact (not a person)</label><div>' + bits.join('<br>') + '</div></div>';
+  });
   if (j.registrySources && j.registrySources.length) {
     h += '<div class="contact"><label>Official county employee registries</label><div>' +
       j.registrySources.map(s => /^https:\/\//i.test(s.url) ?
