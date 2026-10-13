@@ -64,8 +64,9 @@ def general(row):
     state=val(row,"state_abbr","state_id","state").upper()
     county=val(row,"county_name","county","county_full")
     if state not in STATES or not county: return None
-    fips=val(row,"county_fips","fips","county_geoid","geoid").zfill(5)
-    if fips and not fips.isdigit(): fips=""
+    fips=val(row,"county_fips","fips","county_geoid","geoid")
+    if fips and fips.isdigit(): fips=fips.zfill(5)
+    else: fips=""
     return {"state":state,"county":county,"fips":fips}
 
 def contact(row):
