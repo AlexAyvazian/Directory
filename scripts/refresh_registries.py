@@ -108,8 +108,8 @@ def fetch(source, timeout=25):
         if len(data)>2_000_000: raise ValueError("Directory page exceeds 2 MB")
         return data.decode(r.headers.get_content_charset() or "utf-8", "replace")
 def reconcile(previous, source, current, error, now):
-    prior = previous.get(source["id"], {})
-    item = dict(prior)
+    # Reconcile one source entry, never a whole source map.
+    item = dict(previous)
     item.update({k: source[k] for k in ("id","state","county","department","url")})
     item["lastAttemptAt"] = now
     if error or not current:
@@ -141,7 +141,7 @@ def main():
         except Exception as exc:
             contacts=None; error=f"{type(exc).__name__}: {exc}"
         before=entries.get(source["id"],{}).get("contacts",[])
-        entries[source["id"]]=reconcile(entries,source,contacts,error,now)
+        entries[source["id"]]=reconcile(entries.get(source["id"], {}),source,contacts,error,now)
         counts["checked"]+=1
         if entries[source["id"]].get("lastError"): counts["errors"]+=1
         elif before!=entries[source["id"]].get("contacts",[]): counts["updated"]+=1
