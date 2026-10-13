@@ -83,7 +83,7 @@ def contact(row):
     email=val(row,"email","work_email","official_email").strip()
     safe_source=source if url_ok(source) else ""
     if email and (not EMAIL.fullmatch(email) or not safe_source): email=""
-    if not (name or email) or not (title or dept): return None
+    if not (name or email or val(row,"phone","telephone","work_phone")) or not (title or dept): return None
     status=val(row,"verification_status","status") or "research-source-linked"
     return {**g,"name":name if not mailbox else "", "title":title,
             "department":dept,"email":email,"phone":val(row,"phone","telephone","work_phone"),
@@ -155,6 +155,18 @@ def main():
     args=cli.parse_args()
     previous=json.loads(STORE.read_text(encoding="utf-8")) if STORE.exists() else {}
     incoming={k:read_rows(args.folder,base) for k,base in FILES.items()}
+    # Claude's county_changes exports only state and FIPS (no county_name).
+    # Resolve from this batch's coverage tracker or the previous imported coverage.
+    lookup={}
+    for cov in list(previous.get("coverage",[])) + list(incoming.get("coverage") or []):
+        fips=val(cov,"county_fips","fips")
+        county=val(cov,"county_name","county")
+        if fips and county: lookup[(val(cov,"state_abbr","state").upper(),fips.zfill(5))]=county
+    for change in incoming.get("changes") or []:
+        state=val(change,"state_abbr","state").upper()
+        fips=val(change,"county_fips","fips").zfill(5)
+        if not val(change,"county_name","county") and (state,fips) in lookup:
+            change["county_name"]=lookup[(state,fips)]
     if not any(x is not None for x in incoming.values()):
         raise SystemExit("No expected county_contacts / county_registry_sources / county_research_coverage / county_changes files found")
     merged,stats=merge_batch(previous,incoming)
