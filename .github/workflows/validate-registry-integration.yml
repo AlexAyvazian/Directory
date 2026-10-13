@@ -4,6 +4,7 @@ on:
     paths:
       - 'scripts/refresh_registries.py'
       - 'scripts/import_research_batch.py'
+      - 'data/imports/**'
       - 'assets/js/registry-*.js'
       - 'data/registries/**'
       - 'tests/test_registry_*.py'
@@ -25,6 +26,19 @@ jobs:
       - run: python -m compileall -q scripts/refresh_registries.py scripts/import_research_batch.py
       - run: python -m unittest discover -s tests -p 'test_registry_*.py' -v
       - run: python -m unittest discover -s tests -p 'test_import_research_batch.py' -v
+      - name: Full county research import smoke test
+        run: |
+          python scripts/import_research_batch.py data/imports/claude-ga-in-2026-10-13
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          r=json.loads(Path("data/registries/research-batch.json").read_text())
+          assert len(r["coverage"]) == 251, len(r["coverage"])
+          assert len(r["changes"]) == 134, len(r["changes"])
+          assert len(r["contacts"]) >= 153, len(r["contacts"])
+          assert len(r["sources"]) >= 77, len(r["sources"])
+          assert sum(c.get("email")!="" and c.get("contactType")=="person" for c in r["contacts"]) >= 73
+          PY
       - run: |
           node --check assets/js/registry-overlay.js
           node --check assets/js/app.js
