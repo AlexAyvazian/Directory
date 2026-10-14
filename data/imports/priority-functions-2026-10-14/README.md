@@ -42,3 +42,12 @@ SELECT state,status,count(*) FROM public_sector_research_coverage
  WHERE batch_id IN('wi-human-services-2026-10-14','sd-auditors-2026-10-14')
  GROUP BY state,status;
 ```
+
+## Highest-yield directory discovered for next pass
+**South Dakota Municipal League:** Its published 2026 access prospectus states a **$100 / year** directory account for a searchable list of individual municipal employees. It can filter by **department, employer, title/position**, and displays **title, email, phone, address**. This is particularly promising for city Fire, Police, HR, Public Works, utilities and procurement research.
+
+Official prospectus: https://cdn.ymaws.com/sdmunicipalleague.org/resource/resmgr/services/non-municipal-opportunities.pdf
+
+**Do not assume API access or bulk export rights.** No account was purchased or accessed. A research source was logged in Neon with `paid access required` status.
+
+Additional research leads logged in Neon: Wisconsin PSC annual utility/sanitary district filings, Wisconsin DWD Workers Compensation directory, Wisconsin State Fire Chiefs Association listserv. None of these is counted as a verified named department contact until extracted and checked.
