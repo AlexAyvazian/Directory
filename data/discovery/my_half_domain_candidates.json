@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1134,
-  "domainCount": 1753,
+  "domainCount": 1754,
   "unmatchedJurisdictions": 443,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -17264,6 +17264,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Lorain County Auditor",
+          "state": "OH",
+          "county": "Lorain",
+          "fips": "39093"
+        },
+        {
+          "domain": "loraincountyhealth.gov",
+          "url": "https://loraincountyhealth.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lorain County Public Health",
           "state": "OH",
           "county": "Lorain",
           "fips": "39093"
