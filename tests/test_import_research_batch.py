@@ -57,6 +57,14 @@ class BatchImportTests(unittest.TestCase):
                    "source_url":"https://dekalbcountyga.gov/departments/human-resources"})
         self.assertEqual(c["name"],"Rogelio Blackman")
         self.assertEqual(c["email"],"")
+    def test_new_unresearched_placeholder_does_not_erase_researched_county(self):
+        existing={"coverage":[{"state":"GA","county":"Fayette","fips":"13113",
+                  "research_status":"officially_verified_staff_extracted","number_of_contacts":"8"}]}
+        incoming={"coverage":[{"state_abbr":"GA","county_name":"Fayette","county_fips":"13113",
+                 "research_status":"not_yet_researched","number_of_contacts":"0"}]}
+        merged,_=merge_batch(existing,incoming)
+        self.assertEqual(merged["coverage"][0]["research_status"],"officially_verified_staff_extracted")
+        self.assertEqual(merged["coverage"][0]["number_of_contacts"],"8")
     def test_county_source_link(self):
         s=source({"state_abbr":"GA","county_name":"Fayette","directory_url":"https://www.fayettecountyga.gov/hr"})
         self.assertTrue(s["url"].startswith("https://"))
