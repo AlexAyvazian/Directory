@@ -17,7 +17,7 @@ J.forEach(j => {
   if (j.fips) { if (!byFips.has(j.fips)) byFips.set(j.fips, []); byFips.get(j.fips).push(j); }
 });
 const RECS = J.filter(j => j.contacts); 
-const recsByAbbr = new Map(); RECS.forEach(j => { if (!recsByAbbr.has(j.abbr)) recsByAbbr.set(j.abbr, []); recsByAbbr.get(j.abbr).push(j); });
+const recsByAbbr = new Map(); RECS.filter(j=>j.level!=='state').forEach(j => { if (!recsByAbbr.has(j.abbr)) recsByAbbr.set(j.abbr, []); recsByAbbr.get(j.abbr).push(j); });
 const STATES_WITH_DATA = new Set(RECS.map(j => j.abbr));
 
 /* ------------------------------------------------------------------ shared selection */
@@ -311,7 +311,7 @@ const dirState = () => sel.abbr || 'AL';
 function renderTabs() {
   const q = $('globalSearch').value.toLowerCase(); tabsEl.innerHTML = '';
   STATES.forEach(s => {
-    const recs = recsByAbbr.get(s.abbr) || [];
+    const recs = RECS.filter(j=>j.abbr===s.abbr);
     const hay = (s.name + ' ' + s.abbr + ' ' + recs.map(r => cname(r) + ' ' + r.contacts.map(c => c.value).join(' ')).join(' ')).toLowerCase();
     if (q && !hay.includes(q)) return;
     const b = document.createElement('button'); b.className = 'tab ' + (s.abbr === dirState() ? 'active' : '');
