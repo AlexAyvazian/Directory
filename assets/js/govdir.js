@@ -12,7 +12,7 @@
  function officeCard(o){
   const bits=[];
   if(o.person?.name)bits.push('<div class="govdirPerson"><strong>'+esc(o.person.name)+'</strong>'+(o.person.title?' · '+esc(o.person.title):'')+'</div>');
-  if(o.email&&safeEmail(o.email))bits.push('<div>'+link('mailto:'+o.email,o.email)+'</div>');
+  if(o.email&&safeEmail(o.email))bits.push('<div><a href="mailto:'+esc(o.email)+'">'+esc(o.email)+'</a></div>');
   if(o.phone)bits.push('<div><a href="tel:'+esc(String(o.phone).replace(/[^0-9+]/g,''))+'">'+esc(o.phone)+'</a></div>');
   if(o.address)bits.push('<div>'+esc(o.address)+'</div>');
   if(o.url)bits.push('<div>'+link(o.url,'Official office website ↗')+'</div>');
