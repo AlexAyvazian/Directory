@@ -259,8 +259,9 @@ function renderCard() {
     body += `<div class="jGroup">${head}${inner}<div class="links">${links}<button class="btn primary" type="button" data-open="${esc(j.id)}">Open in Directory</button></div></div>`;
   });
   const n = group.reduce((a, j) => a + (j.contacts ? j.contacts.length : 0), 0);
-  card.innerHTML = `<button class="cardClose" type="button" aria-label="Close" data-close="1">×</button><div class="countyName">${esc(title)}</div><div class="cardSub">${n ? n + ' imported contact' + (n === 1 ? '' : 's') : 'Awaiting contact research'}</div>${body}`;
+  card.innerHTML = `<button class="cardClose" type="button" aria-label="Close" data-close="1">×</button><div class="countyName">${esc(title)}</div><div class="cardSub">${n ? n + ' imported contact' + (n === 1 ? '' : 's') : 'Awaiting contact research'}</div><div class="govdirMount"></div>${body}`;
   card.hidden = false;
+  if (sel.fips && /^\\d{5}$/.test(sel.fips)) window.GovDirUI?.mount(card.querySelector('.govdirMount'), sel.fips);
 }
 $('selectedCard').addEventListener('click', e => {
   const t = e.target.closest('[data-open],[data-close]'); if (!t) return;
@@ -401,6 +402,14 @@ function openDrawer(r) {
     body.innerHTML = `<h3>${esc(cname(r))} · ${r.abbr}</h3><p class="note">${esc(st)} county/jurisdiction outreach card.</p>${contactsHtml(r)}${extraHtml(r)}<div class="buttons">${r.contacts.map(c => c.value).filter(v => !v.startsWith('(Via')).slice(0, 3).map(v => `<a class="btn" target="_blank" href="${linkedinDir(v, r)}">Search ${esc(v.split(' ')[0])}</a>`).join('')}<a class="btn" target="_blank" href="https://www.google.com/search?q=${encodeURIComponent(cname(r) + ' County ' + r.abbr + ' human resources risk management procurement')}">County Search</a></div><div class="note">Verification status: imported from Part 1; confirm before formal outreach.</div>`;
   } else {
     body.innerHTML = `<h3>${esc(fullName(r))} · ${r.abbr}</h3><p class="note">${esc(st)} county tracked in the master roster — no contacts imported yet.</p><div class="contact"><label>Research status</label><div>${esc(r.status)}</div></div>${extraHtml(r)}<div class="buttons"><a class="btn" target="_blank" href="https://www.google.com/search?q=${encodeURIComponent(fullName(r) + ' ' + st + ' human resources risk management procurement')}">County Search</a></div>`;
+  }
+  if (r.fips && r.level !== 'state') {
+    const officeMount = document.createElement('div');
+    officeMount.className = 'govdirMount';
+    const intro = body.querySelector('p.note');
+    if (intro) intro.insertAdjacentElement('afterend', officeMount);
+    else body.prepend(officeMount);
+    window.GovDirUI?.mount(officeMount, r.fips);
   }
   drawer.classList.add('open');
 }
