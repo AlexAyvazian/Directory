@@ -84,3 +84,19 @@ Use a distinct crawl run batch ID, keep logs/results in the database, and set a 
 Count only: (a) new named **priority-department** employees with personally associated published email; (b) named owners with official phones; (c) agency-specific office channels separately; (d) newly enumerated distinct government employers; (e) targeted category checks moved from not researched to partially researched *with evidence*. Show blocked/historical/conflicting as a separate backlog.
 
 The quality gate is more important than gross contact volume. This is a nationwide discovery and research process, not a promise that one batch can certify every local-government employee roster.
+
+## Execution reconciliation — NC Carteret municipal employee crawl
+
+The first actual **mapped URL batch completed successfully**:
+- Context.dev `batch_d8b3fda2ea98f918aeacb66647e2094f` returned **144/144 successful pages** (84 Town of Beaufort; 60 Town of Newport). Unlike the two pilot attempts, this fetched each individual employee-profile URL.
+- Full original profile text and structured records are preserved in `nc-carteret-144-crawled-profiles.json` and stored in Neon `public_sector_research_contacts`, batch `nc-carteret-144-profile-crawl-2026-10-14`.
+- A strict filter retained **29 relevant municipal department leaders/operational supervisors**, stored in `nc-carteret-reviewed-operational-leads.json` and Neon `directory_contacts` under import `nc-carteret-municipal-2026-10-14`. Source organizations are correctly listed as **Town of Beaufort** and **Town of Newport**; Carteret County is only the geographic county (FIPS 37031).
+- Selected contacts: 4 police command, 8 fire command/leadership, 6 utility/water/wastewater supervisors, 3 public works managers, 3 HR staff, 2 parks/recreation leaders and 3 town administration leaders.
+- **Only 1 direct published email** among all 144 scraped profiles. **139 profiles displayed email web forms** (including those selected); web forms are explicitly retained as links and never misrepresented as direct email addresses.
+- Neon has **15** Carteret target-function checklist rows from this batch: 6 partial category leads, 9 not researched. No employer or county considered complete.
+- Queue reconciled: 4 NC functional jobs marked **imported** (not `done`), government-legal/procurement remains pending; only the utilities entry counts the shared 144 scraped pages to avoid quadruple-counting.
+- **Total live contacts now 5,999**, subject to later additions from other agents.
+
+The Context.dev site crawl pilot URL regex matched only the starting page; mapped URL batch extraction solved this. Firecrawl API still returned 402/429 at launch and was not used for the successful 144-page batch. Future batches should map employee-profile URLs and scrape those listed pages, not assume the crawler will traverse a blocked or unusual directory interface.
+
+**Automation still needed:** An ongoing ingestion worker/review UI so completed external crawl batches can be normalized and inserted without manual synchronization; this first batch was reconciled through direct connectors and verified by SQL.
