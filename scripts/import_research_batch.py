@@ -145,6 +145,8 @@ def merge_batch(store, incoming):
             key=record_key(kind,row)
             if key in lookup:
                 previous=updated[kind][lookup[key]]
+                if kind=="coverage" and previous.get("research_status") not in ("", "not_yet_researched") and row.get("research_status")=="not_yet_researched":
+                    continue  # A new placeholder must never erase prior researched coverage.
                 # Prioritize richer, recent source info; do not delete existing fields on blank input.
                 update={k:v for k,v in row.items() if v not in ("",None)}
                 if kind=="contacts" and previous.get("email") and not row.get("email"):
