@@ -65,3 +65,17 @@ FROM public_sector_research_coverage
 WHERE batch_id IN ('claude-target-checklist-2026-10-14','claude-jurisdiction-disambiguation-2026-10-14')
 GROUP BY batch_id,status;
 ```
+
+## Follow-up — final 15 source-empty Georgia counties (2026-10-14)
+
+All 15 previously source-empty Georgia jurisdictions now have at least one **directly published local emergency-management contact** in the app-facing directory. See:
+
+- `georgia-last-15-emergency-contacts.json` — **15 official GEMA county contact entries**, each with published email and phone; entered as **agency/department contact channels**, not automatically asserted as personally owned mailboxes.
+- `georgia-last-15-named-operational-staff.json` — **7 additional named county staff** from first-party county staff/appointed-officials directories (Stewart, Talbot, Twiggs), including emergency management, parks, roads, sheriff, legal counsel and administrative purchasing oversight. No personal email address inferred for contact-form profiles.
+- Both snapshots have their own `directory_imports` ids: `ga-last15-emergency-2026-10-14` and `ga-last15-named-2026-10-14`.
+
+**Verified database result:** 22 app-facing records total (15 agency email endpoints plus 7 named people). These span the original 15 source-empty counties. All 20 affected category tasks in the existing `claude-target-checklist-2026-10-14` batch are marked **lead_found_partial**, never complete. Eighteen unique source/county URLs were logged.
+
+**Separate live-directory finding:** The Neon app still has **42 additional GA counties with zero app-facing contact records**, even though each has at least one archived Claude research row. These are not the original 15; they result from excluding nonpriority/historical source records from the main app. They are listed with exact county FIPS in `georgia-remaining-42-live-directory-gaps.csv`. Do not declare Georgia completely covered until actual named HR/Risk/WC/Fire/Water/etc. owner contacts are researched and imported for them.
+
+Additional contacts here are from `gema.georgia.gov`, `talbotcountyga.org`, `stewartcountyga.gov`, and `twiggscounty.us`. In particular, the Talbot county directory uses forms for individual staff emails; GEMA's public emergency management address is retained separately rather than automatically assigned to a specific person's personal inbox.
