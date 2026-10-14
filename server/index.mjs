@@ -4,15 +4,43 @@ import {fileURLToPath} from 'node:url';
 import path from 'node:path';
 import pg from 'pg';
 import {composeAtlas} from './data.mjs';
+import {fetchGovDirCounty, GovDirError} from './govdir.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 if(!process.env.DIRECTORY_DATABASE) throw new Error('DIRECTORY_DATABASE is required');
 const pool=new pg.Pool({connectionString:process.env.DIRECTORY_DATABASE,max:3,connectionTimeoutMillis:15000,idleTimeoutMillis:30000});
 pool.on('error',()=>console.error('Database pool connection failed'));
+// Cache official GovDir listings for the 15 minutes permitted by its API documentation.
+const govDirCache = new Map(), govDirPending = new Map();
+async function countyOffices(fips) {
+ const old = govDirCache.get(fips);
+ if(old && old.expires > Date.now()) return old.value;
+ if(govDirPending.has(fips)) return govDirPending.get(fips);
+ const pending=fetchGovDirCounty(fips).then(data=>{
+  if(govDirCache.size>=300)govDirCache.delete(govDirCache.keys().next().value);
+  govDirCache.set(fips,{value:data,expires:Date.now()+900000});return data;
+ }).finally(()=>govDirPending.delete(fips));
+ govDirPending.set(fips,pending);return pending;
+}
 const mime={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.ico':'image/x-icon'};
 export const server=http.createServer(async(req,res)=>{
  try{
   const url=new URL(req.url,'http://localhost');
   if(!['GET','HEAD'].includes(req.method)){res.writeHead(405);res.end();return;}
+  if(url.pathname.startsWith('/api/govdir/county/')){
+   const fips=url.pathname.slice('/api/govdir/county/'.length);
+   try{
+    const data=await countyOffices(fips);
+    res.writeHead(200,{'Content-Type':'application/json; charset=utf-8','Cache-Control':'public, max-age=900'});
+    res.end(req.method==='HEAD'?undefined:JSON.stringify(data));
+   }catch(e){
+    const status=e instanceof GovDirError?e.status:503;
+    const headers={'Content-Type':'application/json; charset=utf-8','Cache-Control':'no-store'};
+    if(e instanceof GovDirError && e.retryAfter)headers['Retry-After']=e.retryAfter;
+    res.writeHead(status,headers);
+    res.end(req.method==='HEAD'?undefined:JSON.stringify({error:e instanceof GovDirError?e.message:'GovDir directory temporarily unavailable'}));
+   }
+   return;
+  }
   if(url.pathname==='/healthz'){await pool.query('SELECT 1');res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({status:'ok',database:'Neon'}));return;}
   if(url.pathname==='/api/atlas'){
    const client=await pool.connect();let atlas;
