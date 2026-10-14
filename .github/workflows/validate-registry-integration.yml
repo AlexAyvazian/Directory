@@ -10,6 +10,9 @@ on:
       - 'data/discovery/**'
       - 'tests/test_discover_my_half.py'
       - 'data/imports/**'
+      - 'scripts/import_free_association_fl.py'
+      - 'tests/test_import_free_association_fl.py'
+      - 'assets/js/fl-association-contacts.js'
       - 'tests/test_batch2_integrity.py'
       - 'assets/js/registry-*.js'
       - 'data/registries/**'
@@ -29,9 +32,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: python -m pip install 'beautifulsoup4>=4.12,<5'
-      - run: python -m compileall -q scripts/refresh_registries.py scripts/import_research_batch.py scripts/discover_my_half.py scripts/scan_my_half_staff_pages.py
+      - run: python -m compileall -q scripts/refresh_registries.py scripts/import_research_batch.py scripts/import_free_association_fl.py scripts/discover_my_half.py scripts/scan_my_half_staff_pages.py
       - run: python -m unittest discover -s tests -p 'test_registry_*.py' -v
       - run: python -m unittest discover -s tests -p 'test_import_research_batch.py' -v
+      - run: python -m unittest discover -s tests -p 'test_import_free_association_fl.py' -v
       - run: python -m unittest discover -s tests -p 'test_batch2_integrity.py' -v
       - run: python -m unittest discover -s tests -p 'test_discover_my_half.py' -v
       - run: python -m unittest discover -s tests -p 'test_scan_my_half.py' -v
@@ -50,4 +54,5 @@ jobs:
           PY
       - run: |
           node --check assets/js/registry-overlay.js
+          node --check assets/js/fl-association-contacts.js
           node --check assets/js/app.js
