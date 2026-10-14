@@ -7,6 +7,7 @@
   const seeds = window.COUNTY_REGISTRY_SEEDS || [];
   const snapshots = (window.COUNTY_REGISTRY_SNAPSHOT || {}).sources || {};
   const research = window.COUNTY_REGISTRY_RESEARCH || {contacts:[],sources:[],coverage:[],changes:[]};
+  const association = window.COUNTY_FREE_ASSOCIATION_CONTACTS || {contacts:[]};
   const norm = s => String(s || "").toLowerCase().replace(/\b(county|city and borough|census area|borough|parish|city)\b/g,"").replace(/[^a-z0-9]/g,"");
   const geo = (state,county) => state + ":" + norm(county);
   const byGeo = new Map(atlas.jurisdictions.map(j => [geo(j.abbr,j.county),j]));
@@ -25,15 +26,15 @@
       name:c.name, title:c.title, agency:c.department || "County government",
       email:isLive ? (c.email || "") : "",
       phone:c.phone || "", sourceUrl:c.sourceUrl || "",
-      sourceName:origin==="research"?"Source-linked county staff research":isLive?"Official county directory (refreshed)":"Official county directory lead (recheck pending)",
+      sourceName:origin==="association"?"Florida Association of Counties public directory":origin==="research"?"Source-linked county staff research":isLive?"Official county directory (refreshed)":"Official county directory lead (recheck pending)",
       sourceChecked:isLive?(c.checkedAt || ""):"",
-      sourceStatus:origin==="research"?(c.verificationStatus || "research-source-linked"):isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
-      emailType:isLive&&c.email?(origin==="research"?"research source-linked":"published on staff entry"):""
+      sourceStatus:origin==="association"?(c.verificationStatus || "association-directory-unconfirmed"):origin==="research"?(c.verificationStatus || "research-source-linked"):isLive?"official-registry-snapshot":"legacy-directory-lead-needs-recheck",
+      emailType:isLive&&c.email?(origin==="association"?"published in state association directory":origin==="research"?"research source-linked":"published on staff entry"):""
     };
     j.seeds = j.seeds || [];
     const ix = j.seeds.findIndex(x=> unique(x) === key);
     if (ix >= 0) {
-      if (origin === "research") {
+      if (origin === "research" || origin === "association") {
         // Keep existing source-listed contact intact and retain research as a parallel citation.
         const exact = j.seeds.some(x => unique(x) === key && x.sourceUrl === seed.sourceUrl);
         if (exact) return false;
@@ -83,6 +84,18 @@
       if (c.email) importedEmails++;
     }
   }
+  // State county-association listings provide secondary evidence, not county-verified contact details.
+  // Keep their citations separate and do not overwrite original county sources.
+  let associationContacts=0, associationEmails=0;
+  for (const c of association.contacts || []) {
+    if (c.state !== "FL" || !c.name || !c.title) continue;
+    const j=ensure(c.state,c.county);
+    if (!j) continue;
+    if (attachContact(j,{...c,checkedAt:c.observedAt},true,"association")) {
+      associationContacts++;
+      if (c.email) associationEmails++;
+    }
+  }
   for (const item of Object.values(snapshots)) {
     const j=ensure(item.state,item.county);
     if(!j)continue;
@@ -98,5 +111,5 @@
   for(const state of atlas.states){
     state.count = atlas.jurisdictions.filter(j=>j.abbr===state.abbr && j.contacts && j.contacts.length).length;
   }
-  window.ATLAS_REGISTRY_METRICS={configuredSources:sources.length,legacyStaffLeads:leadCount,liveContacts:liveCount,publishedEmails:listedEmails,importedContacts,importedEmails,importedMailboxes,importedSources:(research.sources || []).length};
+  window.ATLAS_REGISTRY_METRICS={configuredSources:sources.length,legacyStaffLeads:leadCount,liveContacts:liveCount,publishedEmails:listedEmails,importedContacts,importedEmails,importedMailboxes,importedSources:(research.sources || []).length,associationContacts,associationEmails};
 })();
