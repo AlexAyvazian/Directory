@@ -16,7 +16,7 @@ J.forEach(j => {
   byAbbr.get(j.abbr).push(j);
   if (j.fips) { if (!byFips.has(j.fips)) byFips.set(j.fips, []); byFips.get(j.fips).push(j); }
 });
-const RECS = J.filter(j => j.contacts);
+const RECS = J.filter(j => j.contacts); 
 const recsByAbbr = new Map(); RECS.forEach(j => { if (!recsByAbbr.has(j.abbr)) recsByAbbr.set(j.abbr, []); recsByAbbr.get(j.abbr).push(j); });
 const STATES_WITH_DATA = new Set(RECS.map(j => j.abbr));
 
@@ -58,6 +58,8 @@ function extraHtml(j) {
     const bits = [esc(sd.name) + (sd.title ? ' — ' + esc(sd.title) : '')];
     if (sd.email) bits.push(`<a href="mailto:${esc(sd.email)}">${esc(sd.email)}</a>` + (sd.emailType ? ` <small>(${esc(sd.emailType)})</small>` : ''));
     if (sd.phone) bits.push(`<a href="tel:${esc(sd.phone)}">${esc(sd.phone)}</a>`);
+    if (sd.department) bits.push(esc(sd.department));
+    if (sd.sourceFile) bits.push('<small>' + esc(sd.sourceFile) + '</small>');
     if (sd.sourceStatus && !/^official-registry-snapshot$/.test(sd.sourceStatus)) bits.push('<small>Research status: ' + esc(sd.sourceStatus.replace(/[_-]+/g,' ')) + '</small>');
     if (sd.sourceUrl && /^https?:/i.test(sd.sourceUrl)) bits.push(`<a target="_blank" rel="noopener" href="${esc(sd.sourceUrl)}">${esc(sd.sourceName || 'Source')}</a>` + (sd.sourceChecked ? ` <small>checked ${esc(sd.sourceChecked)}</small>` : ''));
     h += `<div class="contact"><label>Source-listed contact</label><div>${bits.join('<br>')}</div></div>`;
@@ -85,11 +87,11 @@ function extraHtml(j) {
 const contactsHtml = (j, n) => (j.contacts || []).slice(0, n || 99).map(c => `<div class="contact"><label>${esc(c.label)}</label><div>${esc(c.value)}</div></div>`).join('');
 
 /* ------------------------------------------------------------------ selection API */
-function selectState(abbr) { sel.abbr = abbr; sel.jid = null; sel.fips = null; sel.focus = false; sync(); }
-function selectJurisdiction(j, focus) {
+function selectState(abbr) { $('scopeSel').value = 'records'; sel.abbr = abbr; sel.jid = null; sel.fips = null; sel.focus = false; sync(); }
+function selectJurisdiction(j, focus) { $('scopeSel').value = j.level === 'state' ? 'state' : 'records';
   sel.abbr = j.abbr; sel.jid = j.id; sel.fips = j.fips || null; sel.focus = !!focus; sync();
 }
-function selectFips(fips) {
+function selectFips(fips) { $('scopeSel').value = 'records';
   const list = byFips.get(fips) || [];
   sel.abbr = ABBR_BY_FIPS[fips.slice(0, 2)]; sel.fips = fips;
   sel.jid = (list.find(j => j.contacts) || list[0] || {}).id || null; sel.focus = false;
@@ -114,14 +116,14 @@ function setView(v) {
 }
 function writeHash() {
   let h = sel.view === 'dir' ? '#directory' : '#map';
-  if (sel.abbr) h += '/' + sel.abbr + (sel.jid ? '/' + sel.jid : '');
+  if (sel.abbr) h += '/' + sel.abbr + (sel.jid ? '/' + sel.jid : sel.view === 'dir' && $('scopeSel').value === 'state' ? '/state-agencies' : '');
   try { history.replaceState(null, '', h); } catch (e) { /* file:// in some browsers */ }
 }
 function readHash() {
   const m = location.hash.replace('#', '').split('/');
   const view = m[0] === 'directory' ? 'dir' : 'map';
   sel.abbr = null; sel.jid = null; sel.fips = null; sel.focus = false;
-  if (m[1] && STATE_BY[m[1]]) { sel.abbr = m[1]; const j = m[2] && JID.get(m[2]); if (j && j.abbr === m[1]) { sel.jid = j.id; sel.fips = j.fips || null; } }
+  if (m[1] && STATE_BY[m[1]]) { sel.abbr = m[1]; const j = m[2] && JID.get(m[2]); if (m[2] === 'state-agencies') $('scopeSel').value = 'state'; if (j && j.abbr === m[1]) { $('scopeSel').value = j.level === 'state' ? 'state' : 'records'; sel.jid = j.id; sel.fips = j.fips || null; } }
   return view;
 }
 function sync() {   // keep nav chrome + hash in step with selection
@@ -166,7 +168,7 @@ function renderMap(opts) {
 const usLayout = () => { const k = Math.min(width / 975, height / 610) * 0.97; return { k, tx: (width - 975 * k) / 2, ty: (height - 610 * k) / 2 }; };
 
 function renderUSMap(opts) {
-  $('backBtn').style.display = 'none'; $('stateDirBtn').style.display = 'none';
+  $('stateAgencyBtn').style.display = 'none'; $('backBtn').style.display = 'none'; $('stateDirBtn').style.display = 'none';
   $('mapLabel').textContent = 'U.S. map · click a highlighted state to open its county map';
   $('modeBadge').textContent = 'U.S. map';
   $('legend').innerHTML = '<div><i class="stateData"></i>State with contact data</div><div><i class="noData"></i>No contact data yet</div>';
@@ -194,6 +196,9 @@ function zoomIntoState(feat, abbr, L) {
 }
 
 function renderStateMap(abbr, opts) {
+  const n=(byAbbr.get(abbr)||[]).filter(j=>j.level==='state').length;
+  $('stateAgencyBtn').style.display=n?'inline-block':'none';
+  $('stateAgencyBtn').textContent=`State agencies (${n}) →`;
   $('backBtn').style.display = 'inline-block'; $('stateDirBtn').style.display = 'inline-block';
   $('stateDirBtn').textContent = `${stateName(abbr)} in Directory →`;
   const fips = STATES.find(s => s.abbr === abbr).fips;
@@ -294,6 +299,7 @@ $('mapResults').addEventListener('click', e => {
 document.addEventListener('click', e => { if (!e.target.closest('.mapToolbar')) $('mapResults').hidden = true; });
 $('mapRole').addEventListener('change', () => { refreshHighlights(); });
 $('backBtn').onclick = () => { clearAll(); renderMap({ fade: true }); };
+$('stateAgencyBtn').onclick=()=>{sel.jid=null;sel.fips=null;sel.focus=false;$('scopeSel').value='state';setView('dir');};
 $('stateDirBtn').onclick = () => { sel.jid = null; sel.fips = null; sel.focus = false; setView('dir'); };
 document.addEventListener('keydown', e => { if (e.key === 'Escape' && sel.view === 'map' && (sel.jid || sel.fips)) { sel.jid = null; sel.fips = null; sync(); } });
 window.addEventListener('resize', () => { if (sel.view === 'map') { updateSize(); renderMap(); } });
@@ -314,11 +320,30 @@ function renderTabs() {
   });
 }
 function focusList() { return sel.focus ? selectedGroup() : null; }
+function renderStateDirectory(ab,st) {
+ $('stateName').textContent=st.name+' · State agencies & colleges';
+ const agencies=(byAbbr.get(ab)||[]).filter(j=>j.level==='state');
+ $('stateMeta').textContent=agencies.length+' statewide organizations · select an agency or search contacts';
+ $('focusBar').hidden=true;gridEl.innerHTML='';cardsEl.innerHTML='';
+ const allChip=document.createElement('button');allChip.className='countyChip';allChip.textContent='All state agencies';allChip.onclick=()=>{sel.jid=null;sel.focus=false;sync();};gridEl.appendChild(allChip);
+ agencies.forEach(j=>{const chip=document.createElement('button');chip.className='countyChip'+(sel.jid===j.id?' sel':'');chip.textContent=cname(j);chip.onclick=()=>{sel.jid=j.id;sel.focus=true;sync();};gridEl.appendChild(chip);});
+ const q=($('stateSearch').value+' '+$('globalSearch').value).trim().toLowerCase(),role=$('roleFilter').value.toLowerCase();
+ let rows=agencies.filter(j=>!sel.jid||j.id===sel.jid).flatMap(j=>(j.seeds||[]).map(c=>({j,c})));
+ const roleMatch=(hay)=>role==='hr'?/human resources|\bhr\b|personnel/.test(hay):hay.includes(role);
+ rows=rows.filter(({j,c})=>{const h=[j.county,c.name,c.title,c.department,c.email,c.phone].join(' ').toLowerCase();return(!q||h.includes(q))&&(!role||roleMatch(h));});
+ rows.sort((a,b)=>$('sortBy').value==='contact'?a.c.name.localeCompare(b.c.name):a.j.county.localeCompare(b.j.county)||a.c.name.localeCompare(b.c.name));
+ let visible=0;
+ const more=document.createElement('button');more.className='btn';more.type='button';
+ const append=()=>{const end=Math.min(visible+100,rows.length);for(;visible<end;visible++){const {j,c}=rows[visible];const card=document.createElement('div');card.className='card';card.innerHTML=`<div class="badge">${esc(j.county)}</div><div class="county">${esc(c.name||c.title)}</div>${extraHtml({seeds:[c]})}`;cardsEl.appendChild(card);}more.textContent=`Show more (${rows.length-visible} remaining)`;more.hidden=visible>=rows.length;cardsEl.appendChild(more);};more.onclick=append;append();
+ if(!rows.length)cardsEl.innerHTML='<div class="empty">No state contacts match this view.</div>';
+}
+
 function renderDir() {
   renderTabs();
   const ab = dirState(), st = STATE_BY[ab];
+  if ($('scopeSel').value === 'state') { renderStateDirectory(ab,st); return; }
   const all = $('scopeSel').value === 'all';
-  let base = (byAbbr.get(ab) || []).filter(j => all || j.contacts);
+  let base = (byAbbr.get(ab) || []).filter(j => j.level !== 'state' && (all || j.contacts));
   const focus = focusList(), fids = focus && focus.length ? new Set(focus.map(j => j.id)) : null;
   let recs = base.slice();
   if (fids) recs = recs.filter(j => fids.has(j.id));
@@ -378,7 +403,7 @@ function openDrawer(r) {
   }
   drawer.classList.add('open');
 }
-['globalSearch', 'stateSearch', 'roleFilter', 'sortBy', 'scopeSel'].forEach(id => $(id).addEventListener('input', () => { if (sel.view === 'dir') renderDir(); }));
+['globalSearch', 'stateSearch', 'roleFilter', 'sortBy', 'scopeSel'].forEach(id => $(id).addEventListener('input', () => { if (id === 'scopeSel') { sel.jid=null;sel.fips=null;sel.focus=false;writeHash(); } if (sel.view === 'dir') renderDir(); }));
 $('drawerClose').onclick = () => drawer.classList.remove('open');
 
 /* ================================================================== shell wiring */
@@ -391,7 +416,7 @@ document.addEventListener('mousemove', e => {
 $('totalRecords').textContent = RECS.length.toLocaleString();
 $('stateCount').textContent = STATES_WITH_DATA.size;
 $('rosterCount').textContent = J.filter(j => !j.extra).length.toLocaleString();
-$('navStats').innerHTML = `<b>${RECS.length.toLocaleString()}</b> county records · <b>${STATES_WITH_DATA.size}</b> states with data`;
+$('navStats').innerHTML = `<b>${RECS.filter(j=>j.level!=='state').length.toLocaleString()}</b> county records · <b>${STATES_WITH_DATA.size}</b> states with data`;
 
 function boot() {
   initGeo();

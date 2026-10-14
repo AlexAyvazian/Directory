@@ -48,3 +48,12 @@ assets/js/atlas-data.js    generated dataset
 assets/vendor/             d3 7.9, topojson-client 3.1, us-atlas 3.0.1 (ISC)
 data/source/               your original files + extracted records
 ```
+
+## Neon-backed web app
+Production runs `npm ci` then `npm run import:montana && npm start`, with `DIRECTORY_DATABASE` set on the server. No browser database credentials are used. `/api/atlas` reads Neon on every load; database failure produces a retry message and never substitutes the legacy static dataset. `/healthz` checks database connectivity.
+
+The first import preserves the complete merged nationwide atlas in `directory_jurisdictions` and its metadata in `directory_metadata`. Montana snapshot contacts are stored individually in `directory_contacts`, with county foreign keys or `level=state` and no county. `directory_source_records` retains the original CSV rows and PDF page text, including duplicate uploads. Re-running this import adds missing IDs without overwriting database edits.
+
+From the map, select a state and use **State agencies** to browse its statewide organizations. County clicks retain county behavior. In Directory, the scope menu switches between counties and state agencies/colleges. State contacts are searchable by name, department, email, phone and role, with 100 contacts displayed at a time. Overprinted source rows are retained for review rather than displayed as staff.
+
+To extract a future copy of this batch: unzip non-MacOS files to `extracted`, run `pdftotext -layout` for PDFs there, and run `python scripts/extract_montana.py extracted data/imports/montana-2026-10-13`. Requires pdfplumber. Keep original PDFs in sibling `upload`. Review extracted contacts before import, especially rows marked `review` and source typographical errors. The current reviewed contacts JSON is authoritative for this batch.
