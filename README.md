@@ -57,3 +57,18 @@ The first import preserves the complete merged nationwide atlas in `directory_ju
 From the map, select a state and use **State agencies** to browse its statewide organizations. County clicks retain county behavior. In Directory, the scope menu switches between counties and state agencies/colleges. State contacts are searchable by name, department, email, phone and role, with 100 contacts displayed at a time. Overprinted source rows are retained for review rather than displayed as staff.
 
 To extract a future copy of this batch: unzip non-MacOS files to `extracted`, run `pdftotext -layout` for PDFs there, and run `python scripts/extract_montana.py extracted data/imports/montana-2026-10-13`. Requires pdfplumber. Keep original PDFs in sibling `upload`. Review extracted contacts before import, especially rows marked `review` and source typographical errors. The current reviewed contacts JSON is authoritative for this batch.
+
+## GovDir official government offices (2026-10-14)
+
+The existing **Map** and **Directory** views now show a **Government offices** section when a county is selected. This is **additive**: it does not replace employee contact records stored in Neon.
+
+The server queries GovDir's free, unauthenticated `https://api.govdir.com/v1/places/county:{five-digit-fips}` endpoint through `GET /api/govdir/county/:fips` and displays the published offices with names, phones, emails, addresses, official websites, and named officeholders where available. A collapsible section lists all GovDir resource links and their source/verification dates. Attribution links to GovDir as required by its API terms.
+
+- No API key is necessary or stored in the public browser. Accessed through the existing server.
+- Success responses are cached for **15 minutes**, with concurrent requests deduplicated by FIPS.
+- Pagination is followed (up to eight pages), deduplicating repeated office/resource IDs. Incomplete or invalid pagination returns an explicit error rather than silently presenting partial coverage as complete.
+- The UI shows unavailable/rate-limited/unknown-county messages with a retry button; existing contact records remain visible.
+- GovDir's free tier has strict shared/per-IP request limits; full national coverage is **not guaranteed**, and its current coverage is concentrated in particular office functions such as assessment, records, zoning and GIS rather than every HR, safety, fire or utility department.
+- This is **live display**, not an import into Neon. Contacts from GovDir are not falsely labeled as employee-directory research or used to mark checklist categories complete.
+
+Integration files: `server/govdir.mjs`, `server/index.mjs`, `assets/js/govdir.js`, `assets/css/govdir.css`, `tests/govdir.test.mjs`. Run `npm test` for the test suite.
