@@ -29,6 +29,7 @@ const esc = s => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g,
 const cname = j => j.recCounty || j.county;
 const ISP1 = j => j.src === 'p1';                  // wording as it appears in the source records
 const fullName = j => j.full || j.county;                     // official name from the master roster
+const roleMatches = (hay,role) => role==='hr' ? /human resources?|\bhr\b|personnel/.test(hay) : hay.includes(role);
 const recordHay = j => (j.contacts || []).map(c => c.label + ' ' + c.value).join(' ').toLowerCase();
 const stateName = ab => (STATE_BY[ab] || {}).name || ab;
 function cleanName(v) { return String(v || '').replace(/\s*\([^)]*\)/g, '').replace(/(Via|Department|Office)/gi, '').trim(); }
@@ -154,7 +155,7 @@ function initGeo() {
 }
 function updateSize() { const n = document.querySelector('#view-map .mapShell'); width = n.clientWidth; height = n.clientHeight; svg.attr('viewBox', [0, 0, width, height]); }
 const roleVal = () => $('mapRole').value.toLowerCase();
-const matchesRole = j => { const r = roleVal(); return !r || recordHay(j).includes(r); };
+const matchesRole = j => { const r = roleVal(); return !r || roleMatches(recordHay(j),r); };
 function fipsHasData(fips) { return (byFips.get(fips) || []).some(j => j.contacts && matchesRole(j)); }
 function fipsAnyData(fips) { return (byFips.get(fips) || []).some(j => j.contacts); }
 
@@ -177,7 +178,7 @@ function renderUSMap(opts) {
   g.selectAll('path').data(statesGeo).join('path')
     .attr('class', d => { const ab = ABBR_BY_FIPS[String(d.id).padStart(2, '0')]; return 'state' + (STATES_WITH_DATA.has(ab) ? ' hasData' : ''); })
     .attr('d', path)
-    .on('mousemove', (ev, d) => { const ab = ABBR_BY_FIPS[String(d.id).padStart(2, '0')]; const n = (recsByAbbr.get(ab) || []).length; const tot = (byAbbr.get(ab) || []).length; showTip(ev, `<b>${esc(stateName(ab))}</b><br>${n} imported county record${n === 1 ? '' : 's'}<br><span style="color:#91a6c8">${tot} counties tracked</span>`); })
+    .on('mousemove', (ev, d) => { const ab = ABBR_BY_FIPS[String(d.id).padStart(2, '0')]; const n = (recsByAbbr.get(ab) || []).length; const tot = (byAbbr.get(ab) || []).filter(j=>j.level!=='state').length; showTip(ev, `<b>${esc(stateName(ab))}</b><br>${n} imported county record${n === 1 ? '' : 's'}<br><span style="color:#91a6c8">${tot} counties tracked</span>`); })
     .on('mouseleave', hideTip)
     .on('click', (ev, d) => { const ab = ABBR_BY_FIPS[String(d.id).padStart(2, '0')]; if (ab) zoomIntoState(d, ab, L); });
 }
@@ -329,7 +330,7 @@ function renderStateDirectory(ab,st) {
  agencies.forEach(j=>{const chip=document.createElement('button');chip.className='countyChip'+(sel.jid===j.id?' sel':'');chip.textContent=cname(j);chip.onclick=()=>{sel.jid=j.id;sel.focus=true;sync();};gridEl.appendChild(chip);});
  const q=($('stateSearch').value+' '+$('globalSearch').value).trim().toLowerCase(),role=$('roleFilter').value.toLowerCase();
  let rows=agencies.filter(j=>!sel.jid||j.id===sel.jid).flatMap(j=>(j.seeds||[]).map(c=>({j,c})));
- const roleMatch=(hay)=>role==='hr'?/human resources|\bhr\b|personnel/.test(hay):hay.includes(role);
+ const roleMatch=(hay)=>roleMatches(hay,role);
  rows=rows.filter(({j,c})=>{const h=[j.county,c.name,c.title,c.department,c.email,c.phone].join(' ').toLowerCase();return(!q||h.includes(q))&&(!role||roleMatch(h));});
  rows.sort((a,b)=>$('sortBy').value==='contact'?a.c.name.localeCompare(b.c.name):a.j.county.localeCompare(b.j.county)||a.c.name.localeCompare(b.c.name));
  let visible=0;
@@ -349,7 +350,7 @@ function renderDir() {
   if (fids) recs = recs.filter(j => fids.has(j.id));
   const q = $('stateSearch').value.toLowerCase(), role = $('roleFilter').value.toLowerCase();
   if (q) recs = recs.filter(r => (cname(r) + ' ' + fullName(r) + ' ' + (r.contacts || []).map(c => c.label + ' ' + c.value).join(' ')).toLowerCase().includes(q));
-  if (role) recs = recs.filter(r => recordHay(r).includes(role));
+  if (role) recs = recs.filter(r => roleMatches(recordHay(r),role));
   if ($('sortBy').value === 'contact') recs.sort((a, b) => ((a.contacts && a.contacts[0] && a.contacts[0].value) || '￿').localeCompare((b.contacts && b.contacts[0] && b.contacts[0].value) || '￿'));
   else recs.sort((a, b) => cname(a).localeCompare(cname(b)));
   $('stateName').textContent = `${st.name} ${st.abbr === 'DC' ? '' : '(' + st.abbr + ')'}`;
