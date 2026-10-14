@@ -100,3 +100,16 @@ The first actual **mapped URL batch completed successfully**:
 The Context.dev site crawl pilot URL regex matched only the starting page; mapped URL batch extraction solved this. Firecrawl API still returned 402/429 at launch and was not used for the successful 144-page batch. Future batches should map employee-profile URLs and scrape those listed pages, not assume the crawler will traverse a blocked or unusual directory interface.
 
 **Automation still needed:** An ongoing ingestion worker/review UI so completed external crawl batches can be normalized and inserted without manual synchronization; this first batch was reconciled through direct connectors and verified by SQL.
+
+## Execution reconciliation — TX municipal HR association source
+
+The public `https://tmhra.org/leadership/` page lists the current Texas Municipal Human Resources Association board/leadership, with 14 named profiles from 14 municipality employers. This page is **public**; the members-only full TMHRA directory was **not** accessed.
+
+- Committed source snapshot: `texas-municipal-hr-board.json` (**14** names/roles/phone/email as published).
+- Research archive: Neon `public_sector_research_contacts`, batch `tx-municipal-hr-board-2026-10-14`, **14** rows.
+- After quality filtering: **12** relevant named workforce officials promoted to app directory, **11** with association-published work emails, across **10 geographic county records**. The real employer city is retained separately from county.
+- **Two held for review:** LaShon Gros is currently shown as an Assistant City Manager rather than a dedicated HR director; Lindsey Cox has a San Marcos role with an apparent New Braunfels email and inconsistent title in the same source. Neither was promoted as a verified municipal HR personal address.
+- Association data is labeled `association_published_named_professional_email`, **not independently confirmed current by each employer**. Each relevant TX county has an explicitly partial HR category record; broader TX municipal coverage remains open.
+- Neon queue `nationwide-2026-10-14-v1:TX:municipal_and_district:workforce` is `imported`, **not done**.
+
+**Combined execution to date:** 144 mapped NC employee profile pages extracted, 29 curated municipal operational contacts, 14 TX association source profiles staged, 12 relevant TX officials promoted. These are initial source-bounded results, not a comprehensive 500-job national crawl.
