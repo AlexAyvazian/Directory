@@ -261,7 +261,7 @@ function renderCard() {
   const n = group.reduce((a, j) => a + (j.contacts ? j.contacts.length : 0), 0);
   card.innerHTML = `<button class="cardClose" type="button" aria-label="Close" data-close="1">×</button><div class="countyName">${esc(title)}</div><div class="cardSub">${n ? n + ' imported contact' + (n === 1 ? '' : 's') : 'Awaiting contact research'}</div><div class="govdirMount"></div>${body}`;
   card.hidden = false;
-  if (sel.fips && /^\\d{5}$/.test(sel.fips)) window.GovDirUI?.mount(card.querySelector('.govdirMount'), sel.fips);
+  if (sel.fips && /^\d{5}$/.test(sel.fips)) window.GovDirUI?.mount(card.querySelector('.govdirMount'), sel.fips);
 }
 $('selectedCard').addEventListener('click', e => {
   const t = e.target.closest('[data-open],[data-close]'); if (!t) return;
