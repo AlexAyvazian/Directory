@@ -185,7 +185,7 @@ def main():
         raise SystemExit("No expected county_contacts / county_registry_sources / county_research_coverage / county_changes files found")
     merged,stats=merge_batch(previous,incoming)
     STORE.parent.mkdir(parents=True,exist_ok=True)
-    STORE.write_text(json.dumps(merged,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+    STORE.write_text(json.dumps(merged,ensure_ascii=False,separators=(",",":"))+"\n",encoding="utf-8")
     OUTPUT.parent.mkdir(parents=True,exist_ok=True)
     OUTPUT.write_text("window.COUNTY_REGISTRY_RESEARCH="+json.dumps(merged,ensure_ascii=False,separators=(",",":"))+";\n",encoding="utf-8")
     print(json.dumps(stats,indent=2))
