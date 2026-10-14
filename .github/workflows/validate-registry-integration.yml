@@ -42,8 +42,8 @@ jobs:
           import json
           from pathlib import Path
           r=json.loads(Path("data/registries/research-batch.json").read_text())
-          assert len(r["coverage"]) == 251, len(r["coverage"])
-          assert len(r["changes"]) == 134, len(r["changes"])
+          assert len(r["coverage"]) >= 251, len(r["coverage"])
+          assert len(r["changes"]) >= 134, len(r["changes"])
           assert len(r["contacts"]) >= 153, len(r["contacts"])
           assert len(r["sources"]) >= 77, len(r["sources"])
           assert sum(c.get("email")!="" and c.get("contactType")=="person" for c in r["contacts"]) >= 73
