@@ -1,0 +1,41 @@
+name: CivicPlus directory crawl
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5,17 * * *'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: civicplus-directory-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    env:
+      DIRECTORY_DATABASE: ${{ secrets.DIRECTORY_DATABASE || secrets.DATABASE_URL }}
+      MAX_SITES: '65'
+      MAX_SEARCHES: '25'
+      REQUEST_DELAY_MS: '2500'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install database driver
+        run: npm install --omit=dev --no-audit --no-fund
+      - name: Validate crawler JavaScript
+        run: node --check scripts/crawl_civicplus.mjs
+      - name: Run tests
+        run: npm test
+      - name: Crawl public CivicEngage directories and merge into Neon
+        run: |
+          if [ -z "$DIRECTORY_DATABASE" ]; then
+            echo "::error::Set DIRECTORY_DATABASE or DATABASE_URL as a repository Actions secret before running the crawler."
+            exit 1
+          fi
+          node scripts/crawl_civicplus.mjs
