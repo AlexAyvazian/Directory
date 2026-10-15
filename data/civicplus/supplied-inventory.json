@@ -1,0 +1,2803 @@
+{
+  "schema_version": 1,
+  "submitted_url_count": 217,
+  "sources": [
+    {
+      "source_key": "civicplus:co.martin.tx.us",
+      "host": "co.martin.tx.us",
+      "submitted_urls": [
+        "http://co.martin.tx.us/Directory.aspx"
+      ],
+      "entry_urls": [
+        "http://co.martin.tx.us/Directory.aspx",
+        "https://co.martin.tx.us/Directory.aspx",
+        "https://co.martin.tx.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:courthouse.kay.ok.us",
+      "host": "courthouse.kay.ok.us",
+      "submitted_urls": [
+        "http://courthouse.kay.ok.us/m/directory"
+      ],
+      "entry_urls": [
+        "http://courthouse.kay.ok.us/m/directory",
+        "https://courthouse.kay.ok.us/Directory.aspx",
+        "https://courthouse.kay.ok.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.canadiancounty.org",
+      "host": "www.canadiancounty.org",
+      "submitted_urls": [
+        "http://www.canadiancounty.org/m/directory/employee"
+      ],
+      "entry_urls": [
+        "http://www.canadiancounty.org/m/directory/employee",
+        "https://www.canadiancounty.org/Directory.aspx",
+        "https://www.canadiancounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.cityofmonahans.org",
+      "host": "www.cityofmonahans.org",
+      "submitted_urls": [
+        "http://www.cityofmonahans.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "http://www.cityofmonahans.org/directory.aspx",
+        "https://www.cityofmonahans.org/Directory.aspx",
+        "https://www.cityofmonahans.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.cityofwasco.org",
+      "host": "www.cityofwasco.org",
+      "submitted_urls": [
+        "http://www.cityofwasco.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "http://www.cityofwasco.org/directory.aspx",
+        "https://www.cityofwasco.org/Directory.aspx",
+        "https://www.cityofwasco.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.co.koochiching.mn.us",
+      "host": "www.co.koochiching.mn.us",
+      "submitted_urls": [
+        "http://www.co.koochiching.mn.us/Directory.aspx"
+      ],
+      "entry_urls": [
+        "http://www.co.koochiching.mn.us/Directory.aspx",
+        "https://www.co.koochiching.mn.us/Directory.aspx",
+        "https://www.co.koochiching.mn.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.deschutes.org",
+      "host": "www.deschutes.org",
+      "submitted_urls": [
+        "http://www.deschutes.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "http://www.deschutes.org/Directory.aspx",
+        "https://www.deschutes.org/Directory.aspx",
+        "https://www.deschutes.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.sullivancountynh.gov",
+      "host": "www.sullivancountynh.gov",
+      "submitted_urls": [
+        "http://www.sullivancountynh.gov/m/directory"
+      ],
+      "entry_urls": [
+        "http://www.sullivancountynh.gov/m/directory",
+        "https://www.sullivancountynh.gov/Directory.aspx",
+        "https://www.sullivancountynh.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:accgov.com",
+      "host": "accgov.com",
+      "submitted_urls": [
+        "https://accgov.com/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://accgov.com/Directory.aspx",
+        "https://accgov.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:adaok.com",
+      "host": "adaok.com",
+      "submitted_urls": [
+        "https://adaok.com/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://adaok.com/directory.aspx",
+        "https://adaok.com/Directory.aspx",
+        "https://adaok.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:alamosacounty.org",
+      "host": "alamosacounty.org",
+      "submitted_urls": [
+        "https://alamosacounty.org/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://alamosacounty.org/m/directory/employee",
+        "https://alamosacounty.org/Directory.aspx",
+        "https://alamosacounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:berkeleywv.org",
+      "host": "berkeleywv.org",
+      "submitted_urls": [
+        "https://berkeleywv.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://berkeleywv.org/directory.aspx",
+        "https://berkeleywv.org/Directory.aspx",
+        "https://berkeleywv.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:berriencounty.org",
+      "host": "berriencounty.org",
+      "submitted_urls": [
+        "https://berriencounty.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://berriencounty.org/m/directory",
+        "https://berriencounty.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:blueearthcountymn.gov",
+      "host": "blueearthcountymn.gov",
+      "submitted_urls": [
+        "https://blueearthcountymn.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://blueearthcountymn.gov/directory.aspx",
+        "https://blueearthcountymn.gov/Directory.aspx",
+        "https://blueearthcountymn.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:botetourtva.gov",
+      "host": "botetourtva.gov",
+      "submitted_urls": [
+        "https://botetourtva.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://botetourtva.gov/directory.aspx",
+        "https://botetourtva.gov/Directory.aspx",
+        "https://botetourtva.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:boxeldercounty.org",
+      "host": "boxeldercounty.org",
+      "submitted_urls": [
+        "https://boxeldercounty.org/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://boxeldercounty.org/m/directory/employee",
+        "https://boxeldercounty.org/Directory.aspx",
+        "https://boxeldercounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:boxeldercountyut.gov",
+      "host": "boxeldercountyut.gov",
+      "submitted_urls": [
+        "https://boxeldercountyut.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://boxeldercountyut.gov/directory.aspx",
+        "https://boxeldercountyut.gov/Directory.aspx",
+        "https://boxeldercountyut.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:brunswickcountync.gov",
+      "host": "brunswickcountync.gov",
+      "submitted_urls": [
+        "https://brunswickcountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://brunswickcountync.gov/m/directory",
+        "https://brunswickcountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:buckscounty.gov",
+      "host": "buckscounty.gov",
+      "submitted_urls": [
+        "https://buckscounty.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://buckscounty.gov/Directory.aspx",
+        "https://buckscounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:capemaycountynj.gov",
+      "host": "capemaycountynj.gov",
+      "submitted_urls": [
+        "https://capemaycountynj.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://capemaycountynj.gov/directory.aspx",
+        "https://capemaycountynj.gov/Directory.aspx",
+        "https://capemaycountynj.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:carrollcountyga.gov",
+      "host": "carrollcountyga.gov",
+      "submitted_urls": [
+        "https://carrollcountyga.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://carrollcountyga.gov/directory.aspx",
+        "https://carrollcountyga.gov/Directory.aspx",
+        "https://carrollcountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:chamberscountytx.gov",
+      "host": "chamberscountytx.gov",
+      "submitted_urls": [
+        "https://chamberscountytx.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://chamberscountytx.gov/directory.aspx",
+        "https://chamberscountytx.gov/Directory.aspx",
+        "https://chamberscountytx.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:ci.millbrae.ca.us",
+      "host": "ci.millbrae.ca.us",
+      "submitted_urls": [
+        "https://ci.millbrae.ca.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://ci.millbrae.ca.us/m/directory",
+        "https://ci.millbrae.ca.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:cityofdelano.org",
+      "host": "cityofdelano.org",
+      "submitted_urls": [
+        "https://cityofdelano.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://cityofdelano.org/Directory.aspx",
+        "https://cityofdelano.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:cityofmilford.com",
+      "host": "cityofmilford.com",
+      "submitted_urls": [
+        "https://cityofmilford.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://cityofmilford.com/m/directory",
+        "https://cityofmilford.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:cityofws.org",
+      "host": "cityofws.org",
+      "submitted_urls": [
+        "https://cityofws.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://cityofws.org/m/directory",
+        "https://cityofws.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:claycountymo.gov",
+      "host": "claycountymo.gov",
+      "submitted_urls": [
+        "https://claycountymo.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://claycountymo.gov/directory.aspx",
+        "https://claycountymo.gov/Directory.aspx",
+        "https://claycountymo.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:clearcreekcounty.us",
+      "host": "clearcreekcounty.us",
+      "submitted_urls": [
+        "https://clearcreekcounty.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://clearcreekcounty.us/directory.aspx",
+        "https://clearcreekcounty.us/Directory.aspx",
+        "https://clearcreekcounty.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:clinton-county.org",
+      "host": "clinton-county.org",
+      "submitted_urls": [
+        "https://clinton-county.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://clinton-county.org/m/directory",
+        "https://clinton-county.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.burlington.nj.us",
+      "host": "co.burlington.nj.us",
+      "submitted_urls": [
+        "https://co.burlington.nj.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://co.burlington.nj.us/directory.aspx",
+        "https://co.burlington.nj.us/Directory.aspx",
+        "https://co.burlington.nj.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.camden.ga.us",
+      "host": "co.camden.ga.us",
+      "submitted_urls": [
+        "https://co.camden.ga.us/directory.aspx",
+        "https://co.camden.ga.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://co.camden.ga.us/directory.aspx",
+        "https://co.camden.ga.us/Directory.aspx",
+        "https://co.camden.ga.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.davidson.nc.us",
+      "host": "co.davidson.nc.us",
+      "submitted_urls": [
+        "https://co.davidson.nc.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://co.davidson.nc.us/m/directory",
+        "https://co.davidson.nc.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.hunterdon.nj.us",
+      "host": "co.hunterdon.nj.us",
+      "submitted_urls": [
+        "https://co.hunterdon.nj.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://co.hunterdon.nj.us/directory.aspx",
+        "https://co.hunterdon.nj.us/Directory.aspx",
+        "https://co.hunterdon.nj.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.iron.wi.gov",
+      "host": "co.iron.wi.gov",
+      "submitted_urls": [
+        "https://co.iron.wi.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://co.iron.wi.gov/Directory.aspx",
+        "https://co.iron.wi.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.monroe.mi.us",
+      "host": "co.monroe.mi.us",
+      "submitted_urls": [
+        "https://co.monroe.mi.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://co.monroe.mi.us/m/directory",
+        "https://co.monroe.mi.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.shelby.oh.us",
+      "host": "co.shelby.oh.us",
+      "submitted_urls": [
+        "https://co.shelby.oh.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://co.shelby.oh.us/directory.aspx",
+        "https://co.shelby.oh.us/Directory.aspx",
+        "https://co.shelby.oh.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:co.winkler.tx.us",
+      "host": "co.winkler.tx.us",
+      "submitted_urls": [
+        "https://co.winkler.tx.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://co.winkler.tx.us/directory.aspx",
+        "https://co.winkler.tx.us/Directory.aspx",
+        "https://co.winkler.tx.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:coffeycountyks.org",
+      "host": "coffeycountyks.org",
+      "submitted_urls": [
+        "https://coffeycountyks.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://coffeycountyks.org/directory.aspx",
+        "https://coffeycountyks.org/Directory.aspx",
+        "https://coffeycountyks.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:columbiacountyga.gov",
+      "host": "columbiacountyga.gov",
+      "submitted_urls": [
+        "https://columbiacountyga.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://columbiacountyga.gov/m/directory",
+        "https://columbiacountyga.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:comalcounty.gov",
+      "host": "comalcounty.gov",
+      "submitted_urls": [
+        "https://comalcounty.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://comalcounty.gov/directory.aspx",
+        "https://comalcounty.gov/Directory.aspx",
+        "https://comalcounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:contracosta.ca.gov",
+      "host": "contracosta.ca.gov",
+      "submitted_urls": [
+        "https://contracosta.ca.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://contracosta.ca.gov/m/directory",
+        "https://contracosta.ca.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:cortlandcountyny.gov",
+      "host": "cortlandcountyny.gov",
+      "submitted_urls": [
+        "https://cortlandcountyny.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://cortlandcountyny.gov/m/directory",
+        "https://cortlandcountyny.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:countyofcolusaca.gov",
+      "host": "countyofcolusaca.gov",
+      "submitted_urls": [
+        "https://countyofcolusaca.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://countyofcolusaca.gov/m/directory/employee",
+        "https://countyofcolusaca.gov/Directory.aspx",
+        "https://countyofcolusaca.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:coweta.ga.us",
+      "host": "coweta.ga.us",
+      "submitted_urls": [
+        "https://coweta.ga.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://coweta.ga.us/m/directory",
+        "https://coweta.ga.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:cowtx.org",
+      "host": "cowtx.org",
+      "submitted_urls": [
+        "https://cowtx.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://cowtx.org/directory.aspx",
+        "https://cowtx.org/Directory.aspx",
+        "https://cowtx.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:dallascountyiowa.gov",
+      "host": "dallascountyiowa.gov",
+      "submitted_urls": [
+        "https://dallascountyiowa.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://dallascountyiowa.gov/directory.aspx",
+        "https://dallascountyiowa.gov/Directory.aspx",
+        "https://dallascountyiowa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:danville.ca.gov",
+      "host": "danville.ca.gov",
+      "submitted_urls": [
+        "https://danville.ca.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://danville.ca.gov/m/directory",
+        "https://danville.ca.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:douglascountyor.gov",
+      "host": "douglascountyor.gov",
+      "submitted_urls": [
+        "https://douglascountyor.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://douglascountyor.gov/Directory.aspx",
+        "https://douglascountyor.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:elbertcounty-co.gov",
+      "host": "elbertcounty-co.gov",
+      "submitted_urls": [
+        "https://elbertcounty-co.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://elbertcounty-co.gov/m/directory",
+        "https://elbertcounty-co.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:escambiaclerk.com",
+      "host": "escambiaclerk.com",
+      "submitted_urls": [
+        "https://escambiaclerk.com/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://escambiaclerk.com/Directory.aspx",
+        "https://escambiaclerk.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:fairburn.com",
+      "host": "fairburn.com",
+      "submitted_urls": [
+        "https://fairburn.com/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://fairburn.com/Directory.aspx",
+        "https://fairburn.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:fayettecountypa.org",
+      "host": "fayettecountypa.org",
+      "submitted_urls": [
+        "https://fayettecountypa.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://fayettecountypa.org/directory.aspx",
+        "https://fayettecountypa.org/Directory.aspx",
+        "https://fayettecountypa.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:fontanaca.gov",
+      "host": "fontanaca.gov",
+      "submitted_urls": [
+        "https://fontanaca.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://fontanaca.gov/Directory.aspx",
+        "https://fontanaca.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:fultoncountyoh.com",
+      "host": "fultoncountyoh.com",
+      "submitted_urls": [
+        "https://fultoncountyoh.com/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://fultoncountyoh.com/directory.aspx",
+        "https://fultoncountyoh.com/Directory.aspx",
+        "https://fultoncountyoh.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:gallatinmt.gov",
+      "host": "gallatinmt.gov",
+      "submitted_urls": [
+        "https://gallatinmt.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://gallatinmt.gov/directory.aspx",
+        "https://gallatinmt.gov/Directory.aspx",
+        "https://gallatinmt.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:gallatintn.gov",
+      "host": "gallatintn.gov",
+      "submitted_urls": [
+        "https://gallatintn.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://gallatintn.gov/Directory.aspx",
+        "https://gallatintn.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:gordoncountyga.gov",
+      "host": "gordoncountyga.gov",
+      "submitted_urls": [
+        "https://gordoncountyga.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://gordoncountyga.gov/Directory.aspx",
+        "https://gordoncountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:granvillecounty.org",
+      "host": "granvillecounty.org",
+      "submitted_urls": [
+        "https://granvillecounty.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://granvillecounty.org/directory.aspx",
+        "https://granvillecounty.org/Directory.aspx",
+        "https://granvillecounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:greenecountyohio.gov",
+      "host": "greenecountyohio.gov",
+      "submitted_urls": [
+        "https://greenecountyohio.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://greenecountyohio.gov/m/directory",
+        "https://greenecountyohio.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:hallcounty.org",
+      "host": "hallcounty.org",
+      "submitted_urls": [
+        "https://hallcounty.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://hallcounty.org/m/directory",
+        "https://hallcounty.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:haywoodcountync.gov",
+      "host": "haywoodcountync.gov",
+      "submitted_urls": [
+        "https://haywoodcountync.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://haywoodcountync.gov/m/Directory",
+        "https://haywoodcountync.gov/Directory.aspx",
+        "https://haywoodcountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:health.frederickcountymd.gov",
+      "host": "health.frederickcountymd.gov",
+      "submitted_urls": [
+        "https://health.frederickcountymd.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://health.frederickcountymd.gov/m/directory",
+        "https://health.frederickcountymd.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:hokecounty.net",
+      "host": "hokecounty.net",
+      "submitted_urls": [
+        "https://hokecounty.net/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://hokecounty.net/Directory.aspx",
+        "https://hokecounty.net/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:humboldtcountynv.gov",
+      "host": "humboldtcountynv.gov",
+      "submitted_urls": [
+        "https://humboldtcountynv.gov/Directory.aspx",
+        "https://humboldtcountynv.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://humboldtcountynv.gov/Directory.aspx",
+        "https://humboldtcountynv.gov/m/directory",
+        "https://humboldtcountynv.gov/m/directory/employee"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:iredellcountync.gov",
+      "host": "iredellcountync.gov",
+      "submitted_urls": [
+        "https://iredellcountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://iredellcountync.gov/m/directory",
+        "https://iredellcountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:jacksoncounty-il.gov",
+      "host": "jacksoncounty-il.gov",
+      "submitted_urls": [
+        "https://jacksoncounty-il.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://jacksoncounty-il.gov/Directory.aspx",
+        "https://jacksoncounty-il.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:jacksoncountyal.gov",
+      "host": "jacksoncountyal.gov",
+      "submitted_urls": [
+        "https://jacksoncountyal.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://jacksoncountyal.gov/Directory.aspx",
+        "https://jacksoncountyal.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:jamescitycountyva.gov",
+      "host": "jamescitycountyva.gov",
+      "submitted_urls": [
+        "https://jamescitycountyva.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://jamescitycountyva.gov/directory.aspx",
+        "https://jamescitycountyva.gov/Directory.aspx",
+        "https://jamescitycountyva.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:jeromecountyid.us",
+      "host": "jeromecountyid.us",
+      "submitted_urls": [
+        "https://jeromecountyid.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://jeromecountyid.us/m/directory",
+        "https://jeromecountyid.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:jonesboroar.gov",
+      "host": "jonesboroar.gov",
+      "submitted_urls": [
+        "https://jonesboroar.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://jonesboroar.gov/m/directory",
+        "https://jonesboroar.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:kane.utah.gov",
+      "host": "kane.utah.gov",
+      "submitted_urls": [
+        "https://kane.utah.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://kane.utah.gov/directory.aspx",
+        "https://kane.utah.gov/Directory.aspx",
+        "https://kane.utah.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:kentcountymi.gov",
+      "host": "kentcountymi.gov",
+      "submitted_urls": [
+        "https://kentcountymi.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://kentcountymi.gov/directory.aspx",
+        "https://kentcountymi.gov/Directory.aspx",
+        "https://kentcountymi.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:klickitatcounty.gov",
+      "host": "klickitatcounty.gov",
+      "submitted_urls": [
+        "https://klickitatcounty.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://klickitatcounty.gov/m/directory/employee",
+        "https://klickitatcounty.gov/Directory.aspx",
+        "https://klickitatcounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:lakecountyco.com",
+      "host": "lakecountyco.com",
+      "submitted_urls": [
+        "https://lakecountyco.com/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://lakecountyco.com/Directory.aspx",
+        "https://lakecountyco.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:lancastercountysc.gov",
+      "host": "lancastercountysc.gov",
+      "submitted_urls": [
+        "https://lancastercountysc.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://lancastercountysc.gov/directory.aspx",
+        "https://lancastercountysc.gov/Directory.aspx",
+        "https://lancastercountysc.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:lawrencecounty.in.gov",
+      "host": "lawrencecounty.in.gov",
+      "submitted_urls": [
+        "https://lawrencecounty.in.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://lawrencecounty.in.gov/m/directory",
+        "https://lawrencecounty.in.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:lesueurcounty.gov",
+      "host": "lesueurcounty.gov",
+      "submitted_urls": [
+        "https://lesueurcounty.gov/Directory.aspx",
+        "https://lesueurcounty.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://lesueurcounty.gov/Directory.aspx",
+        "https://lesueurcounty.gov/m/directory",
+        "https://lesueurcounty.gov/m/directory/employee"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:lincolncountync.gov",
+      "host": "lincolncountync.gov",
+      "submitted_urls": [
+        "https://lincolncountync.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://lincolncountync.gov/directory.aspx",
+        "https://lincolncountync.gov/Directory.aspx",
+        "https://lincolncountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:linncountyiowa.gov",
+      "host": "linncountyiowa.gov",
+      "submitted_urls": [
+        "https://linncountyiowa.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://linncountyiowa.gov/m/directory",
+        "https://linncountyiowa.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:logancountyok.com",
+      "host": "logancountyok.com",
+      "submitted_urls": [
+        "https://logancountyok.com/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://logancountyok.com/Directory.aspx",
+        "https://logancountyok.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:lynchburgva.gov",
+      "host": "lynchburgva.gov",
+      "submitted_urls": [
+        "https://lynchburgva.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://lynchburgva.gov/directory.aspx",
+        "https://lynchburgva.gov/Directory.aspx",
+        "https://lynchburgva.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:martindale.texas.gov",
+      "host": "martindale.texas.gov",
+      "submitted_urls": [
+        "https://martindale.texas.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://martindale.texas.gov/Directory.aspx",
+        "https://martindale.texas.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:mauicounty.gov",
+      "host": "mauicounty.gov",
+      "submitted_urls": [
+        "https://mauicounty.gov/Directory.aspx",
+        "https://mauicounty.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://mauicounty.gov/Directory.aspx",
+        "https://mauicounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:mccall.id.us",
+      "host": "mccall.id.us",
+      "submitted_urls": [
+        "https://mccall.id.us/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://mccall.id.us/Directory.aspx",
+        "https://mccall.id.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:mcleancountyil.gov",
+      "host": "mcleancountyil.gov",
+      "submitted_urls": [
+        "https://mcleancountyil.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://mcleancountyil.gov/directory.aspx",
+        "https://mcleancountyil.gov/Directory.aspx",
+        "https://mcleancountyil.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:mcphersoncountyks.us",
+      "host": "mcphersoncountyks.us",
+      "submitted_urls": [
+        "https://mcphersoncountyks.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://mcphersoncountyks.us/directory.aspx",
+        "https://mcphersoncountyks.us/Directory.aspx",
+        "https://mcphersoncountyks.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:miamicountyohio.gov",
+      "host": "miamicountyohio.gov",
+      "submitted_urls": [
+        "https://miamicountyohio.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://miamicountyohio.gov/Directory.aspx",
+        "https://miamicountyohio.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:moberlymo.org",
+      "host": "moberlymo.org",
+      "submitted_urls": [
+        "https://moberlymo.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://moberlymo.org/Directory.aspx",
+        "https://moberlymo.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:morrisoncountymn.gov",
+      "host": "morrisoncountymn.gov",
+      "submitted_urls": [
+        "https://morrisoncountymn.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://morrisoncountymn.gov/directory.aspx",
+        "https://morrisoncountymn.gov/Directory.aspx",
+        "https://morrisoncountymn.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:onslowcountync.gov",
+      "host": "onslowcountync.gov",
+      "submitted_urls": [
+        "https://onslowcountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://onslowcountync.gov/m/directory",
+        "https://onslowcountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:orangecountync.gov",
+      "host": "orangecountync.gov",
+      "submitted_urls": [
+        "https://orangecountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://orangecountync.gov/m/directory",
+        "https://orangecountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:ozaukeecounty.gov",
+      "host": "ozaukeecounty.gov",
+      "submitted_urls": [
+        "https://ozaukeecounty.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://ozaukeecounty.gov/m/directory/employee",
+        "https://ozaukeecounty.gov/Directory.aspx",
+        "https://ozaukeecounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:parks.hamiltontn.gov",
+      "host": "parks.hamiltontn.gov",
+      "submitted_urls": [
+        "https://parks.hamiltontn.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://parks.hamiltontn.gov/directory.aspx",
+        "https://parks.hamiltontn.gov/Directory.aspx",
+        "https://parks.hamiltontn.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:paulding.gov",
+      "host": "paulding.gov",
+      "submitted_urls": [
+        "https://paulding.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://paulding.gov/m/directory",
+        "https://paulding.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:pendercountync.gov",
+      "host": "pendercountync.gov",
+      "submitted_urls": [
+        "https://pendercountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://pendercountync.gov/m/directory",
+        "https://pendercountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:pickenscountyga.gov",
+      "host": "pickenscountyga.gov",
+      "submitted_urls": [
+        "https://pickenscountyga.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://pickenscountyga.gov/directory.aspx",
+        "https://pickenscountyga.gov/Directory.aspx",
+        "https://pickenscountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:pittcountync.gov",
+      "host": "pittcountync.gov",
+      "submitted_urls": [
+        "https://pittcountync.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://pittcountync.gov/directory.aspx",
+        "https://pittcountync.gov/Directory.aspx",
+        "https://pittcountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:placentia.org",
+      "host": "placentia.org",
+      "submitted_urls": [
+        "https://placentia.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://placentia.org/Directory.aspx",
+        "https://placentia.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:provo.gov",
+      "host": "provo.gov",
+      "submitted_urls": [
+        "https://provo.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://provo.gov/Directory.aspx",
+        "https://provo.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:pueblo.us",
+      "host": "pueblo.us",
+      "submitted_urls": [
+        "https://pueblo.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://pueblo.us/directory.aspx",
+        "https://pueblo.us/Directory.aspx",
+        "https://pueblo.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:qac.org",
+      "host": "qac.org",
+      "submitted_urls": [
+        "https://qac.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://qac.org/Directory.aspx",
+        "https://qac.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:randolphcountync.gov",
+      "host": "randolphcountync.gov",
+      "submitted_urls": [
+        "https://randolphcountync.gov/directory.aspx",
+        "https://randolphcountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://randolphcountync.gov/directory.aspx",
+        "https://randolphcountync.gov/Directory.aspx",
+        "https://randolphcountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:rockwallcountytexas.com",
+      "host": "rockwallcountytexas.com",
+      "submitted_urls": [
+        "https://rockwallcountytexas.com/Directory.aspx",
+        "https://rockwallcountytexas.com/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://rockwallcountytexas.com/Directory.aspx",
+        "https://rockwallcountytexas.com/m/directory",
+        "https://rockwallcountytexas.com/m/directory/department"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:rowancountync.gov",
+      "host": "rowancountync.gov",
+      "submitted_urls": [
+        "https://rowancountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://rowancountync.gov/m/directory",
+        "https://rowancountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:sanfordnc.net",
+      "host": "sanfordnc.net",
+      "submitted_urls": [
+        "https://sanfordnc.net/m/directory"
+      ],
+      "entry_urls": [
+        "https://sanfordnc.net/m/directory",
+        "https://sanfordnc.net/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:sanjuancountywa.gov",
+      "host": "sanjuancountywa.gov",
+      "submitted_urls": [
+        "https://sanjuancountywa.gov/directory.aspx",
+        "https://sanjuancountywa.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://sanjuancountywa.gov/directory.aspx",
+        "https://sanjuancountywa.gov/Directory.aspx",
+        "https://sanjuancountywa.gov/m/directory",
+        "https://sanjuancountywa.gov/m/Directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:sanmiguelcountyco.gov",
+      "host": "sanmiguelcountyco.gov",
+      "submitted_urls": [
+        "https://sanmiguelcountyco.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://sanmiguelcountyco.gov/m/directory",
+        "https://sanmiguelcountyco.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:sccwi.gov",
+      "host": "sccwi.gov",
+      "submitted_urls": [
+        "https://sccwi.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://sccwi.gov/m/directory",
+        "https://sccwi.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:shawneecourt.org",
+      "host": "shawneecourt.org",
+      "submitted_urls": [
+        "https://shawneecourt.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://shawneecourt.org/directory.aspx",
+        "https://shawneecourt.org/Directory.aspx",
+        "https://shawneecourt.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:shelbyal.com",
+      "host": "shelbyal.com",
+      "submitted_urls": [
+        "https://shelbyal.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://shelbyal.com/m/directory",
+        "https://shelbyal.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:smith-county.com",
+      "host": "smith-county.com",
+      "submitted_urls": [
+        "https://smith-county.com/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://smith-county.com/Directory.aspx",
+        "https://smith-county.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:southernshores-nc.gov",
+      "host": "southernshores-nc.gov",
+      "submitted_urls": [
+        "https://southernshores-nc.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://southernshores-nc.gov/m/directory/employee",
+        "https://southernshores-nc.gov/Directory.aspx",
+        "https://southernshores-nc.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:spokanecounty.gov",
+      "host": "spokanecounty.gov",
+      "submitted_urls": [
+        "https://spokanecounty.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://spokanecounty.gov/directory.aspx",
+        "https://spokanecounty.gov/Directory.aspx",
+        "https://spokanecounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:spotsylvania.va.us",
+      "host": "spotsylvania.va.us",
+      "submitted_urls": [
+        "https://spotsylvania.va.us/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://spotsylvania.va.us/Directory.aspx",
+        "https://spotsylvania.va.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:storycountyiowa.gov",
+      "host": "storycountyiowa.gov",
+      "submitted_urls": [
+        "https://storycountyiowa.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://storycountyiowa.gov/m/directory/employee",
+        "https://storycountyiowa.gov/Directory.aspx",
+        "https://storycountyiowa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:sullivancountynh.gov",
+      "host": "sullivancountynh.gov",
+      "submitted_urls": [
+        "https://sullivancountynh.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://sullivancountynh.gov/Directory.aspx",
+        "https://sullivancountynh.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:tellercounty.gov",
+      "host": "tellercounty.gov",
+      "submitted_urls": [
+        "https://tellercounty.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://tellercounty.gov/m/directory",
+        "https://tellercounty.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:tippecanoe.in.gov",
+      "host": "tippecanoe.in.gov",
+      "submitted_urls": [
+        "https://tippecanoe.in.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://tippecanoe.in.gov/m/directory",
+        "https://tippecanoe.in.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:torringtonct.gov",
+      "host": "torringtonct.gov",
+      "submitted_urls": [
+        "https://torringtonct.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://torringtonct.gov/directory.aspx",
+        "https://torringtonct.gov/Directory.aspx",
+        "https://torringtonct.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:va-loudouncounty.civicplus.com",
+      "host": "va-loudouncounty.civicplus.com",
+      "submitted_urls": [
+        "https://va-loudouncounty.civicplus.com/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://va-loudouncounty.civicplus.com/directory.aspx",
+        "https://va-loudouncounty.civicplus.com/Directory.aspx",
+        "https://va-loudouncounty.civicplus.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:warrencountypa.gov",
+      "host": "warrencountypa.gov",
+      "submitted_urls": [
+        "https://warrencountypa.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://warrencountypa.gov/Directory.aspx",
+        "https://warrencountypa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:washingtoncounty.iowa.gov",
+      "host": "washingtoncounty.iowa.gov",
+      "submitted_urls": [
+        "https://washingtoncounty.iowa.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://washingtoncounty.iowa.gov/m/directory/employee",
+        "https://washingtoncounty.iowa.gov/Directory.aspx",
+        "https://washingtoncounty.iowa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:waynegov.com",
+      "host": "waynegov.com",
+      "submitted_urls": [
+        "https://waynegov.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://waynegov.com/m/directory",
+        "https://waynegov.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:westmoreland-county.org",
+      "host": "westmoreland-county.org",
+      "submitted_urls": [
+        "https://westmoreland-county.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://westmoreland-county.org/directory.aspx",
+        "https://westmoreland-county.org/Directory.aspx",
+        "https://westmoreland-county.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:whatcomcounty.us",
+      "host": "whatcomcounty.us",
+      "submitted_urls": [
+        "https://whatcomcounty.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://whatcomcounty.us/m/directory",
+        "https://whatcomcounty.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:whitecountyga.gov",
+      "host": "whitecountyga.gov",
+      "submitted_urls": [
+        "https://whitecountyga.gov/directory.aspx",
+        "https://whitecountyga.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://whitecountyga.gov/directory.aspx",
+        "https://whitecountyga.gov/Directory.aspx",
+        "https://whitecountyga.gov/m/directory",
+        "https://whitecountyga.gov/m/directory/employee"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:whitesidecountyil.gov",
+      "host": "whitesidecountyil.gov",
+      "submitted_urls": [
+        "https://whitesidecountyil.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://whitesidecountyil.gov/directory.aspx",
+        "https://whitesidecountyil.gov/Directory.aspx",
+        "https://whitesidecountyil.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:wilsoncountytn.gov",
+      "host": "wilsoncountytn.gov",
+      "submitted_urls": [
+        "https://wilsoncountytn.gov/directory.aspx",
+        "https://wilsoncountytn.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://wilsoncountytn.gov/directory.aspx",
+        "https://wilsoncountytn.gov/Directory.aspx",
+        "https://wilsoncountytn.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:wisecounty.org",
+      "host": "wisecounty.org",
+      "submitted_urls": [
+        "https://wisecounty.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://wisecounty.org/Directory.aspx",
+        "https://wisecounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:woodcountyohio.gov",
+      "host": "woodcountyohio.gov",
+      "submitted_urls": [
+        "https://woodcountyohio.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://woodcountyohio.gov/Directory.aspx",
+        "https://woodcountyohio.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.accgov.com",
+      "host": "www.accgov.com",
+      "submitted_urls": [
+        "https://www.accgov.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.accgov.com/m/directory",
+        "https://www.accgov.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.allencounty.in.gov",
+      "host": "www.allencounty.in.gov",
+      "submitted_urls": [
+        "https://www.allencounty.in.gov/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.allencounty.in.gov/m/directory/department",
+        "https://www.allencounty.in.gov/Directory.aspx",
+        "https://www.allencounty.in.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.augustaga.gov",
+      "host": "www.augustaga.gov",
+      "submitted_urls": [
+        "https://www.augustaga.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.augustaga.gov/m/directory",
+        "https://www.augustaga.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.barrington.ri.gov",
+      "host": "www.barrington.ri.gov",
+      "submitted_urls": [
+        "https://www.barrington.ri.gov/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.barrington.ri.gov/m/directory/department",
+        "https://www.barrington.ri.gov/Directory.aspx",
+        "https://www.barrington.ri.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.beaufortcountync.gov",
+      "host": "www.beaufortcountync.gov",
+      "submitted_urls": [
+        "https://www.beaufortcountync.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.beaufortcountync.gov/m/directory",
+        "https://www.beaufortcountync.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.billingscountynd.gov",
+      "host": "www.billingscountynd.gov",
+      "submitted_urls": [
+        "https://www.billingscountynd.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.billingscountynd.gov/m/directory",
+        "https://www.billingscountynd.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.blackhawkcounty.iowa.gov",
+      "host": "www.blackhawkcounty.iowa.gov",
+      "submitted_urls": [
+        "https://www.blackhawkcounty.iowa.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.blackhawkcounty.iowa.gov/Directory.aspx",
+        "https://www.blackhawkcounty.iowa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.bransonparksandrecreation.com",
+      "host": "www.bransonparksandrecreation.com",
+      "submitted_urls": [
+        "https://www.bransonparksandrecreation.com/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.bransonparksandrecreation.com/m/directory/employee",
+        "https://www.bransonparksandrecreation.com/Directory.aspx",
+        "https://www.bransonparksandrecreation.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.buttecounty.net",
+      "host": "www.buttecounty.net",
+      "submitted_urls": [
+        "https://www.buttecounty.net/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.buttecounty.net/m/directory",
+        "https://www.buttecounty.net/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.carrollcountyga.gov",
+      "host": "www.carrollcountyga.gov",
+      "submitted_urls": [
+        "https://www.carrollcountyga.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.carrollcountyga.gov/m/Directory",
+        "https://www.carrollcountyga.gov/Directory.aspx",
+        "https://www.carrollcountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.centrecountypa.gov",
+      "host": "www.centrecountypa.gov",
+      "submitted_urls": [
+        "https://www.centrecountypa.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.centrecountypa.gov/m/directory",
+        "https://www.centrecountypa.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.citrusclerk.org",
+      "host": "www.citrusclerk.org",
+      "submitted_urls": [
+        "https://www.citrusclerk.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.citrusclerk.org/m/directory",
+        "https://www.citrusclerk.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.cityofwickliffe.com",
+      "host": "www.cityofwickliffe.com",
+      "submitted_urls": [
+        "https://www.cityofwickliffe.com/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.cityofwickliffe.com/m/Directory",
+        "https://www.cityofwickliffe.com/Directory.aspx",
+        "https://www.cityofwickliffe.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.clatsopcounty.gov",
+      "host": "www.clatsopcounty.gov",
+      "submitted_urls": [
+        "https://www.clatsopcounty.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.clatsopcounty.gov/m/directory",
+        "https://www.clatsopcounty.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.claycountymo.gov",
+      "host": "www.claycountymo.gov",
+      "submitted_urls": [
+        "https://www.claycountymo.gov/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.claycountymo.gov/m/directory/department",
+        "https://www.claycountymo.gov/Directory.aspx",
+        "https://www.claycountymo.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.clinton-county.org",
+      "host": "www.clinton-county.org",
+      "submitted_urls": [
+        "https://www.clinton-county.org/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.clinton-county.org/Directory.aspx",
+        "https://www.clinton-county.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.co.jackson.mi.us",
+      "host": "www.co.jackson.mi.us",
+      "submitted_urls": [
+        "https://www.co.jackson.mi.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.co.jackson.mi.us/m/directory",
+        "https://www.co.jackson.mi.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.co.jackson.ms.us",
+      "host": "www.co.jackson.ms.us",
+      "submitted_urls": [
+        "https://www.co.jackson.ms.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.co.jackson.ms.us/m/directory",
+        "https://www.co.jackson.ms.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.colecounty.org",
+      "host": "www.colecounty.org",
+      "submitted_urls": [
+        "https://www.colecounty.org/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.colecounty.org/m/directory/employee",
+        "https://www.colecounty.org/Directory.aspx",
+        "https://www.colecounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.columbiaco.com",
+      "host": "www.columbiaco.com",
+      "submitted_urls": [
+        "https://www.columbiaco.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.columbiaco.com/m/directory",
+        "https://www.columbiaco.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.contracosta.ca.gov",
+      "host": "www.contracosta.ca.gov",
+      "submitted_urls": [
+        "https://www.contracosta.ca.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.contracosta.ca.gov/m/directory/employee",
+        "https://www.contracosta.ca.gov/Directory.aspx",
+        "https://www.contracosta.ca.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.countyofmerced.com",
+      "host": "www.countyofmerced.com",
+      "submitted_urls": [
+        "https://www.countyofmerced.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.countyofmerced.com/m/directory",
+        "https://www.countyofmerced.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.coventry-ct.gov",
+      "host": "www.coventry-ct.gov",
+      "submitted_urls": [
+        "https://www.coventry-ct.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.coventry-ct.gov/m/directory",
+        "https://www.coventry-ct.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.daviecountync.gov",
+      "host": "www.daviecountync.gov",
+      "submitted_urls": [
+        "https://www.daviecountync.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.daviecountync.gov/m/Directory",
+        "https://www.daviecountync.gov/Directory.aspx",
+        "https://www.daviecountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.deschutescounty.gov",
+      "host": "www.deschutescounty.gov",
+      "submitted_urls": [
+        "https://www.deschutescounty.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.deschutescounty.gov/m/directory",
+        "https://www.deschutescounty.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.douglascountyga.gov",
+      "host": "www.douglascountyga.gov",
+      "submitted_urls": [
+        "https://www.douglascountyga.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.douglascountyga.gov/m/Directory",
+        "https://www.douglascountyga.gov/Directory.aspx",
+        "https://www.douglascountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.douglascountyor.gov",
+      "host": "www.douglascountyor.gov",
+      "submitted_urls": [
+        "https://www.douglascountyor.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.douglascountyor.gov/m/directory/employee",
+        "https://www.douglascountyor.gov/Directory.aspx",
+        "https://www.douglascountyor.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.douglascountywi.gov",
+      "host": "www.douglascountywi.gov",
+      "submitted_urls": [
+        "https://www.douglascountywi.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.douglascountywi.gov/m/directory",
+        "https://www.douglascountywi.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.dublin.ca.gov",
+      "host": "www.dublin.ca.gov",
+      "submitted_urls": [
+        "https://www.dublin.ca.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.dublin.ca.gov/m/directory",
+        "https://www.dublin.ca.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.epcounty.com",
+      "host": "www.epcounty.com",
+      "submitted_urls": [
+        "https://www.epcounty.com/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.epcounty.com/m/Directory",
+        "https://www.epcounty.com/Directory.aspx",
+        "https://www.epcounty.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.friscotexas.gov",
+      "host": "www.friscotexas.gov",
+      "submitted_urls": [
+        "https://www.friscotexas.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.friscotexas.gov/m/directory",
+        "https://www.friscotexas.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.fultoncountyoh.com",
+      "host": "www.fultoncountyoh.com",
+      "submitted_urls": [
+        "https://www.fultoncountyoh.com/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.fultoncountyoh.com/m/directory/employee",
+        "https://www.fultoncountyoh.com/Directory.aspx",
+        "https://www.fultoncountyoh.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.gastongov.com",
+      "host": "www.gastongov.com",
+      "submitted_urls": [
+        "https://www.gastongov.com/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.gastongov.com/m/directory",
+        "https://www.gastongov.com/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.gordoncountyga.gov",
+      "host": "www.gordoncountyga.gov",
+      "submitted_urls": [
+        "https://www.gordoncountyga.gov/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.gordoncountyga.gov/m/directory/department",
+        "https://www.gordoncountyga.gov/Directory.aspx",
+        "https://www.gordoncountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.hallcounty.org",
+      "host": "www.hallcounty.org",
+      "submitted_urls": [
+        "https://www.hallcounty.org/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.hallcounty.org/directory.aspx",
+        "https://www.hallcounty.org/Directory.aspx",
+        "https://www.hallcounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.hokecounty.net",
+      "host": "www.hokecounty.net",
+      "submitted_urls": [
+        "https://www.hokecounty.net/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.hokecounty.net/m/directory/employee",
+        "https://www.hokecounty.net/Directory.aspx",
+        "https://www.hokecounty.net/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.humboldtgov.org",
+      "host": "www.humboldtgov.org",
+      "submitted_urls": [
+        "https://www.humboldtgov.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.humboldtgov.org/m/directory",
+        "https://www.humboldtgov.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.jacksonnc.org",
+      "host": "www.jacksonnc.org",
+      "submitted_urls": [
+        "https://www.jacksonnc.org/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.jacksonnc.org/m/directory/department",
+        "https://www.jacksonnc.org/Directory.aspx",
+        "https://www.jacksonnc.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.jccal.org",
+      "host": "www.jccal.org",
+      "submitted_urls": [
+        "https://www.jccal.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.jccal.org/m/directory",
+        "https://www.jccal.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.kenoshacountywi.gov",
+      "host": "www.kenoshacountywi.gov",
+      "submitted_urls": [
+        "https://www.kenoshacountywi.gov/directory.aspx",
+        "https://www.kenoshacountywi.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.kenoshacountywi.gov/directory.aspx",
+        "https://www.kenoshacountywi.gov/Directory.aspx",
+        "https://www.kenoshacountywi.gov/m/directory",
+        "https://www.kenoshacountywi.gov/m/directory/employee"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.kentcountymi.gov",
+      "host": "www.kentcountymi.gov",
+      "submitted_urls": [
+        "https://www.kentcountymi.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.kentcountymi.gov/directory.aspx",
+        "https://www.kentcountymi.gov/Directory.aspx",
+        "https://www.kentcountymi.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.lasallecountyil.gov",
+      "host": "www.lasallecountyil.gov",
+      "submitted_urls": [
+        "https://www.lasallecountyil.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.lasallecountyil.gov/m/Directory",
+        "https://www.lasallecountyil.gov/Directory.aspx",
+        "https://www.lasallecountyil.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.libertycountyga.gov",
+      "host": "www.libertycountyga.gov",
+      "submitted_urls": [
+        "https://www.libertycountyga.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.libertycountyga.gov/m/directory",
+        "https://www.libertycountyga.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.losaltosca.gov",
+      "host": "www.losaltosca.gov",
+      "submitted_urls": [
+        "https://www.losaltosca.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.losaltosca.gov/directory.aspx",
+        "https://www.losaltosca.gov/Directory.aspx",
+        "https://www.losaltosca.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.malibucity.org",
+      "host": "www.malibucity.org",
+      "submitted_urls": [
+        "https://www.malibucity.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.malibucity.org/m/directory",
+        "https://www.malibucity.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.mauston.com",
+      "host": "www.mauston.com",
+      "submitted_urls": [
+        "https://www.mauston.com/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.mauston.com/m/directory/department",
+        "https://www.mauston.com/Directory.aspx",
+        "https://www.mauston.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.mcintoshcountyga.com",
+      "host": "www.mcintoshcountyga.com",
+      "submitted_urls": [
+        "https://www.mcintoshcountyga.com/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.mcintoshcountyga.com/m/directory/department",
+        "https://www.mcintoshcountyga.com/Directory.aspx",
+        "https://www.mcintoshcountyga.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.meadeco.org",
+      "host": "www.meadeco.org",
+      "submitted_urls": [
+        "https://www.meadeco.org/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.meadeco.org/m/Directory",
+        "https://www.meadeco.org/Directory.aspx",
+        "https://www.meadeco.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.methuen.gov",
+      "host": "www.methuen.gov",
+      "submitted_urls": [
+        "https://www.methuen.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.methuen.gov/m/directory/employee",
+        "https://www.methuen.gov/Directory.aspx",
+        "https://www.methuen.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.monocounty.ca.gov",
+      "host": "www.monocounty.ca.gov",
+      "submitted_urls": [
+        "https://www.monocounty.ca.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.monocounty.ca.gov/m/directory/employee",
+        "https://www.monocounty.ca.gov/Directory.aspx",
+        "https://www.monocounty.ca.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.morgancountyga.gov",
+      "host": "www.morgancountyga.gov",
+      "submitted_urls": [
+        "https://www.morgancountyga.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.morgancountyga.gov/m/directory",
+        "https://www.morgancountyga.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.morriscountyks.org",
+      "host": "www.morriscountyks.org",
+      "submitted_urls": [
+        "https://www.morriscountyks.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.morriscountyks.org/m/directory",
+        "https://www.morriscountyks.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.napacounty.gov",
+      "host": "www.napacounty.gov",
+      "submitted_urls": [
+        "https://www.napacounty.gov/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.napacounty.gov/directory.aspx",
+        "https://www.napacounty.gov/Directory.aspx",
+        "https://www.napacounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.normalil.gov",
+      "host": "www.normalil.gov",
+      "submitted_urls": [
+        "https://www.normalil.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.normalil.gov/m/directory",
+        "https://www.normalil.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.oconeecountyga.gov",
+      "host": "www.oconeecountyga.gov",
+      "submitted_urls": [
+        "https://www.oconeecountyga.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.oconeecountyga.gov/m/directory",
+        "https://www.oconeecountyga.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.orangecountync.gov",
+      "host": "www.orangecountync.gov",
+      "submitted_urls": [
+        "https://www.orangecountync.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.orangecountync.gov/m/directory/employee",
+        "https://www.orangecountync.gov/Directory.aspx",
+        "https://www.orangecountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.pahrumpnv.gov",
+      "host": "www.pahrumpnv.gov",
+      "submitted_urls": [
+        "https://www.pahrumpnv.gov/m/directory/department"
+      ],
+      "entry_urls": [
+        "https://www.pahrumpnv.gov/m/directory/department",
+        "https://www.pahrumpnv.gov/Directory.aspx",
+        "https://www.pahrumpnv.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.pendercountync.gov",
+      "host": "www.pendercountync.gov",
+      "submitted_urls": [
+        "https://www.pendercountync.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.pendercountync.gov/Directory.aspx",
+        "https://www.pendercountync.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.peoriacounty.gov",
+      "host": "www.peoriacounty.gov",
+      "submitted_urls": [
+        "https://www.peoriacounty.gov/directory.aspx",
+        "https://www.peoriacounty.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.peoriacounty.gov/directory.aspx",
+        "https://www.peoriacounty.gov/Directory.aspx",
+        "https://www.peoriacounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.placer.ca.gov",
+      "host": "www.placer.ca.gov",
+      "submitted_urls": [
+        "https://www.placer.ca.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.placer.ca.gov/m/directory",
+        "https://www.placer.ca.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.prattcounty.org",
+      "host": "www.prattcounty.org",
+      "submitted_urls": [
+        "https://www.prattcounty.org/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.prattcounty.org/m/Directory",
+        "https://www.prattcounty.org/Directory.aspx",
+        "https://www.prattcounty.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.rockwallcountytexas.com",
+      "host": "www.rockwallcountytexas.com",
+      "submitted_urls": [
+        "https://www.rockwallcountytexas.com/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.rockwallcountytexas.com/m/directory/employee",
+        "https://www.rockwallcountytexas.com/Directory.aspx",
+        "https://www.rockwallcountytexas.com/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.sanbernardino.gov",
+      "host": "www.sanbernardino.gov",
+      "submitted_urls": [
+        "https://www.sanbernardino.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.sanbernardino.gov/m/directory",
+        "https://www.sanbernardino.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.sccmo.org",
+      "host": "www.sccmo.org",
+      "submitted_urls": [
+        "https://www.sccmo.org/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.sccmo.org/m/directory",
+        "https://www.sccmo.org/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.tellercounty.gov",
+      "host": "www.tellercounty.gov",
+      "submitted_urls": [
+        "https://www.tellercounty.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.tellercounty.gov/m/directory/employee",
+        "https://www.tellercounty.gov/Directory.aspx",
+        "https://www.tellercounty.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.unioncountyga.gov",
+      "host": "www.unioncountyga.gov",
+      "submitted_urls": [
+        "https://www.unioncountyga.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://www.unioncountyga.gov/Directory.aspx",
+        "https://www.unioncountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.votepinellas.gov",
+      "host": "www.votepinellas.gov",
+      "submitted_urls": [
+        "https://www.votepinellas.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.votepinellas.gov/m/directory",
+        "https://www.votepinellas.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.waltoncountyga.gov",
+      "host": "www.waltoncountyga.gov",
+      "submitted_urls": [
+        "https://www.waltoncountyga.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.waltoncountyga.gov/m/directory/employee",
+        "https://www.waltoncountyga.gov/Directory.aspx",
+        "https://www.waltoncountyga.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.webbcountytx.gov",
+      "host": "www.webbcountytx.gov",
+      "submitted_urls": [
+        "https://www.webbcountytx.gov/m/Directory"
+      ],
+      "entry_urls": [
+        "https://www.webbcountytx.gov/m/Directory",
+        "https://www.webbcountytx.gov/Directory.aspx",
+        "https://www.webbcountytx.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.whitpaintownship.org",
+      "host": "www.whitpaintownship.org",
+      "submitted_urls": [
+        "https://www.whitpaintownship.org/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.whitpaintownship.org/m/directory/employee",
+        "https://www.whitpaintownship.org/Directory.aspx",
+        "https://www.whitpaintownship.org/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.wilsoncountytn.gov",
+      "host": "www.wilsoncountytn.gov",
+      "submitted_urls": [
+        "https://www.wilsoncountytn.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.wilsoncountytn.gov/m/directory/employee",
+        "https://www.wilsoncountytn.gov/Directory.aspx",
+        "https://www.wilsoncountytn.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.woodcountyohio.gov",
+      "host": "www.woodcountyohio.gov",
+      "submitted_urls": [
+        "https://www.woodcountyohio.gov/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.woodcountyohio.gov/m/directory",
+        "https://www.woodcountyohio.gov/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.yakimacounty.us",
+      "host": "www.yakimacounty.us",
+      "submitted_urls": [
+        "https://www.yakimacounty.us/m/directory"
+      ],
+      "entry_urls": [
+        "https://www.yakimacounty.us/m/directory",
+        "https://www.yakimacounty.us/Directory.aspx"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:www.yorkcountypa.gov",
+      "host": "www.yorkcountypa.gov",
+      "submitted_urls": [
+        "https://www.yorkcountypa.gov/m/directory/employee"
+      ],
+      "entry_urls": [
+        "https://www.yorkcountypa.gov/m/directory/employee",
+        "https://www.yorkcountypa.gov/Directory.aspx",
+        "https://www.yorkcountypa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:yakimacounty.us",
+      "host": "yakimacounty.us",
+      "submitted_urls": [
+        "https://yakimacounty.us/directory.aspx"
+      ],
+      "entry_urls": [
+        "https://yakimacounty.us/directory.aspx",
+        "https://yakimacounty.us/Directory.aspx",
+        "https://yakimacounty.us/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    },
+    {
+      "source_key": "civicplus:yorkcountypa.gov",
+      "host": "yorkcountypa.gov",
+      "submitted_urls": [
+        "https://yorkcountypa.gov/Directory.aspx"
+      ],
+      "entry_urls": [
+        "https://yorkcountypa.gov/Directory.aspx",
+        "https://yorkcountypa.gov/m/directory"
+      ],
+      "discovery_method": "user_supplied",
+      "verified": false
+    }
+  ]
+}

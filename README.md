@@ -72,3 +72,7 @@ The server queries GovDir's free, unauthenticated `https://api.govdir.com/v1/pla
 - This is **live display**, not an import into Neon. Contacts from GovDir are not falsely labeled as employee-directory research or used to mark checklist categories complete.
 
 Integration files: `server/govdir.mjs`, `server/index.mjs`, `assets/js/govdir.js`, `assets/css/govdir.css`, `tests/govdir.test.mjs`. Run `npm test` for the test suite.
+
+## CivicPlus crawl and import
+
+See [CivicPlus execution instructions and measured results](data/civicplus/README.md) for the supplied 217-URL inventory, resumable concurrent crawler, incremental PostgreSQL importer, evidence and coverage tracking, and remaining production/network requirements.

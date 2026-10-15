@@ -1,0 +1,2102 @@
+{
+  "started_sources": 206,
+  "sources_with_pages": 0,
+  "profiles_fetched": 0,
+  "contacts_extracted": 0,
+  "retry": 206,
+  "review": 0,
+  "extracted": 0,
+  "production_database_verified": false,
+  "production_imports": 0,
+  "production_total_contacts": null,
+  "production_contacts_with_email": null,
+  "database_blocker": "DIRECTORY_DATABASE is not bound in the cloud machine or environment configuration",
+  "network_blocker": "HTTPS proxy/HTTP 403 for all 206 supplied hosts; search also blocked",
+  "local_validation": {
+    "registered_sources": 206,
+    "before": {
+      "contacts": 2829,
+      "with_email": 1941
+    },
+    "inserted": 0,
+    "updated": 0,
+    "duplicates": 0,
+    "rejected": 0,
+    "failed": 0,
+    "new_emails": 0,
+    "after": {
+      "contacts": 2829,
+      "with_email": 1941
+    }
+  },
+  "sources": [
+    {
+      "source_key": "civicplus:accgov.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779029+00:00",
+      "finished_at": "2026-10-15T10:02:56.306872+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:adaok.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779118+00:00",
+      "finished_at": "2026-10-15T10:02:56.812054+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:alamosacounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779181+00:00",
+      "finished_at": "2026-10-15T10:02:56.802773+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:berkeleywv.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779234+00:00",
+      "finished_at": "2026-10-15T10:02:56.813704+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:berriencounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779288+00:00",
+      "finished_at": "2026-10-15T10:02:56.312623+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:blueearthcountymn.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779339+00:00",
+      "finished_at": "2026-10-15T10:02:56.818475+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:botetourtva.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779390+00:00",
+      "finished_at": "2026-10-15T10:02:56.821984+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:boxeldercounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779435+00:00",
+      "finished_at": "2026-10-15T10:02:56.828969+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:boxeldercountyut.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779487+00:00",
+      "finished_at": "2026-10-15T10:02:56.836595+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:brunswickcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779579+00:00",
+      "finished_at": "2026-10-15T10:02:56.324217+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:buckscounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779644+00:00",
+      "finished_at": "2026-10-15T10:02:56.326106+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:capemaycountynj.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779694+00:00",
+      "finished_at": "2026-10-15T10:02:56.841804+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:carrollcountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779739+00:00",
+      "finished_at": "2026-10-15T10:02:56.848364+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:chamberscountytx.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779824+00:00",
+      "finished_at": "2026-10-15T10:02:56.852187+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:ci.millbrae.ca.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779877+00:00",
+      "finished_at": "2026-10-15T10:02:56.339504+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:cityofdelano.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.779926+00:00",
+      "finished_at": "2026-10-15T10:02:56.341607+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:cityofmilford.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.307124+00:00",
+      "finished_at": "2026-10-15T10:02:56.826403+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:cityofws.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.312797+00:00",
+      "finished_at": "2026-10-15T10:02:56.838195+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:claycountymo.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.324408+00:00",
+      "finished_at": "2026-10-15T10:02:57.330919+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:clearcreekcounty.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.326268+00:00",
+      "finished_at": "2026-10-15T10:02:57.338433+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:clinton-county.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.339775+00:00",
+      "finished_at": "2026-10-15T10:02:56.859129+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:co.burlington.nj.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.341772+00:00",
+      "finished_at": "2026-10-15T10:02:57.353258+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:co.camden.ga.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.790556+00:00",
+      "finished_at": "2026-10-15T10:02:57.800447+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:co.davidson.nc.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.794708+00:00",
+      "finished_at": "2026-10-15T10:02:57.300263+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:co.hunterdon.nj.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.796866+00:00",
+      "finished_at": "2026-10-15T10:02:57.810754+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:co.iron.wi.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.798644+00:00",
+      "finished_at": "2026-10-15T10:02:57.309006+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:co.martin.tx.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778452+00:00",
+      "finished_at": "2026-10-15T10:02:56.789975+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:co.monroe.mi.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.801592+00:00",
+      "finished_at": "2026-10-15T10:02:57.315814+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:co.shelby.oh.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.802984+00:00",
+      "finished_at": "2026-10-15T10:02:57.819765+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:co.winkler.tx.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.805678+00:00",
+      "finished_at": "2026-10-15T10:02:57.823692+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:coffeycountyks.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.807561+00:00",
+      "finished_at": "2026-10-15T10:02:57.827228+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:columbiacountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.810980+00:00",
+      "finished_at": "2026-10-15T10:02:57.328023+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:comalcounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.812308+00:00",
+      "finished_at": "2026-10-15T10:02:57.835099+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:contracosta.ca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.814055+00:00",
+      "finished_at": "2026-10-15T10:02:57.341776+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:cortlandcountyny.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.818818+00:00",
+      "finished_at": "2026-10-15T10:02:57.343399+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:countyofcolusaca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.822343+00:00",
+      "finished_at": "2026-10-15T10:02:57.846621+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:courthouse.kay.ok.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778613+00:00",
+      "finished_at": "2026-10-15T10:02:56.796554+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:coweta.ga.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.826694+00:00",
+      "finished_at": "2026-10-15T10:02:57.351065+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:cowtx.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.829290+00:00",
+      "finished_at": "2026-10-15T10:02:57.857712+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:dallascountyiowa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.836985+00:00",
+      "finished_at": "2026-10-15T10:02:57.863880+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:danville.ca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.838429+00:00",
+      "finished_at": "2026-10-15T10:02:57.362570+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:douglascountyor.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.843230+00:00",
+      "finished_at": "2026-10-15T10:02:57.366764+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:elbertcounty-co.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.848718+00:00",
+      "finished_at": "2026-10-15T10:02:57.368834+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:escambiaclerk.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.852640+00:00",
+      "finished_at": "2026-10-15T10:02:57.373000+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:fairburn.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:56.859306+00:00",
+      "finished_at": "2026-10-15T10:02:57.377166+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:fayettecountypa.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.300481+00:00",
+      "finished_at": "2026-10-15T10:02:58.308689+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:fontanaca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.309199+00:00",
+      "finished_at": "2026-10-15T10:02:57.817672+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:fultoncountyoh.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.316006+00:00",
+      "finished_at": "2026-10-15T10:02:58.320478+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:gallatinmt.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.328217+00:00",
+      "finished_at": "2026-10-15T10:02:58.334540+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:gallatintn.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.331182+00:00",
+      "finished_at": "2026-10-15T10:02:57.842152+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:gordoncountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.338789+00:00",
+      "finished_at": "2026-10-15T10:02:57.844637+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:granvillecounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.342032+00:00",
+      "finished_at": "2026-10-15T10:02:58.349795+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:greenecountyohio.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.343602+00:00",
+      "finished_at": "2026-10-15T10:02:57.859570+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:hallcounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.351243+00:00",
+      "finished_at": "2026-10-15T10:02:57.866341+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:haywoodcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.353531+00:00",
+      "finished_at": "2026-10-15T10:02:57.868490+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:health.frederickcountymd.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.362749+00:00",
+      "finished_at": "2026-10-15T10:02:57.873585+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:hokecounty.net",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.366995+00:00",
+      "finished_at": "2026-10-15T10:02:57.878379+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:humboldtcountynv.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.369006+00:00",
+      "finished_at": "2026-10-15T10:02:58.381036+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:iredellcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.373172+00:00",
+      "finished_at": "2026-10-15T10:02:57.883953+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:jacksoncounty-il.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.377333+00:00",
+      "finished_at": "2026-10-15T10:02:57.890257+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:jacksoncountyal.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.800938+00:00",
+      "finished_at": "2026-10-15T10:02:58.310601+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:jamescitycountyva.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.811085+00:00",
+      "finished_at": "2026-10-15T10:02:58.818044+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:jeromecountyid.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.817853+00:00",
+      "finished_at": "2026-10-15T10:02:58.323004+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:jonesboroar.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.820148+00:00",
+      "finished_at": "2026-10-15T10:02:58.327017+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:kane.utah.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.823947+00:00",
+      "finished_at": "2026-10-15T10:02:58.835259+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:kentcountymi.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.827622+00:00",
+      "finished_at": "2026-10-15T10:02:58.838667+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:klickitatcounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.835667+00:00",
+      "finished_at": "2026-10-15T10:02:58.843310+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:lakecountyco.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.842567+00:00",
+      "finished_at": "2026-10-15T10:02:58.347417+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:lancastercountysc.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.844914+00:00",
+      "finished_at": "2026-10-15T10:02:58.851412+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:lawrencecounty.in.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.846865+00:00",
+      "finished_at": "2026-10-15T10:02:58.357421+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:lesueurcounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.858087+00:00",
+      "finished_at": "2026-10-15T10:02:58.864448+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:lincolncountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.859757+00:00",
+      "finished_at": "2026-10-15T10:02:58.870311+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:linncountyiowa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.864195+00:00",
+      "finished_at": "2026-10-15T10:02:58.372356+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:logancountyok.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.866690+00:00",
+      "finished_at": "2026-10-15T10:02:58.377395+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:lynchburgva.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.868976+00:00",
+      "finished_at": "2026-10-15T10:02:58.883608+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:martindale.texas.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.873801+00:00",
+      "finished_at": "2026-10-15T10:02:58.387562+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:mauicounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.878761+00:00",
+      "finished_at": "2026-10-15T10:02:58.389196+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:mccall.id.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.884190+00:00",
+      "finished_at": "2026-10-15T10:02:58.395131+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:mcleancountyil.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:57.890461+00:00",
+      "finished_at": "2026-10-15T10:02:58.901097+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:mcphersoncountyks.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.309134+00:00",
+      "finished_at": "2026-10-15T10:02:59.317019+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:miamicountyohio.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.310778+00:00",
+      "finished_at": "2026-10-15T10:02:58.819479+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:moberlymo.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.321456+00:00",
+      "finished_at": "2026-10-15T10:02:58.826008+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:morrisoncountymn.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.323161+00:00",
+      "finished_at": "2026-10-15T10:02:59.332721+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:onslowcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.327183+00:00",
+      "finished_at": "2026-10-15T10:02:58.837129+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:orangecountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.334789+00:00",
+      "finished_at": "2026-10-15T10:02:58.844476+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:ozaukeecounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.347653+00:00",
+      "finished_at": "2026-10-15T10:02:59.356262+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:parks.hamiltontn.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.350120+00:00",
+      "finished_at": "2026-10-15T10:02:59.362734+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:paulding.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.357636+00:00",
+      "finished_at": "2026-10-15T10:02:58.866471+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:pendercountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.372594+00:00",
+      "finished_at": "2026-10-15T10:02:58.877865+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:pickenscountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.377601+00:00",
+      "finished_at": "2026-10-15T10:02:59.390696+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:pittcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.381318+00:00",
+      "finished_at": "2026-10-15T10:02:59.392552+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:placentia.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.388002+00:00",
+      "finished_at": "2026-10-15T10:02:58.895973+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:provo.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.389671+00:00",
+      "finished_at": "2026-10-15T10:02:58.902490+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:pueblo.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.395301+00:00",
+      "finished_at": "2026-10-15T10:02:59.402205+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:qac.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.818411+00:00",
+      "finished_at": "2026-10-15T10:02:59.323844+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:randolphcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.819737+00:00",
+      "finished_at": "2026-10-15T10:02:59.831552+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:rockwallcountytexas.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.826190+00:00",
+      "finished_at": "2026-10-15T10:02:59.835373+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:rowancountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.835614+00:00",
+      "finished_at": "2026-10-15T10:02:59.342155+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:sanfordnc.net",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.837291+00:00",
+      "finished_at": "2026-10-15T10:02:59.344870+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:sanjuancountywa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.838947+00:00",
+      "finished_at": "2026-10-15T10:03:00.353666+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 4
+      }
+    },
+    {
+      "source_key": "civicplus:sanmiguelcountyco.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.843645+00:00",
+      "finished_at": "2026-10-15T10:02:59.352411+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:sccwi.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.844651+00:00",
+      "finished_at": "2026-10-15T10:02:59.357569+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:shawneecourt.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.851763+00:00",
+      "finished_at": "2026-10-15T10:02:59.859867+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:shelbyal.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.864903+00:00",
+      "finished_at": "2026-10-15T10:02:59.369265+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:smith-county.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.866762+00:00",
+      "finished_at": "2026-10-15T10:02:59.375096+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:southernshores-nc.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.870963+00:00",
+      "finished_at": "2026-10-15T10:02:59.880618+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:spokanecounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.878074+00:00",
+      "finished_at": "2026-10-15T10:02:59.885965+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:spotsylvania.va.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.884105+00:00",
+      "finished_at": "2026-10-15T10:02:59.394461+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:storycountyiowa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.896173+00:00",
+      "finished_at": "2026-10-15T10:02:59.901766+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:sullivancountynh.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.901393+00:00",
+      "finished_at": "2026-10-15T10:02:59.409672+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:tellercounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:58.902699+00:00",
+      "finished_at": "2026-10-15T10:02:59.413708+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:tippecanoe.in.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.317464+00:00",
+      "finished_at": "2026-10-15T10:02:59.823621+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:torringtonct.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.324062+00:00",
+      "finished_at": "2026-10-15T10:03:00.330784+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:va-loudouncounty.civicplus.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.333099+00:00",
+      "finished_at": "2026-10-15T10:03:00.341021+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:warrencountypa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.342339+00:00",
+      "finished_at": "2026-10-15T10:02:59.846666+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:washingtoncounty.iowa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.345244+00:00",
+      "finished_at": "2026-10-15T10:03:00.360046+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:waynegov.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.352799+00:00",
+      "finished_at": "2026-10-15T10:02:59.862007+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:westmoreland-county.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.356619+00:00",
+      "finished_at": "2026-10-15T10:03:00.369797+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:whatcomcounty.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.357746+00:00",
+      "finished_at": "2026-10-15T10:02:59.872281+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:whitecountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.363017+00:00",
+      "finished_at": "2026-10-15T10:03:00.878739+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 4
+      }
+    },
+    {
+      "source_key": "civicplus:whitesidecountyil.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.369453+00:00",
+      "finished_at": "2026-10-15T10:03:00.385805+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:wilsoncountytn.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.375280+00:00",
+      "finished_at": "2026-10-15T10:03:00.390196+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:wisecounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.391124+00:00",
+      "finished_at": "2026-10-15T10:02:59.896779+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:woodcountyohio.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.393016+00:00",
+      "finished_at": "2026-10-15T10:02:59.903014+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.accgov.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.394870+00:00",
+      "finished_at": "2026-10-15T10:02:59.908624+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.allencounty.in.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.402606+00:00",
+      "finished_at": "2026-10-15T10:03:00.422586+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.augustaga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.409861+00:00",
+      "finished_at": "2026-10-15T10:02:59.919698+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.barrington.ri.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.413878+00:00",
+      "finished_at": "2026-10-15T10:03:00.830814+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.beaufortcountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.823835+00:00",
+      "finished_at": "2026-10-15T10:03:00.336900+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.billingscountynd.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.831794+00:00",
+      "finished_at": "2026-10-15T10:03:00.345932+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.blackhawkcounty.iowa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.835851+00:00",
+      "finished_at": "2026-10-15T10:03:00.352042+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.bransonparksandrecreation.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.846888+00:00",
+      "finished_at": "2026-10-15T10:03:00.854320+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.buttecounty.net",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.860373+00:00",
+      "finished_at": "2026-10-15T10:03:00.367340+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.canadiancounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778688+00:00",
+      "finished_at": "2026-10-15T10:02:56.794355+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.carrollcountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.862188+00:00",
+      "finished_at": "2026-10-15T10:03:00.374099+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.centrecountypa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.872463+00:00",
+      "finished_at": "2026-10-15T10:03:00.381189+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.citrusclerk.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.881230+00:00",
+      "finished_at": "2026-10-15T10:03:00.394291+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.cityofmonahans.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778754+00:00",
+      "finished_at": "2026-10-15T10:02:56.807211+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.cityofwasco.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778813+00:00",
+      "finished_at": "2026-10-15T10:02:56.810661+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.cityofwickliffe.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.886261+00:00",
+      "finished_at": "2026-10-15T10:03:00.398457+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.clatsopcounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.897064+00:00",
+      "finished_at": "2026-10-15T10:03:00.405605+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.claycountymo.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.902119+00:00",
+      "finished_at": "2026-10-15T10:03:00.914781+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.clinton-county.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.903222+00:00",
+      "finished_at": "2026-10-15T10:03:00.414962+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.co.jackson.mi.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.908788+00:00",
+      "finished_at": "2026-10-15T10:03:00.426217+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.co.jackson.ms.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:59.919881+00:00",
+      "finished_at": "2026-10-15T10:03:00.836624+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.co.koochiching.mn.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778870+00:00",
+      "finished_at": "2026-10-15T10:02:56.805334+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.colecounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.331374+00:00",
+      "finished_at": "2026-10-15T10:03:01.344624+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.columbiaco.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.337077+00:00",
+      "finished_at": "2026-10-15T10:03:00.850264+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.contracosta.ca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.341383+00:00",
+      "finished_at": "2026-10-15T10:03:01.361945+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.countyofmerced.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.346102+00:00",
+      "finished_at": "2026-10-15T10:03:00.860349+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.coventry-ct.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.352466+00:00",
+      "finished_at": "2026-10-15T10:03:00.864645+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.daviecountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.354110+00:00",
+      "finished_at": "2026-10-15T10:03:00.868392+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.deschutes.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778924+00:00",
+      "finished_at": "2026-10-15T10:02:56.798285+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.deschutescounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.360388+00:00",
+      "finished_at": "2026-10-15T10:03:00.874791+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.douglascountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.367550+00:00",
+      "finished_at": "2026-10-15T10:03:00.880649+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.douglascountyor.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.370178+00:00",
+      "finished_at": "2026-10-15T10:03:01.385616+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.douglascountywi.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.374434+00:00",
+      "finished_at": "2026-10-15T10:03:00.891463+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.dublin.ca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.381373+00:00",
+      "finished_at": "2026-10-15T10:03:00.894340+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.epcounty.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.386211+00:00",
+      "finished_at": "2026-10-15T10:03:00.898587+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.friscotexas.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.390690+00:00",
+      "finished_at": "2026-10-15T10:03:00.903104+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.fultoncountyoh.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.394812+00:00",
+      "finished_at": "2026-10-15T10:03:01.406466+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.gastongov.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.398785+00:00",
+      "finished_at": "2026-10-15T10:03:00.910866+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.gordoncountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.405784+00:00",
+      "finished_at": "2026-10-15T10:03:01.421338+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.hallcounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.415150+00:00",
+      "finished_at": "2026-10-15T10:03:01.424184+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.hokecounty.net",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.422986+00:00",
+      "finished_at": "2026-10-15T10:03:01.442139+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.humboldtgov.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.426403+00:00",
+      "finished_at": "2026-10-15T10:03:00.932053+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.jacksonnc.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.831310+00:00",
+      "finished_at": "2026-10-15T10:03:01.842610+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.jccal.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.836796+00:00",
+      "finished_at": "2026-10-15T10:03:01.347375+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.kenoshacountywi.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.850442+00:00",
+      "finished_at": "2026-10-15T10:03:02.357690+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 4
+      }
+    },
+    {
+      "source_key": "civicplus:www.kentcountymi.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.854727+00:00",
+      "finished_at": "2026-10-15T10:03:01.862707+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.lasallecountyil.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.860548+00:00",
+      "finished_at": "2026-10-15T10:03:01.368791+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.libertycountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.864826+00:00",
+      "finished_at": "2026-10-15T10:03:01.373004+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.losaltosca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.868706+00:00",
+      "finished_at": "2026-10-15T10:03:01.876320+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.malibucity.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.875068+00:00",
+      "finished_at": "2026-10-15T10:03:01.381623+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.mauston.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.879053+00:00",
+      "finished_at": "2026-10-15T10:03:01.886242+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.mcintoshcountyga.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.881032+00:00",
+      "finished_at": "2026-10-15T10:03:01.897369+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.meadeco.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.891817+00:00",
+      "finished_at": "2026-10-15T10:03:01.397035+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.methuen.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.894504+00:00",
+      "finished_at": "2026-10-15T10:03:01.903555+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.monocounty.ca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.898945+00:00",
+      "finished_at": "2026-10-15T10:03:01.906586+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.morgancountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.903324+00:00",
+      "finished_at": "2026-10-15T10:03:01.420274+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.morriscountyks.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.911044+00:00",
+      "finished_at": "2026-10-15T10:03:01.422936+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.napacounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.915191+00:00",
+      "finished_at": "2026-10-15T10:03:01.924030+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.normalil.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:00.932240+00:00",
+      "finished_at": "2026-10-15T10:03:01.451437+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.oconeecountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.344903+00:00",
+      "finished_at": "2026-10-15T10:03:01.849502+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.orangecountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.347651+00:00",
+      "finished_at": "2026-10-15T10:03:02.355568+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.pahrumpnv.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.362436+00:00",
+      "finished_at": "2026-10-15T10:03:02.372175+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.pendercountync.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.369503+00:00",
+      "finished_at": "2026-10-15T10:03:01.878651+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.peoriacounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.373219+00:00",
+      "finished_at": "2026-10-15T10:03:02.385840+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.placer.ca.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.381819+00:00",
+      "finished_at": "2026-10-15T10:03:01.895081+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.prattcounty.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.386108+00:00",
+      "finished_at": "2026-10-15T10:03:01.899342+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.rockwallcountytexas.com",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.397779+00:00",
+      "finished_at": "2026-10-15T10:03:02.406088+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.sanbernardino.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.406883+00:00",
+      "finished_at": "2026-10-15T10:03:01.927420+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.sccmo.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.420503+00:00",
+      "finished_at": "2026-10-15T10:03:01.930121+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.sullivancountynh.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:02:55.778976+00:00",
+      "finished_at": "2026-10-15T10:02:56.801242+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "http_403": 1,
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.tellercounty.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.421704+00:00",
+      "finished_at": "2026-10-15T10:03:02.432399+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.unioncountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.423160+00:00",
+      "finished_at": "2026-10-15T10:03:01.935349+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.votepinellas.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.424681+00:00",
+      "finished_at": "2026-10-15T10:03:01.947649+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.waltoncountyga.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.443772+00:00",
+      "finished_at": "2026-10-15T10:03:02.459692+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.webbcountytx.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.451730+00:00",
+      "finished_at": "2026-10-15T10:03:02.348065+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.whitpaintownship.org",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.843128+00:00",
+      "finished_at": "2026-10-15T10:03:02.855964+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.wilsoncountytn.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.849841+00:00",
+      "finished_at": "2026-10-15T10:03:02.862167+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:www.woodcountyohio.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.863129+00:00",
+      "finished_at": "2026-10-15T10:03:02.367372+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.yakimacounty.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.876940+00:00",
+      "finished_at": "2026-10-15T10:03:02.384072+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    },
+    {
+      "source_key": "civicplus:www.yorkcountypa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.878895+00:00",
+      "finished_at": "2026-10-15T10:03:02.887369+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:yakimacounty.us",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.886769+00:00",
+      "finished_at": "2026-10-15T10:03:02.893846+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 3
+      }
+    },
+    {
+      "source_key": "civicplus:yorkcountypa.gov",
+      "status": "retry",
+      "started_at": "2026-10-15T10:03:01.895699+00:00",
+      "finished_at": "2026-10-15T10:03:02.400037+00:00",
+      "successful_pages": 0,
+      "errors": {
+        "proxy_access_denied": 2
+      }
+    }
+  ]
+}
