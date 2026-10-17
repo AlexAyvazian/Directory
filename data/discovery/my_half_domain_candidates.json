@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1134,
-  "domainCount": 1754,
+  "domainCount": 1757,
   "unmatchedJurisdictions": 443,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -1559,6 +1559,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Crawford County",
+          "state": "AR",
+          "county": "Crawford",
+          "fips": "05033"
+        },
+        {
+          "domain": "21circuitcourtar.gov",
+          "url": "https://21circuitcourtar.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Crawford County Circuit Clerk",
           "state": "AR",
           "county": "Crawford",
           "fips": "05033"
@@ -18034,6 +18045,17 @@
           "fips": "39145"
         },
         {
+          "domain": "sciotocountyjfs.gov",
+          "url": "https://sciotocountyjfs.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Scioto County Dept. of Job & Family Services",
+          "state": "OH",
+          "county": "Scioto",
+          "fips": "39145"
+        },
+        {
           "domain": "sciotocountyohio.com",
           "url": "https://sciotocountyohio.com",
           "registry": "GSA non-.gov county domain directory",
@@ -21356,6 +21378,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Forest County",
+          "state": "PA",
+          "county": "Forest",
+          "fips": "42053"
+        },
+        {
+          "domain": "foresthillspa.gov",
+          "url": "https://foresthillspa.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Borough of Forest Hills",
           "state": "PA",
           "county": "Forest",
           "fips": "42053"
