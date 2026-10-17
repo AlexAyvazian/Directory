@@ -6,7 +6,7 @@
       "county": "Clarke",
       "department": "Human Resources",
       "url": "https://athensclarkecounty.org/m/directory/department?did=7",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -16,7 +16,7 @@
       "county": "Paulding",
       "department": "Human Resources",
       "url": "https://www.paulding.gov/m/directory/department?did=11",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -26,7 +26,7 @@
       "county": "Barrow",
       "department": "County staff directory",
       "url": "https://www.barrowga.org/m/directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -36,7 +36,7 @@
       "county": "Carroll",
       "department": "County staff directory",
       "url": "https://www.carrollcountyga.gov/m/Directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -46,7 +46,7 @@
       "county": "Lowndes",
       "department": "County staff directory",
       "url": "https://www.lowndescounty.com/m/directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -56,7 +56,7 @@
       "county": "Hall",
       "department": "Human Resources",
       "url": "https://www.hallcounty.org/m/directory/department?did=71",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -66,7 +66,7 @@
       "county": "Douglas",
       "department": "Human Resources",
       "url": "https://www.douglascountyga.gov/m/directory/department?did=72",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -76,7 +76,7 @@
       "county": "Columbia",
       "department": "Human Resources",
       "url": "https://www.columbiacountyga.gov/m/directory/department?did=77",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -86,7 +86,7 @@
       "county": "Effingham",
       "department": "Human Resources",
       "url": "https://effinghamcounty.org/Directory.aspx?did=16",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -96,7 +96,7 @@
       "county": "Gwinnett",
       "department": "Human Resources",
       "url": "https://www.gwinnettcounty.com/government/departments/human-resources/organization",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -106,7 +106,7 @@
       "county": "Gwinnett",
       "department": "Purchasing",
       "url": "https://www.gwinnettcounty.com/government/departments/financial-services/purchasing/contact",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -116,7 +116,7 @@
       "county": "DeKalb",
       "department": "Occupational Compliance",
       "url": "https://dekalbcountyga.gov/departments/human-resources/leadership-and-divisions",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -126,7 +126,7 @@
       "county": "Fayette",
       "department": "Human Resources",
       "url": "https://www.fayettecountyga.gov/departments/human_resources/index.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -136,7 +136,7 @@
       "county": "Henry",
       "department": "County staff directory",
       "url": "https://www.henrycountyga.gov/staff-directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -146,7 +146,7 @@
       "county": "Walton",
       "department": "Human Resources",
       "url": "https://waltoncountyga.gov/m/directory/department?did=9",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -156,7 +156,7 @@
       "county": "Cobb",
       "department": "County contact directory",
       "url": "https://www.cobbcounty.gov/communications/info-center/contact-directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -166,7 +166,7 @@
       "county": "Camden",
       "department": "Human Resources",
       "url": "https://www.camdencountyga.gov/Directory.aspx?DID=11",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -176,7 +176,7 @@
       "county": "Chatham",
       "department": "County department contacts",
       "url": "https://www.chathamcountyga.gov/OurCounty/DepartmentContacts",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -186,7 +186,7 @@
       "county": "Bulloch",
       "department": "County staff directory",
       "url": "https://bullochcounty.net/supervisor/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -196,7 +196,7 @@
       "county": "Hamilton",
       "department": "County staff directory",
       "url": "https://hamiltoncounty.in.gov/m/directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -206,7 +206,7 @@
       "county": "Tippecanoe",
       "department": "County staff directory",
       "url": "https://www.tippecanoe.in.gov/m/directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -216,7 +216,7 @@
       "county": "Monroe",
       "department": "County staff directory",
       "url": "https://www.in.gov/counties/monroe/contact/staff-directory/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "contacts": [
         {
           "name": "Elgar, Seth",
@@ -249,7 +249,7 @@
           "verificationStatus": "observed-on-official-directory"
         }
       ],
-      "checkedAt": "2026-10-16T13:28:41.899726+00:00",
+      "checkedAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": null
     },
     "in-allen-22": {
@@ -258,7 +258,7 @@
       "county": "Allen",
       "department": "Human Resources",
       "url": "https://www.allencounty.in.gov/m/directory/department?did=34",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -268,7 +268,7 @@
       "county": "Porter",
       "department": "Human Resources",
       "url": "https://www.portercountyin.gov/m/directory/department?did=78",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -278,7 +278,7 @@
       "county": "Hendricks",
       "department": "County staff directory",
       "url": "https://www.co.hendricks.in.us/egov/apps/staff/directory.egov?view=detail%3Bid%3D881",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -288,7 +288,7 @@
       "county": "Johnson",
       "department": "County staff directory",
       "url": "https://co.johnson.in.us/egov/apps/staff/directory.egov?view=detail%3Bid%3D107",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "ValueError: Unsafe cross-host redirect",
       "contacts": []
     },
@@ -298,7 +298,7 @@
       "county": "Lake",
       "department": "Human Resources",
       "url": "https://lakecountyin.gov/departments/hr",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -308,7 +308,7 @@
       "county": "Elkhart",
       "department": "Human Resources",
       "url": "https://elkhartcounty.com/en/all-departments/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -318,7 +318,7 @@
       "county": "Clark",
       "department": "County government directory",
       "url": "https://clarkcounty.in.gov/~ccounty/index.php/clark-county-government-phone-directory-listing",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -328,7 +328,7 @@
       "county": "Carroll",
       "department": "Human Resources",
       "url": "https://carrollcountyga.gov/Directory.aspx?did=9",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -338,7 +338,7 @@
       "county": "Gordon",
       "department": "Human Resources",
       "url": "https://gordoncountyga.gov/Directory.aspx?DID=28",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -348,7 +348,7 @@
       "county": "Pickens",
       "department": "Human Resources",
       "url": "https://www.pickenscountyga.gov/m/directory/department?did=17",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -358,7 +358,7 @@
       "county": "Cherokee",
       "department": "Human Resources",
       "url": "https://cherokeecountyga.gov/Human-Resources/contact-us.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -368,7 +368,7 @@
       "county": "Hall",
       "department": "Human Resources",
       "url": "https://www.hallcounty.org/309/Human-Resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -378,7 +378,7 @@
       "county": "Clayton",
       "department": "Human Resources",
       "url": "https://claytoncountyga.gov/?p=28729",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "HTTPError: HTTP Error 307: Temporary Redirect",
       "contacts": []
     },
@@ -388,7 +388,7 @@
       "county": "Oconee",
       "department": "All",
       "url": "https://oconeecountyga.gov/directory.aspx",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -398,7 +398,7 @@
       "county": "Franklin",
       "department": "All",
       "url": "https://www.franklincountyga.gov/m/directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -408,7 +408,7 @@
       "county": "Hamilton",
       "department": "All",
       "url": "https://www.hamiltoncounty.in.gov/m/directory",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -418,7 +418,7 @@
       "county": "Bartow",
       "department": "Human Resources",
       "url": "https://www.bartowcountyga.gov/departments/human_resources/index.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -428,7 +428,7 @@
       "county": "Cobb",
       "department": "Human Resources",
       "url": "https://www.cobbcounty.gov/human-resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -438,7 +438,7 @@
       "county": "Muscogee",
       "department": "Human Resources",
       "url": "https://columbusga.gov/hr/Contact-Us",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -448,7 +448,7 @@
       "county": "Barrow",
       "department": "Human Resources",
       "url": "https://www.barrowga.org/258/Human-Resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -458,7 +458,7 @@
       "county": "Whitfield",
       "department": "Human Resources",
       "url": "https://www.whitfieldcountyga.com/government/departments/human_resources/index.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -468,7 +468,7 @@
       "county": "Houston",
       "department": "Personnel / Purchasing",
       "url": "https://www.houstoncountyga.gov/directory.cms",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -478,7 +478,7 @@
       "county": "Fayette",
       "department": "Human Resources",
       "url": "https://fayettecountyga.gov/departments/human_resources/index.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -488,7 +488,7 @@
       "county": "Dougherty",
       "department": "Human Resources",
       "url": "https://www.dougherty.ga.us/Government/Dougherty-County-Departments/Human-Resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -498,7 +498,7 @@
       "county": "Coweta",
       "department": "Human Resources",
       "url": "https://www.coweta.ga.us/336/Human-Resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -508,7 +508,7 @@
       "county": "Rockdale",
       "department": "Human Resources",
       "url": "https://www.rockdalecountyga.gov/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -518,7 +518,7 @@
       "county": "Spalding",
       "department": "Human Resources",
       "url": "https://www.spaldingcounty.com/departments-services/human-resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -528,7 +528,7 @@
       "county": "Bibb",
       "department": "Human Resources",
       "url": "https://www.maconbibb.us/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -538,7 +538,7 @@
       "county": "Bulloch",
       "department": "Human Resources",
       "url": "https://bullochcounty.net/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -548,7 +548,7 @@
       "county": "Liberty",
       "department": "Human Resources",
       "url": "https://www.libertycountyga.gov/282/Human-Resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -558,7 +558,7 @@
       "county": "Walker",
       "department": "Human Resources",
       "url": "https://walkercountyga.gov/government/departments/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -568,7 +568,7 @@
       "county": "Tift",
       "department": "Human Resources",
       "url": "https://www.tiftcounty.org/departments/human_resources/index.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -578,7 +578,7 @@
       "county": "Chatham",
       "department": "Human Resources",
       "url": "https://hr.chathamcountyga.gov/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -588,7 +588,7 @@
       "county": "Clayton",
       "department": "Human Resources",
       "url": "https://www.claytoncountyga.gov/government/human-resources/administration/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "HTTPError: HTTP Error 307: Temporary Redirect",
       "contacts": []
     },
@@ -598,7 +598,7 @@
       "county": "Brooks",
       "department": "Administration",
       "url": "https://brookscountyga.gov/about/administration",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "RemoteDisconnected: Remote end closed connection without response",
       "contacts": []
     },
@@ -608,7 +608,7 @@
       "county": "Butts",
       "department": "Human Resources",
       "url": "https://buttscountyga.com/departments-county/human-resource/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -618,7 +618,7 @@
       "county": "Burke",
       "department": "Administration",
       "url": "https://burkecounty-ga.gov/departments/administration/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -628,7 +628,7 @@
       "county": "Colquitt",
       "department": "Human Resources",
       "url": "https://www.colquittcountyga.gov/departments/human_resources/index.php",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -638,7 +638,7 @@
       "county": "Crisp",
       "department": "Human Resources",
       "url": "https://crispcounty.com/human-resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "RemoteDisconnected: Remote end closed connection without response",
       "contacts": []
     },
@@ -648,7 +648,7 @@
       "county": "Decatur",
       "department": "Human Resources",
       "url": "https://www.decaturcountyga.gov/departments-agencies/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -658,7 +658,7 @@
       "county": "Dawson",
       "department": "Human Resources & Risk Management",
       "url": "https://www.dawsoncountyga.gov/267/Human-Resources-and-Risk-Management",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -668,7 +668,7 @@
       "county": "Gilmer",
       "department": "Human Resources",
       "url": "https://gilmercounty-ga.gov/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     },
@@ -678,7 +678,7 @@
       "county": "Habersham",
       "department": "Human Resources",
       "url": "https://www.habershamga.com/humanresources.cfm",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "RemoteDisconnected: Remote end closed connection without response",
       "contacts": []
     },
@@ -688,7 +688,7 @@
       "county": "Harris",
       "department": "Administration",
       "url": "https://www.harriscountyga.gov/administration-2023/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -698,7 +698,7 @@
       "county": "Jones",
       "department": "Human Resources",
       "url": "https://www.jonescountyga.org/county-directory/human-resources/",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -708,7 +708,7 @@
       "county": "Lee",
       "department": "Human Resources",
       "url": "https://www.leecountyga.gov/departments/human-resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "RemoteDisconnected: Remote end closed connection without response",
       "contacts": []
     },
@@ -718,7 +718,7 @@
       "county": "Hendricks",
       "department": "Human Resources",
       "url": "https://www.co.hendricks.in.us/department/index.php?structureid=39",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "No eligible employee rows found",
       "contacts": []
     },
@@ -728,11 +728,11 @@
       "county": "Bryan",
       "department": "Human Resources",
       "url": "https://www.bryancountyga.gov/government/departments-h-z/human-resources",
-      "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+      "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
       "lastError": "PermissionError: robots.txt disallows automated directory fetch",
       "contacts": []
     }
   },
-  "lastAttemptAt": "2026-10-16T13:28:41.899726+00:00",
+  "lastAttemptAt": "2026-10-17T12:20:28.468640+00:00",
   "lastSuccessfulRefreshAt": "2026-10-13T20:39:31.275396+00:00"
 }
