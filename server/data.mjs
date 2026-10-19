@@ -17,7 +17,7 @@ export function composeAtlas(metadata, jurisdictions, contacts) {
   const value=[c.name,c.email,c.phone].filter(Boolean).join(' · ');
   if (!j.contacts.some(x=>x.label===label && x.value===value)) j.contacts.push({label,value});
   j.seeds ||= [];
-  j.seeds.push({name:c.name || c.title,title:c.name ? c.title : '',agency:c.agency,department:c.department,email:c.email,phone:c.phone,sourceUrl:c.data.sourceUrl || '',sourceName:'Uploaded directory snapshot',sourceStatus:'uploaded-source-snapshot',sourceFile:c.data.evidence.map(e=>e.file+' · '+e.location).join('; ')});
+  j.seeds.push({name:c.name || c.title,title:c.name ? c.title : '',agency:c.agency,department:c.department,email:c.email,phone:c.phone,sourceUrl:c.data?.sourceUrl || '',sourceName:'Uploaded directory snapshot',sourceStatus:'uploaded-source-snapshot',sourceFile:(Array.isArray(c.data?.evidence) ? c.data.evidence : []).map(e=>[e?.file,e?.location].filter(Boolean).join(' · ')).filter(Boolean).join('; ')});
  }
  for(const s of atlas.states){const js=atlas.jurisdictions.filter(j=>j.abbr===s.abbr);s.count=js.filter(j=>j.contacts?.length && j.level!=='state').length;s.stateAgencyCount=js.filter(j=>j.level==='state').length;}
  atlas.database={provider:'Neon',contactCount:contacts.length,stateContactCount:contacts.filter(c=>c.level==='state').length,reviewCount:contacts.filter(c=>c.kind==='review').length};
