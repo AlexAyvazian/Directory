@@ -166,7 +166,16 @@ function renderMap(opts) {
   if (sel.abbr) renderStateMap(sel.abbr, opts); else renderUSMap(opts);
   renderCard();
 }
-const usLayout = () => { const k = Math.min(width / 975, height / 610) * 0.97; return { k, tx: (width - 975 * k) / 2, ty: (height - 610 * k) / 2 }; };
+const usLayout = () => {
+  // Fit the actual US geometry rather than assuming its coordinates occupy 975 × 610.
+  const bounds = d3.geoPath().bounds({ type: 'FeatureCollection', features: statesGeo });
+  const [[x0, y0], [x1, y1]] = bounds;
+  const geoWidth = x1 - x0, geoHeight = y1 - y0;
+  if (!(geoWidth > 0 && geoHeight > 0) || !width || !height) return { k: 1, tx: 0, ty: 0 };
+  const padding = 28;
+  const k = Math.min((width - 2 * padding) / geoWidth, (height - 2 * padding) / geoHeight);
+  return { k, tx: width / 2 - k * (x0 + x1) / 2, ty: height / 2 - k * (y0 + y1) / 2 };
+};
 
 function renderUSMap(opts) {
   $('stateAgencyBtn').style.display = 'none'; $('backBtn').style.display = 'none'; $('stateDirBtn').style.display = 'none';
