@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1134,
-  "domainCount": 1757,
+  "domainCount": 1758,
   "unmatchedJurisdictions": 443,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -9554,6 +9554,17 @@
       "fips": "27157",
       "jurisdictionId": "r1395",
       "domains": [
+        {
+          "domain": "wabashacounty.gov",
+          "url": "https://wabashacounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Wabasha County",
+          "state": "MN",
+          "county": "Wabasha",
+          "fips": "27157"
+        },
         {
           "domain": "co.wabasha.mn.us",
           "url": "https://co.wabasha.mn.us",
