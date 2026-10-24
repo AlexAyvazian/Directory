@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1134,
-  "domainCount": 1758,
+  "domainCount": 1757,
   "unmatchedJurisdictions": 443,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -17977,17 +17977,6 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Ross County Commissioner",
-          "state": "OH",
-          "county": "Ross",
-          "fips": "39141"
-        },
-        {
-          "domain": "rosscountyohiotaxlist.gov",
-          "url": "https://rosscountyohiotaxlist.gov",
-          "registry": "CISA .gov domain registration",
-          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
-          "status": "registered-domain-not-confirmed-as-live-staff-site",
-          "organization": "Ross County Board of Commissioners",
           "state": "OH",
           "county": "Ross",
           "fips": "39141"
