@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1134,
-  "domainCount": 1757,
+  "domainCount": 1758,
   "unmatchedJurisdictions": 443,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -24276,6 +24276,17 @@
       "fips": "48165",
       "jurisdictionId": "r2608",
       "domains": [
+        {
+          "domain": "gainestx.gov",
+          "url": "https://gainestx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Gaines County",
+          "state": "TX",
+          "county": "Gaines",
+          "fips": "48165"
+        },
         {
           "domain": "co.gaines.tx.us",
           "url": "https://co.gaines.tx.us",
