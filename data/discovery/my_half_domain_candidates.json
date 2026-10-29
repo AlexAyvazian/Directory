@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1134,
-  "domainCount": 1758,
+  "domainCount": 1757,
   "unmatchedJurisdictions": 443,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -13026,17 +13026,6 @@
       "fips": "37047",
       "jurisdictionId": "r1680",
       "domains": [
-        {
-          "domain": "columbuscoemergencyservicesnc.gov",
-          "url": "https://columbuscoemergencyservicesnc.gov",
-          "registry": "CISA .gov domain registration",
-          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
-          "status": "registered-domain-not-confirmed-as-live-staff-site",
-          "organization": "Columbus County Government",
-          "state": "NC",
-          "county": "Columbus",
-          "fips": "37047"
-        },
         {
           "domain": "columbuscountync.gov",
           "url": "https://columbuscountync.gov",
