@@ -27,9 +27,9 @@
     "WY"
   ],
   "jurisdictionsInAtlas": 1577,
-  "matchedJurisdictions": 1134,
-  "domainCount": 1757,
-  "unmatchedJurisdictions": 443,
+  "matchedJurisdictions": 1167,
+  "domainCount": 1896,
+  "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
     "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
@@ -876,6 +876,17 @@
           "state": "AL",
           "county": "Madison",
           "fips": "01089"
+        },
+        {
+          "domain": "madisoncountyvotesal.gov",
+          "url": "https://madisoncountyvotesal.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Madison County Commission",
+          "state": "AL",
+          "county": "Madison",
+          "fips": "01089"
         }
       ]
     },
@@ -886,6 +897,17 @@
       "fips": "01093",
       "jurisdictionId": "r77",
       "domains": [
+        {
+          "domain": "marioncountyal.gov",
+          "url": "https://marioncountyal.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Marion County Commission",
+          "state": "AL",
+          "county": "Marion",
+          "fips": "01093"
+        },
         {
           "domain": "marioncountyalabama.org",
           "url": "https://marioncountyalabama.org",
@@ -1515,6 +1537,26 @@
     },
     {
       "state": "AR",
+      "county": "Conway",
+      "full": "Conway County",
+      "fips": "05029",
+      "jurisdictionId": "r112",
+      "domains": [
+        {
+          "domain": "conwaycounty.gov",
+          "url": "https://conwaycounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Conway County",
+          "state": "AR",
+          "county": "Conway",
+          "fips": "05029"
+        }
+      ]
+    },
+    {
+      "state": "AR",
       "county": "Craighead",
       "full": "Craighead County",
       "fips": "05031",
@@ -2025,6 +2067,17 @@
           "state": "AR",
           "county": "Miller",
           "fips": "05091"
+        },
+        {
+          "domain": "millercountyclerkar.gov",
+          "url": "https://millercountyclerkar.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Miller County Clerk",
+          "state": "AR",
+          "county": "Miller",
+          "fips": "05091"
         }
       ]
     },
@@ -2198,6 +2251,17 @@
       "fips": "05119",
       "jurisdictionId": "r157",
       "domains": [
+        {
+          "domain": "pulaskiclerkar.gov",
+          "url": "https://pulaskiclerkar.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Pulaski County Circuit/County Clerk",
+          "state": "AR",
+          "county": "Pulaski",
+          "fips": "05119"
+        },
         {
           "domain": "co.pulaski.ar.us",
           "url": "https://co.pulaski.ar.us",
@@ -2550,6 +2614,17 @@
       "jurisdictionId": "r179",
       "domains": [
         {
+          "domain": "lapaz.gov",
+          "url": "https://lapaz.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "La Paz County",
+          "state": "AZ",
+          "county": "La Paz",
+          "fips": "04012"
+        },
+        {
           "domain": "co.la-paz.az.us",
           "url": "https://co.la-paz.az.us",
           "registry": "GSA non-.gov county domain directory",
@@ -2588,6 +2663,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Maricopa County",
+          "state": "AZ",
+          "county": "Maricopa",
+          "fips": "04013"
+        },
+        {
+          "domain": "maricoparecorder.gov",
+          "url": "https://maricoparecorder.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Maricopa County Recorders Office",
           "state": "AZ",
           "county": "Maricopa",
           "fips": "04013"
@@ -2787,6 +2873,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Yavapai County",
+          "state": "AZ",
+          "county": "Yavapai",
+          "fips": "04025"
+        },
+        {
+          "domain": "yavapaivotes.gov",
+          "url": "https://yavapaivotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County of Yavapai ITS",
           "state": "AZ",
           "county": "Yavapai",
           "fips": "04025"
@@ -3038,6 +3135,26 @@
     },
     {
       "state": "CA",
+      "county": "Del Norte",
+      "full": "Del Norte County",
+      "fips": "06015",
+      "jurisdictionId": "r195",
+      "domains": [
+        {
+          "domain": "delnortecounty.gov",
+          "url": "https://delnortecounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County of Del Norte",
+          "state": "CA",
+          "county": "Del Norte",
+          "fips": "06015"
+        }
+      ]
+    },
+    {
+      "state": "CA",
       "county": "El Dorado",
       "full": "El Dorado County",
       "fips": "06017",
@@ -3260,6 +3377,17 @@
           "state": "CA",
           "county": "Los Angeles",
           "fips": "06037"
+        },
+        {
+          "domain": "lavote.gov",
+          "url": "https://lavote.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County of Los Angeles",
+          "state": "CA",
+          "county": "Los Angeles",
+          "fips": "06037"
         }
       ]
     },
@@ -3478,6 +3606,17 @@
           "fips": "06055"
         },
         {
+          "domain": "napacounty.gov",
+          "url": "https://napacounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Napa County",
+          "state": "CA",
+          "county": "Napa",
+          "fips": "06055"
+        },
+        {
           "domain": "readynapacounty.gov",
           "url": "https://readynapacounty.gov",
           "registry": "CISA .gov domain registration",
@@ -3627,6 +3766,17 @@
       "fips": "06061",
       "jurisdictionId": "r218",
       "domains": [
+        {
+          "domain": "placercountyelections.gov",
+          "url": "https://placercountyelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Placer County Elections",
+          "state": "CA",
+          "county": "Placer",
+          "fips": "06061"
+        },
         {
           "domain": "placercounty.gov",
           "url": "https://placercounty.gov",
@@ -3828,6 +3978,17 @@
         {
           "domain": "sf.gov",
           "url": "https://sf.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "City and County of San Francisco",
+          "state": "CA",
+          "county": "San Francisco",
+          "fips": "06075"
+        },
+        {
+          "domain": "sfelections.gov",
+          "url": "https://sfelections.gov",
           "registry": "CISA .gov domain registration",
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
@@ -4201,6 +4362,26 @@
           "state": "CA",
           "county": "Sutter",
           "fips": "06101"
+        }
+      ]
+    },
+    {
+      "state": "CA",
+      "county": "Tehama",
+      "full": "Tehama County",
+      "fips": "06103",
+      "jurisdictionId": "r239",
+      "domains": [
+        {
+          "domain": "tehama.gov",
+          "url": "https://tehama.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "COUNTY OF TEHAMA",
+          "state": "CA",
+          "county": "Tehama",
+          "fips": "06103"
         }
       ]
     },
@@ -4890,6 +5071,26 @@
     },
     {
       "state": "IA",
+      "county": "Jones",
+      "full": "Jones County",
+      "fips": "19105",
+      "jurisdictionId": "r606",
+      "domains": [
+        {
+          "domain": "jonescountyiowaelections.gov",
+          "url": "https://jonescountyiowaelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Jones County Auditor",
+          "state": "IA",
+          "county": "Jones",
+          "fips": "19105"
+        }
+      ]
+    },
+    {
+      "state": "IA",
       "county": "Keokuk",
       "full": "Keokuk County",
       "fips": "19107",
@@ -4937,6 +5138,17 @@
       "fips": "19113",
       "jurisdictionId": "r610",
       "domains": [
+        {
+          "domain": "linncountyelections-ia.gov",
+          "url": "https://linncountyelections-ia.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Linn County",
+          "state": "IA",
+          "county": "Linn",
+          "fips": "19113"
+        },
         {
           "domain": "linncounty-ia.gov",
           "url": "https://linncounty-ia.gov",
@@ -5187,6 +5399,17 @@
         {
           "domain": "polkcountyiowa.gov",
           "url": "https://polkcountyiowa.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Polk County",
+          "state": "IA",
+          "county": "Polk",
+          "fips": "19153"
+        },
+        {
+          "domain": "polkelectionia.gov",
+          "url": "https://polkelectionia.gov",
           "registry": "CISA .gov domain registration",
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
@@ -5881,6 +6104,26 @@
     },
     {
       "state": "KY",
+      "county": "Fayette",
+      "full": "Fayette County",
+      "fips": "21067",
+      "jurisdictionId": "r1029",
+      "domains": [
+        {
+          "domain": "fayettekyclerk.gov",
+          "url": "https://fayettekyclerk.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Fayette County Clerk",
+          "state": "KY",
+          "county": "Fayette",
+          "fips": "21067"
+        }
+      ]
+    },
+    {
+      "state": "KY",
       "county": "Fleming",
       "full": "Fleming County",
       "fips": "21069",
@@ -6038,6 +6281,17 @@
           "fips": "21093"
         },
         {
+          "domain": "hccoky.gov",
+          "url": "https://hccoky.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Hardin County Clerk's Office",
+          "state": "KY",
+          "county": "Hardin",
+          "fips": "21093"
+        },
+        {
           "domain": "hcky.org",
           "url": "https://hcky.org",
           "registry": "GSA non-.gov county domain directory",
@@ -6112,6 +6366,17 @@
       "jurisdictionId": "r1051",
       "domains": [
         {
+          "domain": "jeffersoncountykyclerk.gov",
+          "url": "https://jeffersoncountykyclerk.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Office of Jefferson County Clerk",
+          "state": "KY",
+          "county": "Jefferson",
+          "fips": "21111"
+        },
+        {
           "domain": "jeffersonkyattorney.gov",
           "url": "https://jeffersonkyattorney.gov",
           "registry": "CISA .gov domain registration",
@@ -6164,6 +6429,17 @@
       "fips": "21117",
       "jurisdictionId": "r1054",
       "domains": [
+        {
+          "domain": "kentonkyclerk.gov",
+          "url": "https://kentonkyclerk.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Kenton County Clerk",
+          "state": "KY",
+          "county": "Kenton",
+          "fips": "21117"
+        },
         {
           "domain": "kentoncounty.org",
           "url": "https://kentoncounty.org",
@@ -6259,6 +6535,26 @@
           "state": "KY",
           "county": "Laurel",
           "fips": "21125"
+        }
+      ]
+    },
+    {
+      "state": "KY",
+      "county": "Leslie",
+      "full": "Leslie County",
+      "fips": "21131",
+      "jurisdictionId": "r1061",
+      "domains": [
+        {
+          "domain": "lesliecoclerkky.gov",
+          "url": "https://lesliecoclerkky.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Leslie County Clerks Office",
+          "state": "KY",
+          "county": "Leslie",
+          "fips": "21131"
         }
       ]
     },
@@ -7376,6 +7672,17 @@
       "jurisdictionId": "r1319",
       "domains": [
         {
+          "domain": "beckercountymn.gov",
+          "url": "https://beckercountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Becker County",
+          "state": "MN",
+          "county": "Becker",
+          "fips": "27005"
+        },
+        {
           "domain": "co.becker.mn.us",
           "url": "https://co.becker.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -7396,6 +7703,17 @@
       "fips": "27007",
       "jurisdictionId": "r1320",
       "domains": [
+        {
+          "domain": "beltramicountymn.gov",
+          "url": "https://beltramicountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Beltrami County",
+          "state": "MN",
+          "county": "Beltrami",
+          "fips": "27007"
+        },
         {
           "domain": "co.beltrami.mn.us",
           "url": "https://co.beltrami.mn.us",
@@ -7845,6 +8163,17 @@
           "fips": "27035"
         },
         {
+          "domain": "joincwcmn.gov",
+          "url": "https://joincwcmn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Crow Wing County",
+          "state": "MN",
+          "county": "Crow Wing",
+          "fips": "27035"
+        },
+        {
           "domain": "crowwing.us",
           "url": "https://crowwing.us",
           "registry": "GSA non-.gov county domain directory",
@@ -7962,6 +8291,17 @@
       "jurisdictionId": "r1338",
       "domains": [
         {
+          "domain": "faribaultcountymn.gov",
+          "url": "https://faribaultcountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Faribault County",
+          "state": "MN",
+          "county": "Faribault",
+          "fips": "27043"
+        },
+        {
           "domain": "co.faribault.mn.us",
           "url": "https://co.faribault.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -8014,6 +8354,17 @@
       "fips": "27047",
       "jurisdictionId": "r1340",
       "domains": [
+        {
+          "domain": "freeborncountymn.gov",
+          "url": "https://freeborncountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Freeborn County",
+          "state": "MN",
+          "county": "Freeborn",
+          "fips": "27047"
+        },
         {
           "domain": "co.freeborn.mn.us",
           "url": "https://co.freeborn.mn.us",
@@ -8164,6 +8515,17 @@
       "jurisdictionId": "r1345",
       "domains": [
         {
+          "domain": "hubbardcounty.gov",
+          "url": "https://hubbardcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Hubbard County",
+          "state": "MN",
+          "county": "Hubbard",
+          "fips": "27057"
+        },
+        {
           "domain": "co.hubbard.mn.us",
           "url": "https://co.hubbard.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -8248,6 +8610,17 @@
       "fips": "27063",
       "jurisdictionId": "r1348",
       "domains": [
+        {
+          "domain": "jacksoncountymn.gov",
+          "url": "https://jacksoncountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Jackson County MN",
+          "state": "MN",
+          "county": "Jackson",
+          "fips": "27063"
+        },
         {
           "domain": "co.jackson.mn.us",
           "url": "https://co.jackson.mn.us",
@@ -8430,6 +8803,17 @@
       "jurisdictionId": "r1354",
       "domains": [
         {
+          "domain": "lakecountymn.gov",
+          "url": "https://lakecountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lake County Mn",
+          "state": "MN",
+          "county": "Lake",
+          "fips": "27075"
+        },
+        {
           "domain": "co.lake.mn.us",
           "url": "https://co.lake.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -8470,6 +8854,17 @@
       "fips": "27081",
       "jurisdictionId": "r1357",
       "domains": [
+        {
+          "domain": "lincolncountymn.gov",
+          "url": "https://lincolncountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lincoln County",
+          "state": "MN",
+          "county": "Lincoln",
+          "fips": "27081"
+        },
         {
           "domain": "co.lincoln.mn.us",
           "url": "https://co.lincoln.mn.us",
@@ -8524,6 +8919,17 @@
       "jurisdictionId": "r1359",
       "domains": [
         {
+          "domain": "mahnomencounty.gov",
+          "url": "https://mahnomencounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Mahnomen County",
+          "state": "MN",
+          "county": "Mahnomen",
+          "fips": "27087"
+        },
+        {
           "domain": "co.mahnomen.mn.us",
           "url": "https://co.mahnomen.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -8545,6 +8951,17 @@
       "jurisdictionId": "r1360",
       "domains": [
         {
+          "domain": "marshallcountymn.gov",
+          "url": "https://marshallcountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Marshall County",
+          "state": "MN",
+          "county": "Marshall",
+          "fips": "27089"
+        },
+        {
           "domain": "co.marshall.mn.us",
           "url": "https://co.marshall.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -8565,6 +8982,17 @@
       "fips": "27091",
       "jurisdictionId": "r1361",
       "domains": [
+        {
+          "domain": "martincountymn.gov",
+          "url": "https://martincountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Martin County",
+          "state": "MN",
+          "county": "Martin",
+          "fips": "27091"
+        },
         {
           "domain": "co.martin.mn.us",
           "url": "https://co.martin.mn.us",
@@ -8671,6 +9099,17 @@
       "fips": "27097",
       "jurisdictionId": "r1365",
       "domains": [
+        {
+          "domain": "morrisoncountymn.gov",
+          "url": "https://morrisoncountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Morrison County",
+          "state": "MN",
+          "county": "Morrison",
+          "fips": "27097"
+        },
         {
           "domain": "co.morrison.mn.us",
           "url": "https://co.morrison.mn.us",
@@ -8928,6 +9367,17 @@
       "fips": "27113",
       "jurisdictionId": "r1373",
       "domains": [
+        {
+          "domain": "penningtonmn.gov",
+          "url": "https://penningtonmn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Pennington County",
+          "state": "MN",
+          "county": "Pennington",
+          "fips": "27113"
+        },
         {
           "domain": "co.pennington.mn.us",
           "url": "https://co.pennington.mn.us",
@@ -9194,6 +9644,17 @@
       "jurisdictionId": "r1383",
       "domains": [
         {
+          "domain": "rockmn.gov",
+          "url": "https://rockmn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Rock County",
+          "state": "MN",
+          "county": "Rock",
+          "fips": "27133"
+        },
+        {
           "domain": "co.rock.mn.us",
           "url": "https://co.rock.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -9214,6 +9675,17 @@
       "fips": "27135",
       "jurisdictionId": "r1384",
       "domains": [
+        {
+          "domain": "roseaucountymn.gov",
+          "url": "https://roseaucountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County of Roseau",
+          "state": "MN",
+          "county": "Roseau",
+          "fips": "27135"
+        },
         {
           "domain": "co.roseau.mn.us",
           "url": "https://co.roseau.mn.us",
@@ -9779,6 +10251,17 @@
       "jurisdictionId": "r1402",
       "domains": [
         {
+          "domain": "wrightcountymn.gov",
+          "url": "https://wrightcountymn.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Wright County",
+          "state": "MN",
+          "county": "Wright",
+          "fips": "27171"
+        },
+        {
           "domain": "co.wright.mn.us",
           "url": "https://co.wright.mn.us",
           "registry": "GSA non-.gov county domain directory",
@@ -9996,6 +10479,26 @@
     },
     {
       "state": "MO",
+      "county": "Caldwell",
+      "full": "Caldwell County",
+      "fips": "29025",
+      "jurisdictionId": "r1416",
+      "domains": [
+        {
+          "domain": "caldwellcountymo.gov",
+          "url": "https://caldwellcountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Caldwell County",
+          "state": "MO",
+          "county": "Caldwell",
+          "fips": "29025"
+        }
+      ]
+    },
+    {
+      "state": "MO",
       "county": "Camden",
       "full": "Camden County",
       "fips": "29029",
@@ -10152,6 +10655,17 @@
           "state": "MO",
           "county": "Clay",
           "fips": "29047"
+        },
+        {
+          "domain": "voteclaycountymo.gov",
+          "url": "https://voteclaycountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "CLAY COUNTY BOARD OF ELECTIONS",
+          "state": "MO",
+          "county": "Clay",
+          "fips": "29047"
         }
       ]
     },
@@ -10249,6 +10763,26 @@
     },
     {
       "state": "MO",
+      "county": "Dade",
+      "full": "Dade County",
+      "fips": "29057",
+      "jurisdictionId": "r1432",
+      "domains": [
+        {
+          "domain": "dadecountymo.gov",
+          "url": "https://dadecountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Dade County Courthouse",
+          "state": "MO",
+          "county": "Dade",
+          "fips": "29057"
+        }
+      ]
+    },
+    {
+      "state": "MO",
       "county": "Daviess",
       "full": "Daviess County",
       "fips": "29061",
@@ -10284,6 +10818,26 @@
           "state": "MO",
           "county": "DeKalb",
           "fips": "29063"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Dunklin",
+      "full": "Dunklin County",
+      "fips": "29069",
+      "jurisdictionId": "r1438",
+      "domains": [
+        {
+          "domain": "dunklincounty.gov",
+          "url": "https://dunklincounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Dunklin County Commission",
+          "state": "MO",
+          "county": "Dunklin",
+          "fips": "29069"
         }
       ]
     },
@@ -10392,6 +10946,26 @@
     },
     {
       "state": "MO",
+      "county": "Henry",
+      "full": "Henry County",
+      "fips": "29083",
+      "jurisdictionId": "r1445",
+      "domains": [
+        {
+          "domain": "henrycomo.gov",
+          "url": "https://henrycomo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Henry County Clerk",
+          "state": "MO",
+          "county": "Henry",
+          "fips": "29083"
+        }
+      ]
+    },
+    {
+      "state": "MO",
       "county": "Holt",
       "full": "Holt County",
       "fips": "29087",
@@ -10427,6 +11001,26 @@
           "state": "MO",
           "county": "Howard",
           "fips": "29089"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Howell",
+      "full": "Howell County",
+      "fips": "29091",
+      "jurisdictionId": "r1449",
+      "domains": [
+        {
+          "domain": "howellcountymo.gov",
+          "url": "https://howellcountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Howell County",
+          "state": "MO",
+          "county": "Howell",
+          "fips": "29091"
         }
       ]
     },
@@ -10569,6 +11163,26 @@
           "state": "MO",
           "county": "Lawrence",
           "fips": "29109"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Lewis",
+      "full": "Lewis County",
+      "fips": "29111",
+      "jurisdictionId": "r1459",
+      "domains": [
+        {
+          "domain": "lewiscountymo.gov",
+          "url": "https://lewiscountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lewis County Missouri",
+          "state": "MO",
+          "county": "Lewis",
+          "fips": "29111"
         }
       ]
     },
@@ -10867,6 +11481,46 @@
     },
     {
       "state": "MO",
+      "county": "Osage",
+      "full": "Osage County",
+      "fips": "29151",
+      "jurisdictionId": "r1479",
+      "domains": [
+        {
+          "domain": "osagecountymo.gov",
+          "url": "https://osagecountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Osage County",
+          "state": "MO",
+          "county": "Osage",
+          "fips": "29151"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Ozark",
+      "full": "Ozark County",
+      "fips": "29153",
+      "jurisdictionId": "r1480",
+      "domains": [
+        {
+          "domain": "ozarkcounty.gov",
+          "url": "https://ozarkcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Ozark County",
+          "state": "MO",
+          "county": "Ozark",
+          "fips": "29153"
+        }
+      ]
+    },
+    {
+      "state": "MO",
       "county": "Perry",
       "full": "Perry County",
       "fips": "29157",
@@ -11110,6 +11764,26 @@
     },
     {
       "state": "MO",
+      "county": "Shannon",
+      "full": "Shannon County",
+      "fips": "29203",
+      "jurisdictionId": "r1499",
+      "domains": [
+        {
+          "domain": "shannoncounty.gov",
+          "url": "https://shannoncounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Shannon County Missouri",
+          "state": "MO",
+          "county": "Shannon",
+          "fips": "29203"
+        }
+      ]
+    },
+    {
+      "state": "MO",
       "county": "Shelby",
       "full": "Shelby County",
       "fips": "29205",
@@ -11196,6 +11870,17 @@
       "jurisdictionId": "r1507",
       "domains": [
         {
+          "domain": "stoddardcountyclerk.gov",
+          "url": "https://stoddardcountyclerk.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Stoddard County",
+          "state": "MO",
+          "county": "Stoddard",
+          "fips": "29207"
+        },
+        {
           "domain": "stoddardcountymo.gov",
           "url": "https://stoddardcountymo.gov",
           "registry": "CISA .gov domain registration",
@@ -11265,6 +11950,66 @@
           "state": "MO",
           "county": "Texas",
           "fips": "29215"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Vernon",
+      "full": "Vernon County",
+      "fips": "29217",
+      "jurisdictionId": "r1512",
+      "domains": [
+        {
+          "domain": "vernoncountymo.gov",
+          "url": "https://vernoncountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Vernon County Courthouse",
+          "state": "MO",
+          "county": "Vernon",
+          "fips": "29217"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Warren",
+      "full": "Warren County",
+      "fips": "29219",
+      "jurisdictionId": "r1513",
+      "domains": [
+        {
+          "domain": "warrencountymo.gov",
+          "url": "https://warrencountymo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Warren County Commission",
+          "state": "MO",
+          "county": "Warren",
+          "fips": "29219"
+        }
+      ]
+    },
+    {
+      "state": "MO",
+      "county": "Washington",
+      "full": "Washington County",
+      "fips": "29221",
+      "jurisdictionId": "r1514",
+      "domains": [
+        {
+          "domain": "washcoclerkmo.gov",
+          "url": "https://washcoclerkmo.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Washington County Clerk's Office",
+          "state": "MO",
+          "county": "Washington",
+          "fips": "29221"
         }
       ]
     },
@@ -11460,6 +12205,17 @@
       "jurisdictionId": "r1606",
       "domains": [
         {
+          "domain": "cartercountymt.gov",
+          "url": "https://cartercountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Carter County",
+          "state": "MT",
+          "county": "Carter",
+          "fips": "30011"
+        },
+        {
           "domain": "cartercountymt.info",
           "url": "https://cartercountymt.info",
           "registry": "GSA non-.gov county domain directory",
@@ -11512,6 +12268,17 @@
       "fips": "30015",
       "jurisdictionId": "r1608",
       "domains": [
+        {
+          "domain": "chouteaucountymt.gov",
+          "url": "https://chouteaucountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Chouteau County",
+          "state": "MT",
+          "county": "Chouteau",
+          "fips": "30015"
+        },
         {
           "domain": "co.chouteau.mt.us",
           "url": "https://co.chouteau.mt.us",
@@ -11628,6 +12395,17 @@
       "jurisdictionId": "r1613",
       "domains": [
         {
+          "domain": "falloncountymt.gov",
+          "url": "https://falloncountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Fallon County of Montana",
+          "state": "MT",
+          "county": "Fallon",
+          "fips": "30025"
+        },
+        {
           "domain": "falloncounty.net",
           "url": "https://falloncounty.net",
           "registry": "GSA non-.gov county domain directory",
@@ -11715,6 +12493,26 @@
     },
     {
       "state": "MT",
+      "county": "Garfield",
+      "full": "Garfield County",
+      "fips": "30033",
+      "jurisdictionId": "r1617",
+      "domains": [
+        {
+          "domain": "garfieldcountymt.gov",
+          "url": "https://garfieldcountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Garfield County",
+          "state": "MT",
+          "county": "Garfield",
+          "fips": "30033"
+        }
+      ]
+    },
+    {
+      "state": "MT",
       "county": "Glacier",
       "full": "Glacier County",
       "fips": "30035",
@@ -11773,6 +12571,17 @@
       "jurisdictionId": "r1621",
       "domains": [
         {
+          "domain": "hillcountymt.gov",
+          "url": "https://hillcountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Hill County",
+          "state": "MT",
+          "county": "Hill",
+          "fips": "30041"
+        },
+        {
           "domain": "hillcounty.us",
           "url": "https://hillcounty.us",
           "registry": "GSA non-.gov county domain directory",
@@ -11803,6 +12612,26 @@
           "state": "MT",
           "county": "Jefferson",
           "fips": "30043"
+        }
+      ]
+    },
+    {
+      "state": "MT",
+      "county": "Judith Basin",
+      "full": "Judith Basin County",
+      "fips": "30045",
+      "jurisdictionId": "r1623",
+      "domains": [
+        {
+          "domain": "jbcountymt.gov",
+          "url": "https://jbcountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Judith Basin County",
+          "state": "MT",
+          "county": "Judith Basin",
+          "fips": "30045"
         }
       ]
     },
@@ -11946,6 +12775,17 @@
       "jurisdictionId": "r1631",
       "domains": [
         {
+          "domain": "mineralcountymt.gov",
+          "url": "https://mineralcountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Mineral County",
+          "state": "MT",
+          "county": "Mineral",
+          "fips": "30061"
+        },
+        {
           "domain": "co.mineral.mt.us",
           "url": "https://co.mineral.mt.us",
           "registry": "GSA non-.gov county domain directory",
@@ -11978,6 +12818,17 @@
           "fips": "30063"
         },
         {
+          "domain": "missoulavotes.gov",
+          "url": "https://missoulavotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Missoula County Elections",
+          "state": "MT",
+          "county": "Missoula",
+          "fips": "30063"
+        },
+        {
           "domain": "co.missoula.mt.us",
           "url": "https://co.missoula.mt.us",
           "registry": "GSA non-.gov county domain directory",
@@ -11993,11 +12844,42 @@
     },
     {
       "state": "MT",
+      "county": "Musselshell",
+      "full": "Musselshell County",
+      "fips": "30065",
+      "jurisdictionId": "r1633",
+      "domains": [
+        {
+          "domain": "musselshellcounty.gov",
+          "url": "https://musselshellcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Musselshell County",
+          "state": "MT",
+          "county": "Musselshell",
+          "fips": "30065"
+        }
+      ]
+    },
+    {
+      "state": "MT",
       "county": "Park",
       "full": "Park County",
       "fips": "30067",
       "jurisdictionId": "r1634",
       "domains": [
+        {
+          "domain": "parkcountymt.gov",
+          "url": "https://parkcountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Park Count MT",
+          "state": "MT",
+          "county": "Park",
+          "fips": "30067"
+        },
         {
           "domain": "parkcounty.org",
           "url": "https://parkcounty.org",
@@ -12121,6 +13003,26 @@
           "state": "MT",
           "county": "Powell",
           "fips": "30077"
+        }
+      ]
+    },
+    {
+      "state": "MT",
+      "county": "Prairie",
+      "full": "Prairie County",
+      "fips": "30079",
+      "jurisdictionId": "r1640",
+      "domains": [
+        {
+          "domain": "prairiecountymt.gov",
+          "url": "https://prairiecountymt.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Prairie County",
+          "state": "MT",
+          "county": "Prairie",
+          "fips": "30079"
         }
       ]
     },
@@ -12529,6 +13431,17 @@
           "state": "NC",
           "county": "Alexander",
           "fips": "37003"
+        },
+        {
+          "domain": "alexandercountyncvotes.gov",
+          "url": "https://alexandercountyncvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Alexander County Board of Elections",
+          "state": "NC",
+          "county": "Alexander",
+          "fips": "37003"
         }
       ]
     },
@@ -12686,6 +13599,17 @@
         {
           "domain": "brunswickncsheriff.gov",
           "url": "https://brunswickncsheriff.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Brunswick County NC",
+          "state": "NC",
+          "county": "Brunswick",
+          "fips": "37019"
+        },
+        {
+          "domain": "brunswickncvotes.gov",
+          "url": "https://brunswickncvotes.gov",
           "registry": "CISA .gov domain registration",
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
@@ -13202,6 +14126,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "County of Davidson",
+          "state": "NC",
+          "county": "Davidson",
+          "fips": "37057"
+        },
+        {
+          "domain": "votedavidsoncountync.gov",
+          "url": "https://votedavidsoncountync.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Davidson County Board of Elections",
           "state": "NC",
           "county": "Davidson",
           "fips": "37057"
@@ -13903,6 +14838,17 @@
       "jurisdictionId": "r1715",
       "domains": [
         {
+          "domain": "mcdowellcountyncboe.gov",
+          "url": "https://mcdowellcountyncboe.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "McDowell County Board of Elections",
+          "state": "NC",
+          "county": "McDowell",
+          "fips": "37111"
+        },
+        {
           "domain": "mcdowellnc.gov",
           "url": "https://mcdowellnc.gov",
           "registry": "CISA .gov domain registration",
@@ -14595,6 +15541,17 @@
           "state": "NC",
           "county": "Stanly",
           "fips": "37167"
+        },
+        {
+          "domain": "votestanlycountync.gov",
+          "url": "https://votestanlycountync.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Stanly County Elections",
+          "state": "NC",
+          "county": "Stanly",
+          "fips": "37167"
         }
       ]
     },
@@ -14700,6 +15657,17 @@
       "jurisdictionId": "r1744",
       "domains": [
         {
+          "domain": "transylvaniacounty.gov",
+          "url": "https://transylvaniacounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Transylvania County",
+          "state": "NC",
+          "county": "Transylvania",
+          "fips": "37175"
+        },
+        {
           "domain": "transylvaniacounty.org",
           "url": "https://transylvaniacounty.org",
           "registry": "GSA non-.gov county domain directory",
@@ -14740,6 +15708,28 @@
       "fips": "37179",
       "jurisdictionId": "r1746",
       "domains": [
+        {
+          "domain": "ucncboe.gov",
+          "url": "https://ucncboe.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Union County Board of Elections",
+          "state": "NC",
+          "county": "Union",
+          "fips": "37179"
+        },
+        {
+          "domain": "unioncountyncelections.gov",
+          "url": "https://unioncountyncelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Union County Board of Elections",
+          "state": "NC",
+          "county": "Union",
+          "fips": "37179"
+        },
         {
           "domain": "unioncountync.gov",
           "url": "https://unioncountync.gov",
@@ -15340,6 +16330,26 @@
     },
     {
       "state": "ND",
+      "county": "McHenry",
+      "full": "McHenry County",
+      "fips": "38049",
+      "jurisdictionId": "r1781",
+      "domains": [
+        {
+          "domain": "mchenrycountynd.gov",
+          "url": "https://mchenrycountynd.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "McHenry County",
+          "state": "ND",
+          "county": "McHenry",
+          "fips": "38049"
+        }
+      ]
+    },
+    {
+      "state": "ND",
       "county": "McKenzie",
       "full": "McKenzie County",
       "fips": "38053",
@@ -15830,6 +16840,26 @@
     },
     {
       "state": "NV",
+      "county": "Clark",
+      "full": "Clark County",
+      "fips": "32003",
+      "jurisdictionId": "r1969",
+      "domains": [
+        {
+          "domain": "clarkcountynv.gov",
+          "url": "https://clarkcountynv.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Clark County Nevada",
+          "state": "NV",
+          "county": "Clark",
+          "fips": "32003"
+        }
+      ]
+    },
+    {
+      "state": "NV",
       "county": "Douglas",
       "full": "Douglas County",
       "fips": "32005",
@@ -15959,6 +16989,17 @@
       "fips": "32015",
       "jurisdictionId": "r1975",
       "domains": [
+        {
+          "domain": "landercountynvelections.gov",
+          "url": "https://landercountynvelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lander County Elections",
+          "state": "NV",
+          "county": "Lander",
+          "fips": "32015"
+        },
         {
           "domain": "landercountynv.gov",
           "url": "https://landercountynv.gov",
@@ -16293,6 +17334,17 @@
       "jurisdictionId": "r2053",
       "domains": [
         {
+          "domain": "browncountyohelections.gov",
+          "url": "https://browncountyohelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Brown County Board of Elections",
+          "state": "OH",
+          "county": "Brown",
+          "fips": "39015"
+        },
+        {
           "domain": "browncountyohio.gov",
           "url": "https://browncountyohio.gov",
           "registry": "CISA .gov domain registration",
@@ -16355,6 +17407,17 @@
       "fips": "39019",
       "jurisdictionId": "r2055",
       "domains": [
+        {
+          "domain": "carrollcountyohioelections.gov",
+          "url": "https://carrollcountyohioelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Carroll County Board of Elections",
+          "state": "OH",
+          "county": "Carroll",
+          "fips": "39019"
+        },
         {
           "domain": "carrollcountyohio.gov",
           "url": "https://carrollcountyohio.gov",
@@ -16470,6 +17533,17 @@
       "fips": "39031",
       "jurisdictionId": "r2061",
       "domains": [
+        {
+          "domain": "coshoctoncounty.gov",
+          "url": "https://coshoctoncounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Coshocton County",
+          "state": "OH",
+          "county": "Coshocton",
+          "fips": "39031"
+        },
         {
           "domain": "coshoctoncounty.net",
           "url": "https://coshoctoncounty.net",
@@ -16628,6 +17702,17 @@
       "jurisdictionId": "r2067",
       "domains": [
         {
+          "domain": "eriecountyohioboe.gov",
+          "url": "https://eriecountyohioboe.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Erie County Board of Elections",
+          "state": "OH",
+          "county": "Erie",
+          "fips": "39043"
+        },
+        {
           "domain": "erie-county-ohio.net",
           "url": "https://erie-county-ohio.net",
           "registry": "GSA non-.gov county domain directory",
@@ -16648,6 +17733,17 @@
       "fips": "39045",
       "jurisdictionId": "r2068",
       "domains": [
+        {
+          "domain": "fairfieldcountyohioelections.gov",
+          "url": "https://fairfieldcountyohioelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Fairfield County",
+          "state": "OH",
+          "county": "Fairfield",
+          "fips": "39045"
+        },
         {
           "domain": "fairfieldcountyohio.gov",
           "url": "https://fairfieldcountyohio.gov",
@@ -16915,6 +18011,17 @@
           "fips": "39061"
         },
         {
+          "domain": "votehamiltoncountyohio.gov",
+          "url": "https://votehamiltoncountyohio.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Hamilton County Board of Elections",
+          "state": "OH",
+          "county": "Hamilton",
+          "fips": "39061"
+        },
+        {
           "domain": "courtclerk.org",
           "url": "https://courtclerk.org",
           "registry": "GSA non-.gov county domain directory",
@@ -16937,6 +18044,26 @@
           "county": "Hamilton",
           "fips": "39061",
           "gsaStatus": "accepted term"
+        }
+      ]
+    },
+    {
+      "state": "OH",
+      "county": "Hancock",
+      "full": "Hancock County",
+      "fips": "39063",
+      "jurisdictionId": "r2077",
+      "domains": [
+        {
+          "domain": "hancockcountyohioelections.gov",
+          "url": "https://hancockcountyohioelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Hancock County Board of Elections",
+          "state": "OH",
+          "county": "Hancock",
+          "fips": "39063"
         }
       ]
     },
@@ -17188,6 +18315,26 @@
     },
     {
       "state": "OH",
+      "county": "Lawrence",
+      "full": "Lawrence County",
+      "fips": "39087",
+      "jurisdictionId": "r2089",
+      "domains": [
+        {
+          "domain": "lawrencecountyboe-ohio.gov",
+          "url": "https://lawrencecountyboe-ohio.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lawrence County Ohio Board of Elections",
+          "state": "OH",
+          "county": "Lawrence",
+          "fips": "39087"
+        }
+      ]
+    },
+    {
+      "state": "OH",
       "county": "Licking",
       "full": "Licking County",
       "fips": "39089",
@@ -17280,6 +18427,17 @@
           "fips": "39093"
         },
         {
+          "domain": "loraincountyengineer.gov",
+          "url": "https://loraincountyengineer.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lorain County Engineer",
+          "state": "OH",
+          "county": "Lorain",
+          "fips": "39093"
+        },
+        {
           "domain": "loraincountyhealth.gov",
           "url": "https://loraincountyhealth.gov",
           "registry": "CISA .gov domain registration",
@@ -17297,6 +18455,28 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Lorain County Board of Commissioners",
+          "state": "OH",
+          "county": "Lorain",
+          "fips": "39093"
+        },
+        {
+          "domain": "loraincountyprosecutor.gov",
+          "url": "https://loraincountyprosecutor.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lorain County Prosecutor's Office",
+          "state": "OH",
+          "county": "Lorain",
+          "fips": "39093"
+        },
+        {
+          "domain": "voteloraincountyohio.gov",
+          "url": "https://voteloraincountyohio.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lorain County Board of Elections",
           "state": "OH",
           "county": "Lorain",
           "fips": "39093"
@@ -17351,6 +18531,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Lucas County Auditor's Office",
+          "state": "OH",
+          "county": "Lucas",
+          "fips": "39095"
+        },
+        {
+          "domain": "lucascountyohiovotes.gov",
+          "url": "https://lucascountyohiovotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lucas County Board of Elections",
           "state": "OH",
           "county": "Lucas",
           "fips": "39095"
@@ -18771,6 +19962,17 @@
       "jurisdictionId": "r2153",
       "domains": [
         {
+          "domain": "custercountyok.gov",
+          "url": "https://custercountyok.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Custer County, OK",
+          "state": "OK",
+          "county": "Custer",
+          "fips": "40039"
+        },
+        {
           "domain": "custer.okcounties.org",
           "url": "https://custer.okcounties.org",
           "registry": "GSA non-.gov county domain directory",
@@ -19134,6 +20336,17 @@
       "fips": "40097",
       "jurisdictionId": "r2179",
       "domains": [
+        {
+          "domain": "mayescountyok.gov",
+          "url": "https://mayescountyok.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Mayes County Clerk",
+          "state": "OK",
+          "county": "Mayes",
+          "fips": "40097"
+        },
         {
           "domain": "mayes.okcounties.org",
           "url": "https://mayes.okcounties.org",
@@ -19619,6 +20832,26 @@
           "state": "OK",
           "county": "Woods",
           "fips": "40151"
+        }
+      ]
+    },
+    {
+      "state": "OK",
+      "county": "Woodward",
+      "full": "Woodward County",
+      "fips": "40153",
+      "jurisdictionId": "r2210",
+      "domains": [
+        {
+          "domain": "woodwardcounty.gov",
+          "url": "https://woodwardcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Woodward County",
+          "state": "OK",
+          "county": "Woodward",
+          "fips": "40153"
         }
       ]
     },
@@ -20375,6 +21608,17 @@
       "jurisdictionId": "r2235",
       "domains": [
         {
+          "domain": "morrowcountyor.gov",
+          "url": "https://morrowcountyor.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Morrow County Government",
+          "state": "OR",
+          "county": "Morrow",
+          "fips": "41049"
+        },
+        {
           "domain": "morrowcountyoregon.com",
           "url": "https://morrowcountyoregon.com",
           "registry": "GSA non-.gov county domain directory",
@@ -20395,6 +21639,28 @@
       "fips": "41051",
       "jurisdictionId": "r2236",
       "domains": [
+        {
+          "domain": "multnomah.gov",
+          "url": "https://multnomah.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Multnomah County",
+          "state": "OR",
+          "county": "Multnomah",
+          "fips": "41051"
+        },
+        {
+          "domain": "multnomahvotes.gov",
+          "url": "https://multnomahvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Multnomah County Elections",
+          "state": "OR",
+          "county": "Multnomah",
+          "fips": "41051"
+        },
         {
           "domain": "multco.us",
           "url": "https://multco.us",
@@ -20448,6 +21714,17 @@
       "fips": "41055",
       "jurisdictionId": "r2238",
       "domains": [
+        {
+          "domain": "shermancountyor.gov",
+          "url": "https://shermancountyor.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Sherman County Oregon",
+          "state": "OR",
+          "county": "Sherman",
+          "fips": "41055"
+        },
         {
           "domain": "co.sherman.or.us",
           "url": "https://co.sherman.or.us",
@@ -20598,6 +21875,17 @@
       "jurisdictionId": "r2243",
       "domains": [
         {
+          "domain": "wascocountyor.gov",
+          "url": "https://wascocountyor.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Wasco County",
+          "state": "OR",
+          "county": "Wasco",
+          "fips": "41065"
+        },
+        {
           "domain": "co.wasco.or.us",
           "url": "https://co.wasco.or.us",
           "registry": "GSA non-.gov county domain directory",
@@ -20640,6 +21928,26 @@
           "county": "Washington",
           "fips": "41067",
           "gsaStatus": "accepted term"
+        }
+      ]
+    },
+    {
+      "state": "OR",
+      "county": "Wheeler",
+      "full": "Wheeler County",
+      "fips": "41069",
+      "jurisdictionId": "r2245",
+      "domains": [
+        {
+          "domain": "wheelercountyor.gov",
+          "url": "https://wheelercountyor.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Wheeler County",
+          "state": "OR",
+          "county": "Wheeler",
+          "fips": "41069"
         }
       ]
     },
@@ -21033,6 +22341,17 @@
           "state": "PA",
           "county": "Centre",
           "fips": "42027"
+        },
+        {
+          "domain": "centrecountyvotes.gov",
+          "url": "https://centrecountyvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Centre County Government",
+          "state": "PA",
+          "county": "Centre",
+          "fips": "42027"
         }
       ]
     },
@@ -21296,6 +22615,17 @@
       "fips": "42049",
       "jurisdictionId": "r2271",
       "domains": [
+        {
+          "domain": "eriecountycouncilpa.gov",
+          "url": "https://eriecountycouncilpa.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County of Erie",
+          "state": "PA",
+          "county": "Erie",
+          "fips": "42049"
+        },
         {
           "domain": "eriecountypa.gov",
           "url": "https://eriecountypa.gov",
@@ -21911,6 +23241,17 @@
       "jurisdictionId": "r2292",
       "domains": [
         {
+          "domain": "montcopavotes.gov",
+          "url": "https://montcopavotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Montgomery County Pennsylvania",
+          "state": "PA",
+          "county": "Montgomery",
+          "fips": "42091"
+        },
+        {
           "domain": "montgomerycountypa.gov",
           "url": "https://montgomerycountypa.gov",
           "registry": "CISA .gov domain registration",
@@ -22154,6 +23495,26 @@
           "county": "Snyder",
           "fips": "42109",
           "gsaStatus": "accepted term"
+        }
+      ]
+    },
+    {
+      "state": "PA",
+      "county": "Somerset",
+      "full": "Somerset County",
+      "fips": "42111",
+      "jurisdictionId": "r2302",
+      "domains": [
+        {
+          "domain": "somersetcountypa.gov",
+          "url": "https://somersetcountypa.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County Of Somerset",
+          "state": "PA",
+          "county": "Somerset",
+          "fips": "42111"
         }
       ]
     },
@@ -22677,6 +24038,17 @@
           "state": "TX",
           "county": "Bastrop",
           "fips": "48021"
+        },
+        {
+          "domain": "bastropvotes.gov",
+          "url": "https://bastropvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Bastrop County",
+          "state": "TX",
+          "county": "Bastrop",
+          "fips": "48021"
         }
       ]
     },
@@ -22878,6 +24250,17 @@
       "fips": "48039",
       "jurisdictionId": "r2545",
       "domains": [
+        {
+          "domain": "brazoriacountyclerktx.gov",
+          "url": "https://brazoriacountyclerktx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Brazoria County",
+          "state": "TX",
+          "county": "Brazoria",
+          "fips": "48039"
+        },
         {
           "domain": "brazoriacounty.gov",
           "url": "https://brazoriacounty.gov",
@@ -23334,6 +24717,17 @@
       "jurisdictionId": "r2564",
       "domains": [
         {
+          "domain": "voteclaycountytx.gov",
+          "url": "https://voteclaycountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Clay County Elections",
+          "state": "TX",
+          "county": "Clay",
+          "fips": "48077"
+        },
+        {
           "domain": "co.clay.tx.us",
           "url": "https://co.clay.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -23551,6 +24945,26 @@
     },
     {
       "state": "TX",
+      "county": "Comanche",
+      "full": "Comanche County",
+      "fips": "48093",
+      "jurisdictionId": "r2572",
+      "domains": [
+        {
+          "domain": "comanchecountytx.gov",
+          "url": "https://comanchecountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Comanche County Texas",
+          "state": "TX",
+          "county": "Comanche",
+          "fips": "48093"
+        }
+      ]
+    },
+    {
+      "state": "TX",
       "county": "Concho",
       "full": "Concho County",
       "fips": "48095",
@@ -23641,6 +25055,17 @@
       "fips": "48101",
       "jurisdictionId": "r2576",
       "domains": [
+        {
+          "domain": "cottlecountytx.gov",
+          "url": "https://cottlecountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Cottle County Texas",
+          "state": "TX",
+          "county": "Cottle",
+          "fips": "48101"
+        },
         {
           "domain": "co.cottle.tx.us",
           "url": "https://co.cottle.tx.us",
@@ -23736,6 +25161,26 @@
           "county": "Culberson",
           "fips": "48109",
           "gsaStatus": "accepted term"
+        }
+      ]
+    },
+    {
+      "state": "TX",
+      "county": "Dallas",
+      "full": "Dallas County",
+      "fips": "48113",
+      "jurisdictionId": "r2582",
+      "domains": [
+        {
+          "domain": "dallascountytx.gov",
+          "url": "https://dallascountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Dallas County",
+          "state": "TX",
+          "county": "Dallas",
+          "fips": "48113"
         }
       ]
     },
@@ -23849,6 +25294,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Denton County",
+          "state": "TX",
+          "county": "Denton",
+          "fips": "48121"
+        },
+        {
+          "domain": "votedenton.gov",
+          "url": "https://votedenton.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Denton County Elections Administration",
           "state": "TX",
           "county": "Denton",
           "fips": "48121"
@@ -23989,6 +25445,17 @@
           "state": "TX",
           "county": "El Paso",
           "fips": "48141"
+        },
+        {
+          "domain": "epcountyvotestx.gov",
+          "url": "https://epcountyvotestx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "El Paso County Elections Department",
+          "state": "TX",
+          "county": "El Paso",
+          "fips": "48141"
         }
       ]
     },
@@ -24073,6 +25540,17 @@
       "fips": "48149",
       "jurisdictionId": "r2600",
       "domains": [
+        {
+          "domain": "fayettetx.gov",
+          "url": "https://fayettetx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Fayette County, Texas",
+          "state": "TX",
+          "county": "Fayette",
+          "fips": "48149"
+        },
         {
           "domain": "co.fayette.tx.us",
           "url": "https://co.fayette.tx.us",
@@ -24202,6 +25680,28 @@
       "fips": "48159",
       "jurisdictionId": "r2605",
       "domains": [
+        {
+          "domain": "franklincountytxelections.gov",
+          "url": "https://franklincountytxelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Franklin County Elections & Voter Registration",
+          "state": "TX",
+          "county": "Franklin",
+          "fips": "48159"
+        },
+        {
+          "domain": "franklincountytx.gov",
+          "url": "https://franklincountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Franklin County",
+          "state": "TX",
+          "county": "Franklin",
+          "fips": "48159"
+        },
         {
           "domain": "co.franklin.tx.us",
           "url": "https://co.franklin.tx.us",
@@ -24474,6 +25974,17 @@
       "jurisdictionId": "r2617",
       "domains": [
         {
+          "domain": "greggcountyvotes.gov",
+          "url": "https://greggcountyvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Gregg County Elections",
+          "state": "TX",
+          "county": "Gregg",
+          "fips": "48183"
+        },
+        {
           "domain": "co.gregg.tx.us",
           "url": "https://co.gregg.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -24664,6 +26175,17 @@
       "jurisdictionId": "r2626",
       "domains": [
         {
+          "domain": "harriscountyclerk.gov",
+          "url": "https://harriscountyclerk.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Harris County Clerk Office",
+          "state": "TX",
+          "county": "Harris",
+          "fips": "48201"
+        },
+        {
           "domain": "harriscountytx.gov",
           "url": "https://harriscountytx.gov",
           "registry": "CISA .gov domain registration",
@@ -24814,6 +26336,17 @@
       "fips": "48209",
       "jurisdictionId": "r2630",
       "domains": [
+        {
+          "domain": "hayscountytx.gov",
+          "url": "https://hayscountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Hays County",
+          "state": "TX",
+          "county": "Hays",
+          "fips": "48209"
+        },
         {
           "domain": "co.hays.tx.us",
           "url": "https://co.hays.tx.us",
@@ -25099,6 +26632,28 @@
       "jurisdictionId": "r2648",
       "domains": [
         {
+          "domain": "jeffcotxvotes.gov",
+          "url": "https://jeffcotxvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Jefferson County Clerk's Office",
+          "state": "TX",
+          "county": "Jefferson",
+          "fips": "48245"
+        },
+        {
+          "domain": "jeffersoncountytx.gov",
+          "url": "https://jeffersoncountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Jefferson County",
+          "state": "TX",
+          "county": "Jefferson",
+          "fips": "48245"
+        },
+        {
           "domain": "co.jefferson.tx.us",
           "url": "https://co.jefferson.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -25140,6 +26695,17 @@
       "fips": "48249",
       "jurisdictionId": "r2650",
       "domains": [
+        {
+          "domain": "jimwellscountyelections.gov",
+          "url": "https://jimwellscountyelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Jim Wells County Elections Administration Office",
+          "state": "TX",
+          "county": "Jim Wells",
+          "fips": "48249"
+        },
         {
           "domain": "co.jim-wells.tx.us",
           "url": "https://co.jim-wells.tx.us",
@@ -25423,6 +26989,17 @@
       "jurisdictionId": "r2665",
       "domains": [
         {
+          "domain": "lamarcountytx.gov",
+          "url": "https://lamarcountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lamar County",
+          "state": "TX",
+          "county": "Lamar",
+          "fips": "48277"
+        },
+        {
           "domain": "co.lamar.tx.us",
           "url": "https://co.lamar.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -25570,6 +27147,17 @@
       "fips": "48291",
       "jurisdictionId": "r2671",
       "domains": [
+        {
+          "domain": "libertycountytx.gov",
+          "url": "https://libertycountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Liberty County",
+          "state": "TX",
+          "county": "Liberty",
+          "fips": "48291"
+        },
         {
           "domain": "co.liberty.tx.us",
           "url": "https://co.liberty.tx.us",
@@ -25783,6 +27371,17 @@
       "jurisdictionId": "r2680",
       "domains": [
         {
+          "domain": "marioncountytx.gov",
+          "url": "https://marioncountytx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Marion County",
+          "state": "TX",
+          "county": "Marion",
+          "fips": "48315"
+        },
+        {
           "domain": "co.marion.tx.us",
           "url": "https://co.marion.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -25930,6 +27529,17 @@
       "jurisdictionId": "r2690",
       "domains": [
         {
+          "domain": "votemidlandtx.gov",
+          "url": "https://votemidlandtx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Midland County Elections Office",
+          "state": "TX",
+          "county": "Midland",
+          "fips": "48329"
+        },
+        {
           "domain": "co.midland.tx.us",
           "url": "https://co.midland.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -26057,6 +27667,17 @@
       "jurisdictionId": "r2696",
       "domains": [
         {
+          "domain": "mooretx.gov",
+          "url": "https://mooretx.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Moore County Courthouse",
+          "state": "TX",
+          "county": "Moore",
+          "fips": "48341"
+        },
+        {
           "domain": "co.moore.tx.us",
           "url": "https://co.moore.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -26126,6 +27747,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Nacogdoches County",
+          "state": "TX",
+          "county": "Nacogdoches",
+          "fips": "48347"
+        },
+        {
+          "domain": "nacvotes.gov",
+          "url": "https://nacvotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Nacogdoches County Elections Office",
           "state": "TX",
           "county": "Nacogdoches",
           "fips": "48347"
@@ -27171,6 +28803,17 @@
           "fips": "48451"
         },
         {
+          "domain": "votetomgreencounty.gov",
+          "url": "https://votetomgreencounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Tom Green County",
+          "state": "TX",
+          "county": "Tom Green",
+          "fips": "48451"
+        },
+        {
           "domain": "co.tom-green.tx.us",
           "url": "https://co.tom-green.tx.us",
           "registry": "GSA non-.gov county domain directory",
@@ -27209,6 +28852,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Travis County Information Technology Services",
+          "state": "TX",
+          "county": "Travis",
+          "fips": "48453"
+        },
+        {
+          "domain": "votetravis.gov",
+          "url": "https://votetravis.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Travis County Clerk's Office",
           "state": "TX",
           "county": "Travis",
           "fips": "48453"
@@ -27561,6 +29215,26 @@
           "county": "Wilbarger",
           "fips": "48487",
           "gsaStatus": "accepted term"
+        }
+      ]
+    },
+    {
+      "state": "TX",
+      "county": "Willacy",
+      "full": "Willacy County",
+      "fips": "48489",
+      "jurisdictionId": "r2770",
+      "domains": [
+        {
+          "domain": "willacy.gov",
+          "url": "https://willacy.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Willacy County",
+          "state": "TX",
+          "county": "Willacy",
+          "fips": "48489"
         }
       ]
     },
@@ -28221,6 +29895,26 @@
     },
     {
       "state": "UT",
+      "county": "San Juan",
+      "full": "San Juan County",
+      "fips": "49037",
+      "jurisdictionId": "r2798",
+      "domains": [
+        {
+          "domain": "sanjuancountyut.gov",
+          "url": "https://sanjuancountyut.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "San Juan County",
+          "state": "UT",
+          "county": "San Juan",
+          "fips": "49037"
+        }
+      ]
+    },
+    {
+      "state": "UT",
       "county": "Summit",
       "full": "Summit County",
       "fips": "49043",
@@ -28229,6 +29923,17 @@
         {
           "domain": "summitcountytreasurerutah.gov",
           "url": "https://summitcountytreasurerutah.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Summit County",
+          "state": "UT",
+          "county": "Summit",
+          "fips": "49043"
+        },
+        {
+          "domain": "summitcountyutah.gov",
+          "url": "https://summitcountyutah.gov",
           "registry": "CISA .gov domain registration",
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
@@ -28261,6 +29966,17 @@
         {
           "domain": "tooeleco.gov",
           "url": "https://tooeleco.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Tooele County",
+          "state": "UT",
+          "county": "Tooele",
+          "fips": "49045"
+        },
+        {
+          "domain": "tooelecountyvotes.gov",
+          "url": "https://tooelecountyvotes.gov",
           "registry": "CISA .gov domain registration",
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
@@ -28424,6 +30140,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Weber County",
+          "state": "UT",
+          "county": "Weber",
+          "fips": "49057"
+        },
+        {
+          "domain": "weberelections.gov",
+          "url": "https://weberelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Weber County Elections",
           "state": "UT",
           "county": "Weber",
           "fips": "49057"
@@ -29002,6 +30729,17 @@
       "jurisdictionId": "r2972",
       "domains": [
         {
+          "domain": "kingcounty.gov",
+          "url": "https://kingcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "King County Information Technology (KCIT)",
+          "state": "WA",
+          "county": "King",
+          "fips": "53033"
+        },
+        {
           "domain": "kingcountyhazwastewa.gov",
           "url": "https://kingcountyhazwastewa.gov",
           "registry": "CISA .gov domain registration",
@@ -29121,6 +30859,17 @@
       "jurisdictionId": "r2975",
       "domains": [
         {
+          "domain": "klickitatcounty.gov",
+          "url": "https://klickitatcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Klickitat County",
+          "state": "WA",
+          "county": "Klickitat",
+          "fips": "53039"
+        },
+        {
           "domain": "klickitatcounty.org",
           "url": "https://klickitatcounty.org",
           "registry": "GSA non-.gov county domain directory",
@@ -29162,6 +30911,17 @@
       "jurisdictionId": "r2977",
       "domains": [
         {
+          "domain": "lincolncountywaelections.gov",
+          "url": "https://lincolncountywaelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Lincoln County Elections",
+          "state": "WA",
+          "county": "Lincoln",
+          "fips": "53043"
+        },
+        {
           "domain": "co.lincoln.wa.us",
           "url": "https://co.lincoln.wa.us",
           "registry": "GSA non-.gov county domain directory",
@@ -29189,6 +30949,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Mason County",
+          "state": "WA",
+          "county": "Mason",
+          "fips": "53045"
+        },
+        {
+          "domain": "masoncountywaelections.gov",
+          "url": "https://masoncountywaelections.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Mason County Elections",
           "state": "WA",
           "county": "Mason",
           "fips": "53045"
@@ -29247,6 +31018,17 @@
       "jurisdictionId": "r2980",
       "domains": [
         {
+          "domain": "pacificcountywa.gov",
+          "url": "https://pacificcountywa.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "County of Pacific",
+          "state": "WA",
+          "county": "Pacific",
+          "fips": "53049"
+        },
+        {
           "domain": "co.pacific.wa.us",
           "url": "https://co.pacific.wa.us",
           "registry": "GSA non-.gov county domain directory",
@@ -29267,6 +31049,17 @@
       "fips": "53051",
       "jurisdictionId": "r2981",
       "domains": [
+        {
+          "domain": "pendoreille.gov",
+          "url": "https://pendoreille.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Pend Oreille County",
+          "state": "WA",
+          "county": "Pend Oreille",
+          "fips": "53051"
+        },
         {
           "domain": "pendoreilleco.org",
           "url": "https://pendoreilleco.org",
@@ -29558,6 +31351,17 @@
           "fips": "53067"
         },
         {
+          "domain": "thurstonwavotes.gov",
+          "url": "https://thurstonwavotes.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Thurston County Auditor",
+          "state": "WA",
+          "county": "Thurston",
+          "fips": "53067"
+        },
+        {
           "domain": "co.thurston.wa.us",
           "url": "https://co.thurston.wa.us",
           "registry": "GSA non-.gov county domain directory",
@@ -29642,6 +31446,17 @@
       "fips": "53073",
       "jurisdictionId": "r2992",
       "domains": [
+        {
+          "domain": "whatcomcounty.gov",
+          "url": "https://whatcomcounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Whatcom County",
+          "state": "WA",
+          "county": "Whatcom",
+          "fips": "53073"
+        },
         {
           "domain": "co.whatcom.wa.us",
           "url": "https://co.whatcom.wa.us",
@@ -30257,6 +32072,17 @@
       "fips": "56041",
       "jurisdictionId": "r3142",
       "domains": [
+        {
+          "domain": "uintacountywy.gov",
+          "url": "https://uintacountywy.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Uinta County Wyoming",
+          "state": "WY",
+          "county": "Uinta",
+          "fips": "56041"
+        },
         {
           "domain": "uintacounty.com",
           "url": "https://uintacounty.com",
