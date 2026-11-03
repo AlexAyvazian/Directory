@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1896,
+  "domainCount": 1897,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -3374,6 +3374,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "County of Los Angeles / Internal Services Department",
+          "state": "CA",
+          "county": "Los Angeles",
+          "fips": "06037"
+        },
+        {
+          "domain": "lacountyhelps.gov",
+          "url": "https://lacountyhelps.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Los Angeles County Chief Executive Office, Chief Information Office",
           "state": "CA",
           "county": "Los Angeles",
           "fips": "06037"
