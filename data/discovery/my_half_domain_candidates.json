@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1897,
+  "domainCount": 1899,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -19069,6 +19069,17 @@
       "jurisdictionId": "r2113",
       "domains": [
         {
+          "domain": "preblecountyclerk.gov",
+          "url": "https://preblecountyclerk.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Preble County Clerk of Courts",
+          "state": "OH",
+          "county": "Preble",
+          "fips": "39135"
+        },
+        {
           "domain": "preblecountyengineer.gov",
           "url": "https://preblecountyengineer.gov",
           "registry": "CISA .gov domain registration",
@@ -30515,6 +30526,17 @@
       "fips": "53019",
       "jurisdictionId": "r2965",
       "domains": [
+        {
+          "domain": "ferrycounty.gov",
+          "url": "https://ferrycounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Ferry County",
+          "state": "WA",
+          "county": "Ferry",
+          "fips": "53019"
+        },
         {
           "domain": "ferry-county.com",
           "url": "https://ferry-county.com",
