@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1899,
+  "domainCount": 1900,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -3181,6 +3181,17 @@
       "fips": "06019",
       "jurisdictionId": "r197",
       "domains": [
+        {
+          "domain": "fresnocountyemergency.gov",
+          "url": "https://fresnocountyemergency.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Fresno County",
+          "state": "CA",
+          "county": "Fresno",
+          "fips": "06019"
+        },
         {
           "domain": "fresnocountyjobs.gov",
           "url": "https://fresnocountyjobs.gov",
