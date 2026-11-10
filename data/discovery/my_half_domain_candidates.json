@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1900,
+  "domainCount": 1901,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -18963,6 +18963,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Ottawa County Department of Job and Family Services",
+          "state": "OH",
+          "county": "Ottawa",
+          "fips": "39123"
+        },
+        {
+          "domain": "ottawacountyohio.gov",
+          "url": "https://ottawacountyohio.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Ottawa County",
           "state": "OH",
           "county": "Ottawa",
           "fips": "39123"
