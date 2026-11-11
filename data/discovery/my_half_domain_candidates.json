@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1901,
+  "domainCount": 1902,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -18257,6 +18257,17 @@
       "fips": "39081",
       "jurisdictionId": "r2086",
       "domains": [
+        {
+          "domain": "jfsjeffersoncountyoh.gov",
+          "url": "https://jfsjeffersoncountyoh.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Jefferson County Dept Job Family Services",
+          "state": "OH",
+          "county": "Jefferson",
+          "fips": "39081"
+        },
         {
           "domain": "jeffersoncountyoh.com",
           "url": "https://jeffersoncountyoh.com",
