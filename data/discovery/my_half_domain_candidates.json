@@ -14775,6 +14775,17 @@
       "jurisdictionId": "r1712",
       "domains": [
         {
+          "domain": "maconcountync.gov",
+          "url": "https://maconcountync.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Macon County",
+          "state": "NC",
+          "county": "Macon",
+          "fips": "37113"
+        },
+        {
           "domain": "maconnc.org",
           "url": "https://maconnc.org",
           "registry": "GSA non-.gov county domain directory",
@@ -22752,17 +22763,6 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Forest County",
-          "state": "PA",
-          "county": "Forest",
-          "fips": "42053"
-        },
-        {
-          "domain": "foresthillspa.gov",
-          "url": "https://foresthillspa.gov",
-          "registry": "CISA .gov domain registration",
-          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
-          "status": "registered-domain-not-confirmed-as-live-staff-site",
-          "organization": "Borough of Forest Hills",
           "state": "PA",
           "county": "Forest",
           "fips": "42053"
