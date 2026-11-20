@@ -1606,17 +1606,6 @@
           "fips": "05033"
         },
         {
-          "domain": "21circuitcourtar.gov",
-          "url": "https://21circuitcourtar.gov",
-          "registry": "CISA .gov domain registration",
-          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
-          "status": "registered-domain-not-confirmed-as-live-staff-site",
-          "organization": "Crawford County Circuit Clerk",
-          "state": "AR",
-          "county": "Crawford",
-          "fips": "05033"
-        },
-        {
           "domain": "crawford-county.org",
           "url": "https://crawford-county.org",
           "registry": "GSA non-.gov county domain directory",
@@ -20034,6 +20023,17 @@
           "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
           "status": "registered-domain-not-confirmed-as-live-staff-site",
           "organization": "Custer County, OK",
+          "state": "OK",
+          "county": "Custer",
+          "fips": "40039"
+        },
+        {
+          "domain": "custercountysheriffok.gov",
+          "url": "https://custercountysheriffok.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "CUSTER COUNTY SHERIFFS OFFICE",
           "state": "OK",
           "county": "Custer",
           "fips": "40039"
