@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1902,
+  "domainCount": 1903,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -27838,6 +27838,17 @@
       "fips": "48349",
       "jurisdictionId": "r2700",
       "domains": [
+        {
+          "domain": "navarrocounty.gov",
+          "url": "https://navarrocounty.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Navarro County",
+          "state": "TX",
+          "county": "Navarro",
+          "fips": "48349"
+        },
         {
           "domain": "co.navarro.tx.us",
           "url": "https://co.navarro.tx.us",
