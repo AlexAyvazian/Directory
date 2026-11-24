@@ -28,7 +28,7 @@
   ],
   "jurisdictionsInAtlas": 1577,
   "matchedJurisdictions": 1167,
-  "domainCount": 1903,
+  "domainCount": 1904,
   "unmatchedJurisdictions": 410,
   "governmentDomainNotStaffVerified": true,
   "sources": [
@@ -21036,6 +21036,17 @@
       "fips": "41005",
       "jurisdictionId": "r2213",
       "domains": [
+        {
+          "domain": "clackamas.gov",
+          "url": "https://clackamas.gov",
+          "registry": "CISA .gov domain registration",
+          "registrySource": "https://raw.githubusercontent.com/cisagov/dotgov-data/main/current-full.csv",
+          "status": "registered-domain-not-confirmed-as-live-staff-site",
+          "organization": "Clackamas County",
+          "state": "OR",
+          "county": "Clackamas",
+          "fips": "41005"
+        },
         {
           "domain": "clackamas.us",
           "url": "https://clackamas.us",
